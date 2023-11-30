@@ -1,0 +1,4433 @@
+[
+    {
+        "hotelBasicInfo": {
+            "hotelId": 76227303,
+            "masterHotelId": 76227303,
+            "hotelName": "Four Points by Sheraton Flushing",
+            "hotelEnName": "Four Points by Sheraton Flushing",
+            "hotelImg": "https://aw-d.tripcdn.com/images/0224t120009c0xwfxA855_R_640_440_R5_D.jpg_.webp",
+            "hotelImgRoundLoad": [
+                {
+                    "position": 5,
+                    "group": 1,
+                    "url": "https://aw-d.tripcdn.com/images/0224t120009c0xwfxA855_R_250_250_R5_D.jpg_.webp"
+                },
+                {
+                    "position": 5,
+                    "group": 2,
+                    "url": "https://aw-d.tripcdn.com/images/0224t120009c0xwfxA855_R_600_600_R5_D.jpg_.webp"
+                }
+            ],
+            "hotelAddress": "33-68 Farrington St",
+            "superStar": 1,
+            "favorityCount": 1233,
+            "browseCount": 0,
+            "topRecommend": false,
+            "topRecommendReason": "",
+            "payType": 1,
+            "isAdHotel": false,
+            "adTraceid": "",
+            "isAdSlot": false,
+            "starIcon": "",
+            "hourRoomHours": "",
+            "hourEarliestArriveTime": "",
+            "hourLatestArriveTime": "",
+            "price": 209,
+            "originPrice": "",
+            "onlineTaxPrice": "257",
+            "onlineAndShopTaxPrice": "256.87",
+            "isEncrypt": false,
+            "payAtHotelTax": 0,
+            "isCollected": false,
+            "isFullRoom": false,
+            "hotelCloseInfo": null,
+            "canNotBeOrderedInfo": {
+                "messageBold": "",
+                "cannotReserveCode": ""
+            },
+            "isPriceMask": 0,
+            "medalInfo": {
+                "medalType": null,
+                "description": null,
+                "badgeHover": ""
+            },
+            "wowHotel": false,
+            "lastBookingTimeRemark": "",
+            "additionTexts": [
+                {
+                    "additionName": "ChildrenNormalTag",
+                    "additionText": ""
+                },
+                {
+                    "additionName": "LastBooking",
+                    "additionText": "Last booked 7 hours ago"
+                }
+            ],
+            "openYear": "2020",
+            "guestInfoEntity": {
+                "childAge": [],
+                "childBed": [],
+                "childMeal": [],
+                "childType": [],
+                "guestHover": "",
+                "childCount": 0,
+                "adultCount": 2
+            },
+            "signInNote": "",
+            "hidePrice": false,
+            "priceExplanation": "Total price: {0}$ 257{/0}<br/>Incl. taxes",
+            "payAtHotelTaxText": "",
+            "hotelMultiImgs": []
+        },
+        "hotelDecorateInfo": {},
+        "hotelFeatureTagInfo": [],
+        "hotelStarInfo": {
+            "star": 3,
+            "isLicenseStar": false,
+            "starType": 1
+        },
+        "commentInfo": {
+            "commentScore": "4.2",
+            "commentDescription": "Very Good",
+            "commenterNumber": "92 reviews",
+            "subScore": [
+                {
+                    "number": "4.1",
+                    "content": "Location",
+                    "scoreType": 2
+                },
+                {
+                    "number": "4.3",
+                    "content": "Cleanliness",
+                    "scoreType": 3
+                },
+                {
+                    "number": "4.1",
+                    "content": "Service",
+                    "scoreType": 4
+                },
+                {
+                    "number": "4.2",
+                    "content": "Amenities",
+                    "scoreType": 5
+                }
+            ],
+            "tARatingInfo": null,
+            "taAlt": "",
+            "taUrl": "",
+            "taCount": 0,
+            "taReview": ""
+        },
+        "roomInfo": {
+            "roomId": 1119335296,
+            "shadowId": 0,
+            "name": "",
+            "adult": 2,
+            "physicalRoomName": "Traditional King Bed Room",
+            "isBooking": false,
+            "bed": {
+                "list": [
+                    "ic_new_double_bed"
+                ],
+                "contentListHover": [
+                    "1 king bed(1.81m wide)"
+                ],
+                "contentList": [
+                    "Bed type randomly assigned"
+                ],
+                "cpxBedInfo": {}
+            }
+        },
+        "positionInfo": {
+            "cityId": 633,
+            "cityName": "New York",
+            "cityNameEn": "New York",
+            "positionDesc": "Near Queens Library at Flushing | Flushing",
+            "positionName": "Near Queens Library at Flushing|Flushing",
+            "positionInfo": "9.8miles from center",
+            "transport": {},
+            "coordinate": {
+                "cityId": 633,
+                "lat": 40.7651286,
+                "lng": -73.8321303,
+                "isOversea": true,
+                "coordinateType": 1
+            },
+            "zoneNames": [
+                "Flushing"
+            ],
+            "isOversea": true,
+            "mapCoordinate": [
+                {
+                    "coordinateType": 1,
+                    "latitude": "40.7651286",
+                    "longitude": "-73.8321303",
+                    "gcoordType": "WGS84"
+                }
+            ],
+            "linearDist": 15.714464999999999
+        },
+        "minRoomInfo": {
+            "roomId": 1119335296,
+            "roomName": "",
+            "shadowId": 0,
+            "encryptedRoomId": 0
+        },
+        "tags": [
+            {
+                "name": "Great stay!|Clean and tidy",
+                "tagTitle": "OneSentenceComment",
+                "tagId": 0,
+                "tagDesc": "",
+                "value": "",
+                "subTagId": 0,
+                "tagPosition": 0,
+                "labelExtensions": []
+            }
+        ],
+        "saleRoom": {
+            "person": 2,
+            "mealNum": 0,
+            "mealType": 4
+        },
+        "promotion": [],
+        "discountLabels": [],
+        "specialPriceLabels": [],
+        "memberGrade": {},
+        "trace": {
+            "traceLogId": "526f46bf57b3b",
+            "timestamp": "1701271457738"
+        },
+        "extensions": {
+            "hotelUniqueKey": "H4sIAAAAAAAAAOPaxcjFJMEkxMTBKLWekaPh-b2pLELsFiYGQGBkcJ_RYqu848MqkXXuQdMdPI1BYP4chwCeSYxSnEE75Fpf8xY4CMq3vg7ckZfj4MTGcf0EowTLDMbnR9eobGT0AGk0LnXYwch0gPE_DDCeYLzIuIDpet8BlV1MUB2HmFg5pqpKsJxiYrjExHCLieERE8MrJoZPTAy_YEqamBm6mBkmMUMUzmJmWMTMIMVramSWZmKWlGZqnmScpCCksXD93NVsRkqTGJlCg08xShmaGxgaGVlamJoamproJaeYmPqZWiSZFrtUWjFLMbp5MAaxuTiZGJlbRmlxMYcGuwgygMEHeykQTxHG0wLxDNNAoE3GIYk1NU83NDijka-AsYuRQ4DRgzGCsYLxFSNI1Q-w3wGg9Q3LVgEAAA",
+            "quarantineTip": "",
+            "recommendFilter": 0,
+            "priceHigh": -1,
+            "attachedFilters": [],
+            "dispatchId": "05a3fac0-1521-4d7f-af05-b7ad8abc3bc9-104"
+        },
+        "queryType": "NORMAL",
+        "isCombinedRoom": false,
+        "combinedRoomQuality": null,
+        "extras": {
+            "COMPENSATE_FILTER_ITEMS_INDEX": null,
+            "PropertyCurrency": "USD",
+            "PropertyCurrencyExchange": "7.13125",
+            "PriceCalendarRecommend": null,
+            "ChildPriceRoom": null
+        }
+    },
+    {
+        "hotelBasicInfo": {
+            "hotelId": 1001145,
+            "masterHotelId": 1001145,
+            "hotelName": "Voco Fiorello - Laguardia East",
+            "hotelEnName": "Voco Fiorello - Laguardia East",
+            "hotelImg": "https://aw-d.tripcdn.com/images/0225g12000c2hysbo9A9E_R_640_440_R5_D.jpg_.webp",
+            "hotelImgRoundLoad": [
+                {
+                    "position": 5,
+                    "group": 1,
+                    "url": "https://aw-d.tripcdn.com/images/0225g12000c2hysbo9A9E_R_250_250_R5_D.jpg_.webp"
+                },
+                {
+                    "position": 5,
+                    "group": 2,
+                    "url": "https://aw-d.tripcdn.com/images/0225g12000c2hysbo9A9E_R_600_600_R5_D.jpg_.webp"
+                }
+            ],
+            "hotelAddress": "20-07 127th St",
+            "superStar": 1,
+            "favorityCount": 341,
+            "browseCount": 0,
+            "topRecommend": false,
+            "topRecommendReason": "",
+            "payType": 1,
+            "isAdHotel": false,
+            "adTraceid": "",
+            "isAdSlot": false,
+            "starIcon": "",
+            "hourRoomHours": "",
+            "hourEarliestArriveTime": "",
+            "hourLatestArriveTime": "",
+            "price": 193,
+            "originPrice": 211,
+            "onlineTaxPrice": "225",
+            "onlineAndShopTaxPrice": "224.69",
+            "isEncrypt": false,
+            "payAtHotelTax": 0,
+            "isCollected": false,
+            "isFullRoom": false,
+            "hotelCloseInfo": null,
+            "canNotBeOrderedInfo": {
+                "messageBold": "",
+                "cannotReserveCode": ""
+            },
+            "isPriceMask": 0,
+            "medalInfo": {
+                "medalType": null,
+                "description": null,
+                "badgeHover": ""
+            },
+            "wowHotel": false,
+            "lastBookingTimeRemark": "",
+            "additionTexts": [
+                {
+                    "additionName": "ChildrenNormalTag",
+                    "additionText": ""
+                },
+                {
+                    "additionName": "LastBooking",
+                    "additionText": "Last booked 19 hours ago"
+                }
+            ],
+            "openYear": "2011",
+            "guestInfoEntity": {
+                "childAge": [],
+                "childBed": [],
+                "childMeal": [],
+                "childType": [],
+                "guestHover": "",
+                "childCount": 0,
+                "adultCount": 0
+            },
+            "signInNote": "",
+            "hidePrice": false,
+            "priceExplanation": "Total price: {0}$ 225{/0}<br/>Incl. taxes",
+            "payAtHotelTaxText": "",
+            "hotelMultiImgs": []
+        },
+        "hotelDecorateInfo": {
+            "tagName": "Renovated in 2023"
+        },
+        "hotelFeatureTagInfo": [],
+        "hotelStarInfo": {
+            "star": 4,
+            "isLicenseStar": false,
+            "starType": 1
+        },
+        "commentInfo": {
+            "commentScore": "3.9",
+            "commentDescription": "Good",
+            "commenterNumber": "24 reviews",
+            "subScore": [
+                {
+                    "number": "3.9",
+                    "content": "Location",
+                    "scoreType": 2
+                },
+                {
+                    "number": "3.9",
+                    "content": "Cleanliness",
+                    "scoreType": 3
+                },
+                {
+                    "number": "3.9",
+                    "content": "Service",
+                    "scoreType": 4
+                },
+                {
+                    "number": "3.9",
+                    "content": "Amenities",
+                    "scoreType": 5
+                }
+            ],
+            "tARatingInfo": null,
+            "taAlt": "",
+            "taUrl": "",
+            "taCount": 0,
+            "taReview": ""
+        },
+        "roomInfo": {
+            "roomId": 1452905385,
+            "shadowId": 0,
+            "name": "",
+            "adult": 0,
+            "physicalRoomName": "Standard King Room",
+            "isBooking": false,
+            "bed": {
+                "list": [
+                    "ic_new_double_bed"
+                ],
+                "contentListHover": [
+                    "1 king bed(1.81m-3m wide)"
+                ],
+                "contentList": [
+                    "Bed type randomly assigned"
+                ],
+                "cpxBedInfo": {}
+            }
+        },
+        "positionInfo": {
+            "cityId": 633,
+            "cityName": "New York",
+            "cityNameEn": "New York",
+            "positionDesc": "Near Flushing – Main Street Metro Station | Flushing",
+            "positionName": "Near Flushing – Main Street Metro Station|Flushing",
+            "positionInfo": "9.8miles from center",
+            "transport": {},
+            "coordinate": {
+                "cityId": 633,
+                "lat": 40.781262399999996,
+                "lng": -73.84079729999999,
+                "isOversea": true,
+                "coordinateType": 1
+            },
+            "zoneNames": [
+                "Flushing"
+            ],
+            "isOversea": true,
+            "mapCoordinate": [
+                {
+                    "coordinateType": 1,
+                    "latitude": "40.781262399999996",
+                    "longitude": "-73.84079729999999",
+                    "gcoordType": "WGS84"
+                }
+            ],
+            "linearDist": 15.796304199999998
+        },
+        "minRoomInfo": {
+            "roomId": 1452905385,
+            "roomName": "",
+            "shadowId": 0,
+            "encryptedRoomId": 0
+        },
+        "tags": [
+            {
+                "name": "",
+                "tagTitle": "DISCOUNTPERCENT",
+                "tagId": 90001,
+                "tagDesc": "",
+                "value": "8",
+                "subTagId": 0,
+                "tagPosition": 0,
+                "labelExtensions": []
+            },
+            {
+                "name": "Renovated in 2023",
+                "tagTitle": "Renovated in 2023",
+                "tagId": 30001,
+                "tagDesc": "",
+                "value": "",
+                "subTagId": 0,
+                "tagPosition": 0,
+                "labelExtensions": [
+                    {
+                        "type": "type",
+                        "value": "NewStore",
+                        "answers": null
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "tagTitle": "PROMOTION",
+                "tagId": 11600,
+                "tagDesc": "Special Discount",
+                "value": "",
+                "subTagId": 0,
+                "tagPosition": 0,
+                "labelExtensions": []
+            }
+        ],
+        "saleRoom": {
+            "person": 2,
+            "mealNum": 0,
+            "mealType": 4
+        },
+        "promotion": [
+            {
+                "type": 1,
+                "tagIcon": "ic_tag_sale",
+                "text": "Special Discount"
+            }
+        ],
+        "discountLabels": [
+            {
+                "type": 20,
+                "text": "−8%",
+                "value": "8"
+            },
+            {
+                "type": 1,
+                "tagIcon": "ic_tag_sale",
+                "text": "Special Discount"
+            }
+        ],
+        "specialPriceLabels": [],
+        "memberGrade": {},
+        "trace": {
+            "traceLogId": "526f46bf57b3b",
+            "timestamp": "1701271457739"
+        },
+        "extensions": {
+            "hotelUniqueKey": "H4sIAAAAAAAAAON6zsjFJMEkxMTBKHWHkWPl8mdbWIUYjQwkLCYLOba-DtwhVzXVwZMBBDhnOgTwFIKZCxIcJjHacB7-qhHTn5XnINh_CMiqz3JQUlBg0YSpMIQxLJ5xBrFynOCTYIlicGLj6N3HKMEyg3Fnr-1GxuuLC2y5ynMcdjAyHWD8DwOMJxgPMi5g-nT4uckuJqiGQ0ysHD8lJFhOMTFcYmK4xcTwiAli5ismhk9MDL9g6pqYGbqYGSYxQ1TPYoYoWsTMIMVramSWZmKWlGZqnmScpCCksXD93NVsRkqTGJlCg08xShmaGxgaGVlamJoamproJaeYmPqZWiSZFrtUWjFLMbp5MAaxGVpYmBq4RGlxMYcGuwiC_cfwwV4KxFOE8bRAPMM0EGiTcUhiTc3TDQ3OaOQrYOxi5BBg9GCMYKxgfMUIUvUDFAgAob5sMYIBAAA",
+            "quarantineTip": "",
+            "recommendFilter": 0,
+            "priceHigh": -1,
+            "attachedFilters": [],
+            "dispatchId": "05a3fac0-1521-4d7f-af05-b7ad8abc3bc9-104"
+        },
+        "queryType": "NORMAL",
+        "isCombinedRoom": false,
+        "combinedRoomQuality": null,
+        "extras": {
+            "COMPENSATE_FILTER_ITEMS_INDEX": null,
+            "PropertyCurrency": "USD",
+            "PropertyCurrencyExchange": "7.13125",
+            "PriceCalendarRecommend": null,
+            "ChildPriceRoom": null
+        }
+    },
+    {
+        "hotelBasicInfo": {
+            "hotelId": 105237897,
+            "masterHotelId": 105237897,
+            "hotelName": "Motto by Hilton New York City Times Square",
+            "hotelEnName": "Motto by Hilton New York City Times Square",
+            "hotelImg": "https://aw-d.tripcdn.com/images/0224m12000c9eu6cd2E70_R_640_440_R5_D.jpg_.webp",
+            "hotelImgRoundLoad": [
+                {
+                    "position": 5,
+                    "group": 1,
+                    "url": "https://aw-d.tripcdn.com/images/0224m12000c9eu6cd2E70_R_250_250_R5_D.jpg_.webp"
+                },
+                {
+                    "position": 5,
+                    "group": 2,
+                    "url": "https://aw-d.tripcdn.com/images/0224m12000c9eu6cd2E70_R_600_600_R5_D.jpg_.webp"
+                }
+            ],
+            "hotelAddress": "150 A W 48th St",
+            "superStar": 1,
+            "favorityCount": 258,
+            "browseCount": 0,
+            "topRecommend": false,
+            "topRecommendReason": "",
+            "payType": 1,
+            "isAdHotel": false,
+            "adTraceid": "",
+            "isAdSlot": false,
+            "starIcon": "",
+            "hourRoomHours": "",
+            "hourEarliestArriveTime": "",
+            "hourLatestArriveTime": "",
+            "price": 304,
+            "originPrice": 344,
+            "onlineTaxPrice": "353",
+            "onlineAndShopTaxPrice": "387.14",
+            "isEncrypt": false,
+            "payAtHotelTax": 34,
+            "isCollected": false,
+            "isFullRoom": false,
+            "hotelCloseInfo": null,
+            "canNotBeOrderedInfo": {
+                "messageBold": "",
+                "cannotReserveCode": ""
+            },
+            "isPriceMask": 0,
+            "medalInfo": {
+                "medalType": null,
+                "description": null,
+                "badgeHover": ""
+            },
+            "wowHotel": false,
+            "lastBookingTimeRemark": "",
+            "additionTexts": [
+                {
+                    "additionName": "ChildrenNormalTag",
+                    "additionText": ""
+                },
+                {
+                    "additionName": "LastBooking",
+                    "additionText": "Last booked 8 hours ago"
+                }
+            ],
+            "openYear": "2023",
+            "guestInfoEntity": {
+                "childAge": [],
+                "childBed": [],
+                "childMeal": [],
+                "childType": [],
+                "guestHover": "",
+                "childCount": 0,
+                "adultCount": 2
+            },
+            "signInNote": "",
+            "hidePrice": false,
+            "priceExplanation": "Total price: {0}$ 387{/0}<br/>Incl. taxes",
+            "payAtHotelTaxText": "",
+            "hotelMultiImgs": []
+        },
+        "hotelDecorateInfo": {
+            "tagName": "Opened in 2023"
+        },
+        "hotelFeatureTagInfo": [],
+        "hotelStarInfo": {
+            "star": 3,
+            "isLicenseStar": false,
+            "starType": 1
+        },
+        "commentInfo": {
+            "commentScore": "4.3",
+            "commentDescription": "",
+            "commenterNumber": "18 reviews",
+            "subScore": [
+                {
+                    "number": "4.4",
+                    "content": "Location",
+                    "scoreType": 2
+                },
+                {
+                    "number": "4.3",
+                    "content": "Cleanliness",
+                    "scoreType": 3
+                },
+                {
+                    "number": "4.3",
+                    "content": "Service",
+                    "scoreType": 4
+                },
+                {
+                    "number": "4.3",
+                    "content": "Amenities",
+                    "scoreType": 5
+                }
+            ],
+            "tARatingInfo": null,
+            "taAlt": "",
+            "taUrl": "",
+            "taCount": 0,
+            "taReview": ""
+        },
+        "roomInfo": {
+            "roomId": 1402225604,
+            "shadowId": 0,
+            "name": "",
+            "adult": 2,
+            "physicalRoomName": "Queen Room",
+            "isBooking": false,
+            "bed": {
+                "list": [
+                    "ic_new_double_bed"
+                ],
+                "contentListHover": [
+                    "1 queen bed(1.51m-1.8m wide)"
+                ],
+                "contentList": [
+                    "Bed type randomly assigned"
+                ],
+                "cpxBedInfo": {}
+            }
+        },
+        "positionInfo": {
+            "cityId": 633,
+            "cityName": "New York",
+            "cityNameEn": "New York",
+            "positionDesc": "Near The Museum of Modern Art | Times Square",
+            "positionName": "Near The Museum of Modern Art|Times Square",
+            "positionInfo": "3.3miles from center",
+            "transport": {
+                "type": 7,
+                "distanceDesc": "80 m from 49th Street subway station"
+            },
+            "coordinate": {
+                "cityId": 633,
+                "lat": 40.759318,
+                "lng": -73.983533,
+                "isOversea": true,
+                "coordinateType": 1
+            },
+            "zoneNames": [
+                "Times Square"
+            ],
+            "isOversea": true,
+            "mapCoordinate": [
+                {
+                    "coordinateType": 1,
+                    "latitude": "40.759318",
+                    "longitude": "-73.983533",
+                    "gcoordType": "WGS84"
+                }
+            ],
+            "linearDist": 5.3514209
+        },
+        "minRoomInfo": {
+            "roomId": 1402225604,
+            "roomName": "",
+            "shadowId": 0,
+            "encryptedRoomId": 0
+        },
+        "tags": [
+            {
+                "name": "",
+                "tagTitle": "DISCOUNTPERCENT",
+                "tagId": 90001,
+                "tagDesc": "",
+                "value": "10",
+                "subTagId": 0,
+                "tagPosition": 0,
+                "labelExtensions": []
+            },
+            {
+                "name": "Opened in 2023",
+                "tagTitle": "Opened in 2023",
+                "tagId": 30001,
+                "tagDesc": "",
+                "value": "",
+                "subTagId": 0,
+                "tagPosition": 0,
+                "labelExtensions": [
+                    {
+                        "type": "type",
+                        "value": "NewStore",
+                        "answers": null
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "tagTitle": "PROMOTION",
+                "tagId": 11600,
+                "tagDesc": "Special Discount",
+                "value": "",
+                "subTagId": 0,
+                "tagPosition": 0,
+                "labelExtensions": []
+            }
+        ],
+        "saleRoom": {
+            "person": 2,
+            "mealNum": 0,
+            "mealType": 4
+        },
+        "promotion": [
+            {
+                "type": 1,
+                "tagIcon": "ic_tag_sale",
+                "text": "Special Discount"
+            }
+        ],
+        "discountLabels": [
+            {
+                "type": 20,
+                "text": "−10%",
+                "value": "10"
+            },
+            {
+                "type": 1,
+                "tagIcon": "ic_tag_sale",
+                "text": "Special Discount"
+            }
+        ],
+        "specialPriceLabels": [],
+        "memberGrade": {},
+        "trace": {
+            "traceLogId": "526f46bf57b3b",
+            "timestamp": "1701271457739"
+        },
+        "extensions": {
+            "hotelUniqueKey": "H4sIAAAAAAAAAON6ysjFJMEkxMTBKHWLkeNI-8U5rEKMRgasFp8FHdOA4NnnBQ6e1xcX2HItW-wQwFPIAAIHCh0mMVpzgtkdFQ6Cra8Dd8jNLXVQUlBg0YSpMIQxLJ5xBrFydMlLsEQxOLFyXJWTYJrB2Dl7utFGRrDGiaUOOxiZDjD-hwHGE4wbmBYw7Tjdb7yLCaLhEJB-rirBcoqJ4RITwy0mhkdMECNfMTF8YmL4BVXWxMzQxcwwiRmieBYzRM0iZgYpXlMjszQTs6Q0U_Mk4yQFIY2F6-euZjNSmsTIFBp8ilHK0NzA0MjI0sLU1NDURC85xcTUz9QiybTYpdKKWYrRzYMxiM3JwMzI0SRKi4s5NNhFEOw7hg_2UiCeIoynBeIZggIurU3GIYk1NU83NDijka-AsYuRQ4DRgzGCsYLxFSNI1Q9wGAAAoPboE4EBAAA",
+            "quarantineTip": "",
+            "recommendFilter": 0,
+            "priceHigh": -1,
+            "attachedFilters": [],
+            "dispatchId": "05a3fac0-1521-4d7f-af05-b7ad8abc3bc9-104"
+        },
+        "queryType": "NORMAL",
+        "isCombinedRoom": false,
+        "combinedRoomQuality": null,
+        "extras": {
+            "COMPENSATE_FILTER_ITEMS_INDEX": null,
+            "PropertyCurrency": "USD",
+            "PropertyCurrencyExchange": "7.13125",
+            "PriceCalendarRecommend": null,
+            "ChildPriceRoom": null
+        }
+    },
+    {
+        "hotelBasicInfo": {
+            "hotelId": 2192839,
+            "masterHotelId": 2192839,
+            "hotelName": "Tempo by Hilton New York Times Square",
+            "hotelEnName": "Tempo by Hilton New York Times Square",
+            "hotelImg": "https://aw-d.tripcdn.com/images/0221q12000bwkwlx4171D_R_640_440_R5_D.jpg_.webp",
+            "hotelImgRoundLoad": [
+                {
+                    "position": 5,
+                    "group": 1,
+                    "url": "https://aw-d.tripcdn.com/images/0221q12000bwkwlx4171D_R_250_250_R5_D.jpg_.webp"
+                },
+                {
+                    "position": 5,
+                    "group": 2,
+                    "url": "https://aw-d.tripcdn.com/images/0221q12000bwkwlx4171D_R_600_600_R5_D.jpg_.webp"
+                }
+            ],
+            "hotelAddress": "1568 Broadway",
+            "superStar": 1,
+            "favorityCount": 848,
+            "browseCount": 0,
+            "topRecommend": false,
+            "topRecommendReason": "",
+            "payType": 1,
+            "isAdHotel": false,
+            "adTraceid": "",
+            "isAdSlot": false,
+            "starIcon": "",
+            "hourRoomHours": "",
+            "hourEarliestArriveTime": "",
+            "hourLatestArriveTime": "",
+            "price": 495,
+            "originPrice": "",
+            "onlineTaxPrice": "571",
+            "onlineAndShopTaxPrice": "610.95",
+            "isEncrypt": false,
+            "payAtHotelTax": 40,
+            "isCollected": false,
+            "isFullRoom": false,
+            "hotelCloseInfo": null,
+            "canNotBeOrderedInfo": {
+                "messageBold": "",
+                "cannotReserveCode": ""
+            },
+            "isPriceMask": 0,
+            "medalInfo": {
+                "medalType": null,
+                "description": null,
+                "badgeHover": ""
+            },
+            "wowHotel": false,
+            "lastBookingTimeRemark": "",
+            "additionTexts": [
+                {
+                    "additionName": "ChildrenNormalTag",
+                    "additionText": ""
+                },
+                {
+                    "additionName": "VeryClean",
+                    "additionText": "Very Clean 4.7/5"
+                },
+                {
+                    "additionName": "LastBooking",
+                    "additionText": "Last booked 11 mins ago"
+                }
+            ],
+            "openYear": "2023",
+            "guestInfoEntity": {
+                "childAge": [],
+                "childBed": [],
+                "childMeal": [],
+                "childType": [],
+                "guestHover": "",
+                "childCount": 0,
+                "adultCount": 0
+            },
+            "signInNote": "",
+            "hidePrice": false,
+            "priceExplanation": "Total price: {0}$ 611{/0}<br/>Incl. taxes",
+            "payAtHotelTaxText": "",
+            "hotelMultiImgs": []
+        },
+        "hotelDecorateInfo": {
+            "tagName": "Opened in 2023"
+        },
+        "hotelFeatureTagInfo": [],
+        "hotelStarInfo": {
+            "star": 4,
+            "isLicenseStar": false,
+            "starType": 1
+        },
+        "commentInfo": {
+            "commentScore": "4.6",
+            "commentDescription": "Great",
+            "commenterNumber": "43 reviews",
+            "subScore": [
+                {
+                    "number": "4.7",
+                    "content": "Location",
+                    "scoreType": 2
+                },
+                {
+                    "number": "4.7",
+                    "content": "Cleanliness",
+                    "scoreType": 3
+                },
+                {
+                    "number": "4.4",
+                    "content": "Service",
+                    "scoreType": 4
+                },
+                {
+                    "number": "4.5",
+                    "content": "Amenities",
+                    "scoreType": 5
+                }
+            ],
+            "tARatingInfo": null,
+            "taAlt": "",
+            "taUrl": "",
+            "taCount": 0,
+            "taReview": ""
+        },
+        "roomInfo": {
+            "roomId": 1395492602,
+            "shadowId": 0,
+            "name": "",
+            "adult": 0,
+            "physicalRoomName": "King Room",
+            "isBooking": false,
+            "bed": {
+                "list": [
+                    "ic_new_double_bed"
+                ],
+                "contentListHover": [
+                    "1 king bed(1.81m-3m wide)"
+                ],
+                "contentList": [
+                    "Bed type randomly assigned"
+                ],
+                "cpxBedInfo": {}
+            }
+        },
+        "positionInfo": {
+            "cityId": 633,
+            "cityName": "New York",
+            "cityNameEn": "New York",
+            "positionDesc": "Near Penn Station | Times Square",
+            "positionName": "Near Penn Station|Times Square",
+            "positionInfo": "3.3miles from center",
+            "transport": {
+                "type": 7,
+                "distanceDesc": "100 m from 49th Street subway station"
+            },
+            "coordinate": {
+                "cityId": 633,
+                "lat": 40.75898,
+                "lng": -73.98451,
+                "isOversea": true,
+                "coordinateType": 1
+            },
+            "zoneNames": [
+                "Times Square"
+            ],
+            "isOversea": true,
+            "mapCoordinate": [
+                {
+                    "coordinateType": 1,
+                    "latitude": "40.75898",
+                    "longitude": "-73.98451",
+                    "gcoordType": "WGS84"
+                }
+            ],
+            "linearDist": 5.2874656
+        },
+        "minRoomInfo": {
+            "roomId": 1395492602,
+            "roomName": "",
+            "shadowId": 0,
+            "encryptedRoomId": 0
+        },
+        "tags": [
+            {
+                "name": "Great location|Great stay!",
+                "tagTitle": "OneSentenceComment",
+                "tagId": 0,
+                "tagDesc": "",
+                "value": "",
+                "subTagId": 0,
+                "tagPosition": 0,
+                "labelExtensions": []
+            },
+            {
+                "name": "Opened in 2023",
+                "tagTitle": "Opened in 2023",
+                "tagId": 30001,
+                "tagDesc": "",
+                "value": "",
+                "subTagId": 0,
+                "tagPosition": 0,
+                "labelExtensions": [
+                    {
+                        "type": "type",
+                        "value": "NewStore",
+                        "answers": null
+                    }
+                ]
+            }
+        ],
+        "saleRoom": {
+            "person": 2,
+            "mealNum": 0,
+            "mealType": 4
+        },
+        "promotion": [],
+        "discountLabels": [],
+        "specialPriceLabels": [],
+        "memberGrade": {},
+        "trace": {
+            "traceLogId": "526f46bf57b3b",
+            "timestamp": "1701271457739"
+        },
+        "extensions": {
+            "hotelUniqueKey": "H4sIAAAAAAAAAOPazMjFJMEkxMTBKLWCkeNX77aZrEKMRgasFp8FHdOA4Nnk1Q6eO-RaXweeW-8QwDOJUYoTyN4hd73RQVAzpv_Q15x6Byc2jsZ9zBIsMxiPv25l3Mjo8bBKZN3LBocdjEwHGP_DAOMJxvfMC5g6T_Ub72KC6jjExMqx1FqC5RQTwyUmhltMDI-YGF4xMXxiYvgFU9LEzNDFzDCJGaJwFjPDImYGKV5TI7M0E7OkNFPzJOMkBSGNhevnrmYzUprEyBQafIpRytDcwNDIyNLC1NTQ1EQvOcXE1M_UIsm02KXSilmK0c2DMYjN0dTY2cAwSouLOTTYRZABDD7YS4F4ijCeFohnCAqGtDYZhyTW1Dzd0OCMRr4Cxi5GDgFGD8YIxgrGV4wgVT_AfgcA3s6Xy08BAAA",
+            "quarantineTip": "",
+            "recommendFilter": 0,
+            "priceHigh": -1,
+            "attachedFilters": [],
+            "dispatchId": "05a3fac0-1521-4d7f-af05-b7ad8abc3bc9-104"
+        },
+        "queryType": "NORMAL",
+        "isCombinedRoom": false,
+        "combinedRoomQuality": null,
+        "extras": {
+            "COMPENSATE_FILTER_ITEMS_INDEX": null,
+            "PropertyCurrency": "USD",
+            "PropertyCurrencyExchange": "7.13125",
+            "PriceCalendarRecommend": null,
+            "ChildPriceRoom": null
+        }
+    },
+    {
+        "hotelBasicInfo": {
+            "hotelId": 79093058,
+            "masterHotelId": 79093058,
+            "hotelName": "Vista LIC Hotel, BW Premier Collection",
+            "hotelEnName": "Vista LIC Hotel, BW Premier Collection",
+            "hotelImg": "https://aw-d.tripcdn.com/images/0223712000atvwwmg3689_R_640_440_R5_D.jpg_.webp",
+            "hotelImgRoundLoad": [
+                {
+                    "position": 5,
+                    "group": 1,
+                    "url": "https://aw-d.tripcdn.com/images/0223712000atvwwmg3689_R_250_250_R5_D.jpg_.webp"
+                },
+                {
+                    "position": 5,
+                    "group": 2,
+                    "url": "https://aw-d.tripcdn.com/images/0223712000atvwwmg3689_R_600_600_R5_D.jpg_.webp"
+                }
+            ],
+            "hotelAddress": "27-05 39th Ave",
+            "superStar": 1,
+            "favorityCount": 176,
+            "browseCount": 0,
+            "topRecommend": false,
+            "topRecommendReason": "",
+            "payType": 1,
+            "isAdHotel": false,
+            "adTraceid": "",
+            "isAdSlot": false,
+            "starIcon": "",
+            "hourRoomHours": "",
+            "hourEarliestArriveTime": "",
+            "hourLatestArriveTime": "",
+            "price": 179,
+            "originPrice": "",
+            "onlineTaxPrice": "209",
+            "onlineAndShopTaxPrice": "208.9",
+            "isEncrypt": false,
+            "payAtHotelTax": 0,
+            "isCollected": false,
+            "isFullRoom": false,
+            "hotelCloseInfo": null,
+            "canNotBeOrderedInfo": {
+                "messageBold": "",
+                "cannotReserveCode": ""
+            },
+            "isPriceMask": 0,
+            "medalInfo": {
+                "medalType": null,
+                "description": null,
+                "badgeHover": ""
+            },
+            "wowHotel": false,
+            "lastBookingTimeRemark": "",
+            "additionTexts": [
+                {
+                    "additionName": "ChildrenNormalTag",
+                    "additionText": ""
+                },
+                {
+                    "additionName": "LastBooking",
+                    "additionText": "Last booked 14 hours ago"
+                }
+            ],
+            "openYear": "2010",
+            "guestInfoEntity": {
+                "childAge": [],
+                "childBed": [],
+                "childMeal": [],
+                "childType": [],
+                "guestHover": "",
+                "childCount": 0,
+                "adultCount": 4
+            },
+            "signInNote": "",
+            "hidePrice": false,
+            "priceExplanation": "Total price: {0}$ 209{/0}<br/>Incl. taxes",
+            "payAtHotelTaxText": "",
+            "hotelMultiImgs": []
+        },
+        "hotelDecorateInfo": {},
+        "hotelFeatureTagInfo": [],
+        "hotelStarInfo": {
+            "star": 3,
+            "isLicenseStar": false,
+            "starType": 1
+        },
+        "commentInfo": {
+            "commentScore": "4.1",
+            "commentDescription": "Very Good",
+            "commenterNumber": "108 reviews",
+            "subScore": [
+                {
+                    "number": "4.1",
+                    "content": "Location",
+                    "scoreType": 2
+                },
+                {
+                    "number": "4.1",
+                    "content": "Cleanliness",
+                    "scoreType": 3
+                },
+                {
+                    "number": "4.0",
+                    "content": "Service",
+                    "scoreType": 4
+                },
+                {
+                    "number": "4.0",
+                    "content": "Amenities",
+                    "scoreType": 5
+                }
+            ],
+            "tARatingInfo": null,
+            "taAlt": "",
+            "taUrl": "",
+            "taCount": 0,
+            "taReview": ""
+        },
+        "roomInfo": {
+            "roomId": 1378217487,
+            "shadowId": 0,
+            "name": "",
+            "adult": 4,
+            "physicalRoomName": "Double Room with Two Double Beds and City View - Non-Smoking",
+            "isBooking": false,
+            "bed": {
+                "list": [
+                    "ic_new_twodouble_bed"
+                ],
+                "contentListHover": [
+                    "2 double beds(1.31m-1.5m wide)"
+                ],
+                "contentList": [
+                    "Bed type randomly assigned"
+                ],
+                "cpxBedInfo": {}
+            }
+        },
+        "positionInfo": {
+            "cityId": 633,
+            "cityName": "New York",
+            "cityNameEn": "New York",
+            "positionDesc": "Near 39th Avenue Metro Station | LaGuardia Airport Area",
+            "positionName": "Near 39th Avenue Metro Station|LaGuardia Airport Area",
+            "positionInfo": "4.6miles from center",
+            "transport": {
+                "type": 7,
+                "distanceDesc": "330 m from 39th Avenue subway station"
+            },
+            "coordinate": {
+                "cityId": 633,
+                "lat": 40.7543994,
+                "lng": -73.9356128,
+                "isOversea": true,
+                "coordinateType": 1
+            },
+            "zoneNames": [
+                "LaGuardia Airport Area"
+            ],
+            "isOversea": true,
+            "mapCoordinate": [
+                {
+                    "coordinateType": 1,
+                    "latitude": "40.7543994",
+                    "longitude": "-73.9356128",
+                    "gcoordType": "WGS84"
+                }
+            ],
+            "linearDist": 7.4227826
+        },
+        "minRoomInfo": {
+            "roomId": 1378217487,
+            "roomName": "",
+            "shadowId": 0,
+            "encryptedRoomId": 0
+        },
+        "tags": [],
+        "saleRoom": {
+            "person": 4,
+            "mealNum": 0,
+            "mealType": 4
+        },
+        "promotion": [],
+        "discountLabels": [],
+        "specialPriceLabels": [],
+        "memberGrade": {},
+        "trace": {
+            "traceLogId": "526f46bf57b3b",
+            "timestamp": "1701271457740"
+        },
+        "extensions": {
+            "hotelUniqueKey": "H4sIAAAAAAAAAOPawMjFJMEkxMTBKLWUkaP_zvSJrEKMJgaRFsuEHBlA4NNkB0_NmP5DX92mOwTwTGKU5Dx7BghkshwEj_7bVP3JKc3BiZVjpYAE0wzGQ7tuq25k9HhYJbJueZbDDkaWA4z_YYDxBONmxgVMzzfeUN3FBNFwCEivBtp-ionhEhPDLSaGR0wMr5gYPjEx_IKqaGJm6GJmmMQMUTeLmWERM4MUr6mRWZqJWVKaqXmScZKCkMbC9XNXsxkpTWJkCg0-xShlaG5gaGRkaWFqamhqopecYmLqZ2qRZFrsUmnFLMXo5sEYxObsZO5qZhClxcUcGuwiCPYnwwd7KRBPEcbTAvEM00CgTcYhiTU1Tzc0OKORr4Cxi5FDgNGDMYKxgvEVI0jVD7DPAVv_D4xMAQAA",
+            "quarantineTip": "",
+            "recommendFilter": 0,
+            "priceHigh": -1,
+            "attachedFilters": [],
+            "dispatchId": "05a3fac0-1521-4d7f-af05-b7ad8abc3bc9-104"
+        },
+        "queryType": "NORMAL",
+        "isCombinedRoom": false,
+        "combinedRoomQuality": null,
+        "extras": {
+            "COMPENSATE_FILTER_ITEMS_INDEX": null,
+            "PropertyCurrency": "USD",
+            "PropertyCurrencyExchange": "7.13125",
+            "PriceCalendarRecommend": null,
+            "ChildPriceRoom": null
+        }
+    },
+    {
+        "hotelBasicInfo": {
+            "hotelId": 106826304,
+            "masterHotelId": 106826304,
+            "hotelName": "Highbridge Hotel",
+            "hotelEnName": "Highbridge Hotel",
+            "hotelImg": "https://aw-d.tripcdn.com/images/0222712000bjzkn0b4AB2_R_640_440_R5_D.jpg_.webp",
+            "hotelImgRoundLoad": [
+                {
+                    "position": 5,
+                    "group": 1,
+                    "url": "https://aw-d.tripcdn.com/images/0222712000bjzkn0b4AB2_R_250_250_R5_D.jpg_.webp"
+                },
+                {
+                    "position": 5,
+                    "group": 2,
+                    "url": "https://aw-d.tripcdn.com/images/0222712000bjzkn0b4AB2_R_600_600_R5_D.jpg_.webp"
+                }
+            ],
+            "hotelAddress": "1263 Edward L Grant Hwy",
+            "superStar": 1,
+            "favorityCount": 97,
+            "browseCount": 0,
+            "topRecommend": false,
+            "topRecommendReason": "",
+            "payType": 3,
+            "isAdHotel": false,
+            "adTraceid": "",
+            "isAdSlot": false,
+            "starIcon": "",
+            "hourRoomHours": "",
+            "hourEarliestArriveTime": "",
+            "hourLatestArriveTime": "",
+            "price": 119,
+            "originPrice": "",
+            "onlineTaxPrice": "140",
+            "onlineAndShopTaxPrice": "139.77",
+            "isEncrypt": false,
+            "payAtHotelTax": 0,
+            "isCollected": false,
+            "isFullRoom": false,
+            "hotelCloseInfo": null,
+            "canNotBeOrderedInfo": {
+                "messageBold": "",
+                "cannotReserveCode": ""
+            },
+            "isPriceMask": 0,
+            "medalInfo": {
+                "medalType": null,
+                "description": null,
+                "badgeHover": ""
+            },
+            "wowHotel": false,
+            "lastBookingTimeRemark": "",
+            "additionTexts": [
+                {
+                    "additionName": "ChildrenNormalTag",
+                    "additionText": ""
+                },
+                {
+                    "additionName": "FreeBreakfast",
+                    "additionText": "Breakfast included"
+                }
+            ],
+            "openYear": "",
+            "guestInfoEntity": {
+                "childAge": [],
+                "childBed": [],
+                "childMeal": [],
+                "childType": [],
+                "guestHover": "",
+                "childCount": 0,
+                "adultCount": 2
+            },
+            "signInNote": "",
+            "hidePrice": false,
+            "priceExplanation": "Total price: {0}$ 140{/0}<br/>Incl. taxes",
+            "payAtHotelTaxText": "",
+            "hotelMultiImgs": []
+        },
+        "hotelDecorateInfo": {},
+        "hotelFeatureTagInfo": [],
+        "hotelStarInfo": {
+            "star": 2,
+            "isLicenseStar": false,
+            "starType": 1
+        },
+        "commentInfo": {
+            "commentScore": "4.3",
+            "commentDescription": "Very Good",
+            "commenterNumber": "103 reviews",
+            "subScore": [
+                {
+                    "number": "4.3",
+                    "content": "Location",
+                    "scoreType": 2
+                },
+                {
+                    "number": "4.4",
+                    "content": "Cleanliness",
+                    "scoreType": 3
+                },
+                {
+                    "number": "4.3",
+                    "content": "Service",
+                    "scoreType": 4
+                },
+                {
+                    "number": "4.4",
+                    "content": "Amenities",
+                    "scoreType": 5
+                }
+            ],
+            "tARatingInfo": null,
+            "taAlt": "",
+            "taUrl": "",
+            "taCount": 0,
+            "taReview": ""
+        },
+        "roomInfo": {
+            "roomId": 1391700799,
+            "shadowId": 0,
+            "name": "",
+            "adult": 2,
+            "physicalRoomName": "Guest Room",
+            "isBooking": false,
+            "bed": {
+                "list": [
+                    "ic_new_double_bed"
+                ],
+                "contentListHover": [
+                    "1 king bed(1.81m-3m wide)"
+                ],
+                "contentList": [
+                    "Bed type randomly assigned"
+                ],
+                "cpxBedInfo": {}
+            }
+        },
+        "positionInfo": {
+            "cityId": 633,
+            "cityName": "New York",
+            "cityNameEn": "New York",
+            "positionDesc": "Near 167th Street Metro Station",
+            "positionName": "Near 167th Street Metro Station",
+            "positionInfo": "9.6miles from center",
+            "transport": {
+                "type": 7,
+                "distanceDesc": "270 m from 167th Street subway station"
+            },
+            "coordinate": {
+                "cityId": 633,
+                "lat": 40.8374429,
+                "lng": -73.92266359999999,
+                "isOversea": true,
+                "coordinateType": 1
+            },
+            "zoneNames": [
+                "Near 167th Street Metro Station"
+            ],
+            "isOversea": true,
+            "mapCoordinate": [
+                {
+                    "coordinateType": 1,
+                    "latitude": "40.8374429",
+                    "longitude": "-73.92266359999999",
+                    "gcoordType": "WGS84"
+                }
+            ],
+            "linearDist": 15.397234
+        },
+        "minRoomInfo": {
+            "roomId": 1391700799,
+            "roomName": "",
+            "shadowId": 0,
+            "encryptedRoomId": 0
+        },
+        "tags": [],
+        "saleRoom": {
+            "person": 2,
+            "mealNum": 2,
+            "mealType": 4
+        },
+        "promotion": [],
+        "discountLabels": [],
+        "specialPriceLabels": [],
+        "memberGrade": {},
+        "trace": {
+            "traceLogId": "526f46bf57b3b",
+            "timestamp": "1701271457740"
+        },
+        "extensions": {
+            "hotelUniqueKey": "H4sIAAAAAAAAAONay8jFJMEkxMTBKLWIkWP_tXPTWYXYLUwMgMDI4Amjxfpox0JbruuLy7ocPJcUAFmq_Q4BPJMYJTnBwhWJDoJBO-RaXxvGOzixcszMlWCZwXhgyg-jjYxnzwDBniSHHYxMBxiZTjCWL2CaN_WL0S4miLJDQHqbgATLKSaGS0wMt5gYHjExvGJi-MTE8AuqoomZoYuZYRIzRN0sZoZFzAxSvKZGZmkmZklppuZJxkkKQhoL189dzWakNImRKTT4FKOUobmBoZGRpYWpqaGpiV5yiompn6lFkmmxS6UVsxSjmwdjEJulm6WBuXmUFhdzaLCLIAMYfLCXAvEUYTwtEM8wDQTaZBySWFPzdEODMxr5Chi7GDkEGD0YIxgrGF8xglT9APsXACeOqOlJAQAA",
+            "quarantineTip": "",
+            "recommendFilter": 0,
+            "priceHigh": -1,
+            "attachedFilters": [],
+            "dispatchId": "05a3fac0-1521-4d7f-af05-b7ad8abc3bc9-104"
+        },
+        "queryType": "NORMAL",
+        "isCombinedRoom": false,
+        "combinedRoomQuality": null,
+        "extras": {
+            "COMPENSATE_FILTER_ITEMS_INDEX": null,
+            "PropertyCurrency": "USD",
+            "PropertyCurrencyExchange": "7.13125",
+            "PriceCalendarRecommend": null,
+            "ChildPriceRoom": null
+        }
+    },
+    {
+        "hotelBasicInfo": {
+            "hotelId": 106469344,
+            "masterHotelId": 106469344,
+            "hotelName": "Residence Inn New York Queens",
+            "hotelEnName": "Residence Inn New York Queens",
+            "hotelImg": "https://aw-d.tripcdn.com/images/0221012000c32mjxl7A7A_R_640_440_R5_D.jpg_.webp",
+            "hotelImgRoundLoad": [
+                {
+                    "position": 5,
+                    "group": 1,
+                    "url": "https://aw-d.tripcdn.com/images/0221012000c32mjxl7A7A_R_250_250_R5_D.jpg_.webp"
+                },
+                {
+                    "position": 5,
+                    "group": 2,
+                    "url": "https://aw-d.tripcdn.com/images/0221012000c32mjxl7A7A_R_600_600_R5_D.jpg_.webp"
+                }
+            ],
+            "hotelAddress": "38-39 9th St",
+            "superStar": 1,
+            "favorityCount": 92,
+            "browseCount": 0,
+            "topRecommend": false,
+            "topRecommendReason": "",
+            "payType": 3,
+            "isAdHotel": false,
+            "adTraceid": "",
+            "isAdSlot": false,
+            "starIcon": "",
+            "hourRoomHours": "",
+            "hourEarliestArriveTime": "",
+            "hourLatestArriveTime": "",
+            "price": 179,
+            "originPrice": "",
+            "onlineTaxPrice": "209",
+            "onlineAndShopTaxPrice": "208.91",
+            "isEncrypt": false,
+            "payAtHotelTax": 0,
+            "isCollected": false,
+            "isFullRoom": false,
+            "hotelCloseInfo": null,
+            "canNotBeOrderedInfo": {
+                "messageBold": "",
+                "cannotReserveCode": ""
+            },
+            "isPriceMask": 0,
+            "medalInfo": {
+                "medalType": null,
+                "description": null,
+                "badgeHover": ""
+            },
+            "wowHotel": false,
+            "lastBookingTimeRemark": "",
+            "additionTexts": [
+                {
+                    "additionName": "ChildrenNormalTag",
+                    "additionText": ""
+                }
+            ],
+            "openYear": "2023",
+            "guestInfoEntity": {
+                "childAge": [],
+                "childBed": [],
+                "childMeal": [],
+                "childType": [],
+                "guestHover": "",
+                "childCount": 0,
+                "adultCount": 0
+            },
+            "decorator": {
+                "type": "LoginDeal",
+                "signInNote": "{0}Sign in{/0} to access lower prices"
+            },
+            "signInNote": "{0}Sign in{/0} to access lower prices",
+            "hidePrice": false,
+            "priceExplanation": "Total price: {0}$ 209{/0}<br/>Incl. taxes",
+            "payAtHotelTaxText": "",
+            "hotelMultiImgs": []
+        },
+        "hotelDecorateInfo": {
+            "tagName": "Opened in 2023"
+        },
+        "hotelFeatureTagInfo": [],
+        "hotelStarInfo": {
+            "star": 3,
+            "isLicenseStar": false,
+            "starType": 1
+        },
+        "commentInfo": {
+            "commentScore": "3.8",
+            "commentDescription": "Good",
+            "commenterNumber": "21 reviews",
+            "subScore": [
+                {
+                    "number": "3.8",
+                    "content": "Location",
+                    "scoreType": 2
+                },
+                {
+                    "number": "3.8",
+                    "content": "Cleanliness",
+                    "scoreType": 3
+                },
+                {
+                    "number": "3.8",
+                    "content": "Service",
+                    "scoreType": 4
+                },
+                {
+                    "number": "3.8",
+                    "content": "Amenities",
+                    "scoreType": 5
+                }
+            ],
+            "tARatingInfo": null,
+            "taAlt": "",
+            "taUrl": "",
+            "taCount": 0,
+            "taReview": ""
+        },
+        "roomInfo": {
+            "roomId": 1389443283,
+            "shadowId": 0,
+            "name": "",
+            "adult": 0,
+            "physicalRoomName": "King Studio with Sofa Bed",
+            "isBooking": false,
+            "bed": {
+                "list": [
+                    "ic_new_multiple_beds"
+                ],
+                "contentListHover": [
+                    "1 king bed(1.81m-3m wide)",
+                    "1 sofa bed(0.8m-5m wide)"
+                ],
+                "contentList": [
+                    "Bed type randomly assigned"
+                ],
+                "cpxBedInfo": {}
+            }
+        },
+        "positionInfo": {
+            "cityId": 633,
+            "cityName": "New York",
+            "cityNameEn": "New York",
+            "positionDesc": "Near Roosevelt Island | LaGuardia Airport Area",
+            "positionName": "Near Roosevelt Island|LaGuardia Airport Area",
+            "positionInfo": "4.4miles from center",
+            "transport": {},
+            "coordinate": {
+                "cityId": 633,
+                "lat": 40.7580253,
+                "lng": -73.94406769999999,
+                "isOversea": true,
+                "coordinateType": 1
+            },
+            "zoneNames": [
+                "LaGuardia Airport Area"
+            ],
+            "isOversea": true,
+            "mapCoordinate": [
+                {
+                    "coordinateType": 1,
+                    "latitude": "40.7580253",
+                    "longitude": "-73.94406769999999",
+                    "gcoordType": "WGS84"
+                }
+            ],
+            "linearDist": 7.1344966
+        },
+        "minRoomInfo": {
+            "roomId": 1389443283,
+            "roomName": "",
+            "shadowId": 0,
+            "encryptedRoomId": 0
+        },
+        "tags": [
+            {
+                "name": "",
+                "tagTitle": "HAVECHEAPER",
+                "tagId": 10396,
+                "tagDesc": "Sign in to access lower prices",
+                "value": "",
+                "subTagId": 0,
+                "tagPosition": 0,
+                "labelExtensions": [
+                    {
+                        "type": "GROUP_VEIL",
+                        "value": "T",
+                        "answers": null
+                    }
+                ]
+            },
+            {
+                "name": "Opened in 2023",
+                "tagTitle": "Opened in 2023",
+                "tagId": 30001,
+                "tagDesc": "",
+                "value": "",
+                "subTagId": 0,
+                "tagPosition": 0,
+                "labelExtensions": [
+                    {
+                        "type": "type",
+                        "value": "NewStore",
+                        "answers": null
+                    }
+                ]
+            }
+        ],
+        "saleRoom": {
+            "person": 3,
+            "mealNum": 0,
+            "mealType": 4
+        },
+        "promotion": [],
+        "discountLabels": [],
+        "specialPriceLabels": [],
+        "memberGrade": {},
+        "trace": {
+            "traceLogId": "526f46bf57b3b",
+            "timestamp": "1701271457740"
+        },
+        "extensions": {
+            "hotelUniqueKey": "H4sIAAAAAAAAAOPazMjFJMEkxMTBKLWCkePyxyPTWIUYjQ04LT4JOsb0H_qq8WmygyeY4T7dIYBnEqMUZ-vrwB1yslkOgjvkgMwH6Q5ObByzFzNKsMxgfLD-kdFGRgYQWJHlsIOR-QDjfxhgPMG4mXEB0_GX9412MUF1HGJi5VgvLsFyionhEhPDLSaGR0wMr5gYPjEx_IIpaWJm6GJmmMQMUTiLmWERM4MUr6mRWZqJWVKaqXmScZKCkMbC9XNXsxkpTWJkCg0-xShlaG5gaGRkaWFqamhqopecYmLqZ2qRZFrsUmnFLMXo5sEYxObibGlu6hilxcUcGuwiCHYywwd7KRBPEcbTAvEM00CgTcYhiTU1Tzc0OKORr4Cxi5FDgNGDMYKxgvEVI0jVD7DfAVx1loxPAQAA",
+            "quarantineTip": "",
+            "recommendFilter": 0,
+            "priceHigh": -1,
+            "attachedFilters": [],
+            "dispatchId": "05a3fac0-1521-4d7f-af05-b7ad8abc3bc9-104"
+        },
+        "queryType": "NORMAL",
+        "isCombinedRoom": false,
+        "combinedRoomQuality": null,
+        "extras": {
+            "COMPENSATE_FILTER_ITEMS_INDEX": null,
+            "PropertyCurrency": "USD",
+            "PropertyCurrencyExchange": "7.13125",
+            "PriceCalendarRecommend": null,
+            "ChildPriceRoom": null
+        }
+    },
+    {
+        "hotelBasicInfo": {
+            "hotelId": 112383397,
+            "masterHotelId": 112383397,
+            "hotelName": "Hotel Liberty Inn & Suites - JFK",
+            "hotelEnName": "Hotel Liberty Inn & Suites - JFK",
+            "hotelImg": "https://aw-d.tripcdn.com/images/0223812000c2qgvns032B_R_640_440_R5_D.jpg_.webp",
+            "hotelImgRoundLoad": [
+                {
+                    "position": 5,
+                    "group": 1,
+                    "url": "https://aw-d.tripcdn.com/images/0223812000c2qgvns032B_R_250_250_R5_D.jpg_.webp"
+                },
+                {
+                    "position": 5,
+                    "group": 2,
+                    "url": "https://aw-d.tripcdn.com/images/0223812000c2qgvns032B_R_600_600_R5_D.jpg_.webp"
+                }
+            ],
+            "hotelAddress": "144-20 Liberty Ave",
+            "superStar": 1,
+            "favorityCount": 0,
+            "browseCount": 0,
+            "topRecommend": false,
+            "topRecommendReason": "",
+            "payType": 3,
+            "isAdHotel": false,
+            "adTraceid": "",
+            "isAdSlot": false,
+            "starIcon": "",
+            "hourRoomHours": "",
+            "hourEarliestArriveTime": "",
+            "hourLatestArriveTime": "",
+            "price": 168,
+            "originPrice": "",
+            "onlineTaxPrice": "196",
+            "onlineAndShopTaxPrice": "196",
+            "isEncrypt": false,
+            "payAtHotelTax": 0,
+            "isCollected": false,
+            "isFullRoom": false,
+            "hotelCloseInfo": null,
+            "canNotBeOrderedInfo": {
+                "messageBold": "",
+                "cannotReserveCode": ""
+            },
+            "isPriceMask": 0,
+            "medalInfo": {
+                "medalType": null,
+                "description": null,
+                "badgeHover": ""
+            },
+            "wowHotel": false,
+            "lastBookingTimeRemark": "",
+            "additionTexts": [
+                {
+                    "additionName": "ChildrenNormalTag",
+                    "additionText": ""
+                },
+                {
+                    "additionName": "VeryClean",
+                    "additionText": "Very Clean 5/5"
+                }
+            ],
+            "openYear": "2023",
+            "guestInfoEntity": {
+                "childAge": [],
+                "childBed": [],
+                "childMeal": [],
+                "childType": [],
+                "guestHover": "",
+                "childCount": 0,
+                "adultCount": 2
+            },
+            "signInNote": "",
+            "hidePrice": false,
+            "priceExplanation": "Total price: {0}$ 196{/0}<br/>Incl. taxes",
+            "payAtHotelTaxText": "",
+            "hotelMultiImgs": []
+        },
+        "hotelDecorateInfo": {
+            "tagName": "New to Trip.com"
+        },
+        "hotelFeatureTagInfo": [],
+        "hotelStarInfo": {
+            "star": 2,
+            "isLicenseStar": false,
+            "starType": 1
+        },
+        "commentInfo": {
+            "commentScore": "5.0",
+            "commentDescription": "Outstanding",
+            "commenterNumber": "56 reviews",
+            "subScore": [
+                {
+                    "number": "5.0",
+                    "content": "Location",
+                    "scoreType": 2
+                },
+                {
+                    "number": "5.0",
+                    "content": "Cleanliness",
+                    "scoreType": 3
+                },
+                {
+                    "number": "5.0",
+                    "content": "Service",
+                    "scoreType": 4
+                },
+                {
+                    "number": "5.0",
+                    "content": "Amenities",
+                    "scoreType": 5
+                }
+            ],
+            "tARatingInfo": null,
+            "taAlt": "",
+            "taUrl": "",
+            "taCount": 0,
+            "taReview": ""
+        },
+        "roomInfo": {
+            "roomId": 1448486111,
+            "shadowId": 0,
+            "name": "",
+            "adult": 2,
+            "physicalRoomName": "Deluxe King Room",
+            "isBooking": false,
+            "bed": {
+                "list": [
+                    "ic_new_double_bed"
+                ],
+                "contentListHover": [
+                    "1 king bed(1.81m-3m wide)"
+                ],
+                "contentList": [
+                    "Bed type randomly assigned"
+                ],
+                "cpxBedInfo": {}
+            }
+        },
+        "positionInfo": {
+            "cityId": 633,
+            "cityName": "New York",
+            "cityNameEn": "New York",
+            "positionDesc": "Near Sutphin Boulevard – Archer Avenue – JFK Airport Metro Station | John F. Kennedy International Airport Area",
+            "positionName": "Near Sutphin Boulevard – Archer Avenue – JFK Airport Metro Station|John F. Kennedy International Airport Area",
+            "positionInfo": "10.5miles from center",
+            "transport": {},
+            "coordinate": {
+                "cityId": 633,
+                "lat": 40.692788,
+                "lng": -73.808071,
+                "isOversea": true,
+                "coordinateType": 1
+            },
+            "zoneNames": [
+                "John F. Kennedy International Airport Area"
+            ],
+            "isOversea": true,
+            "mapCoordinate": [
+                {
+                    "coordinateType": 1,
+                    "latitude": "40.692788",
+                    "longitude": "-73.808071",
+                    "gcoordType": "WGS84"
+                }
+            ],
+            "linearDist": 16.872719699999998
+        },
+        "minRoomInfo": {
+            "roomId": 1448486111,
+            "roomName": "",
+            "shadowId": 0,
+            "encryptedRoomId": 0
+        },
+        "tags": [
+            {
+                "name": "New to Trip.com",
+                "tagTitle": "New to Trip.com",
+                "tagId": 30001,
+                "tagDesc": "",
+                "value": "",
+                "subTagId": 0,
+                "tagPosition": 0,
+                "labelExtensions": [
+                    {
+                        "type": "type",
+                        "value": "NewStore",
+                        "answers": null
+                    }
+                ]
+            }
+        ],
+        "saleRoom": {
+            "person": 2,
+            "mealNum": 0,
+            "mealType": 4
+        },
+        "promotion": [],
+        "discountLabels": [],
+        "specialPriceLabels": [],
+        "memberGrade": {},
+        "trace": {
+            "traceLogId": "526f46bf57b3b",
+            "timestamp": "1701271457741"
+        },
+        "extensions": {
+            "hotelUniqueKey": "H4sIAAAAAAAAAOPayMjFJMEkxMTBKLWMkeP-yRubWIXYLUwMgMDI4Amjxfpox-uLC2y5Nk5y8KwWWef-8NpUhwCeSYzinAwg0JDhIHj4q0ZM_61UBydmjiOMMxiXrj5tupFRvvV14A69TIcdjEwHGP_DAOMJxhWMC5juN58w3cUEUn6IiZWjU0yC5RQTwyUmhltMDI-YGF4xMXxiYvgFlm9iZuhiZpjEDFE1i5lhETODFK-pkVmaiVlSmql5knGSgpDGwvVzV7MZKU1iZAoNPsUoZWhuYGhkZGlhampoaqKXnGJi6mdqkWRa7FJpxSzF6ObBGMRmZOjm7GQWpcXFHBrsIgj2CsMHeykQTxHG0wLxDNNAoE3GIYk1NU83NDijka-AsYuRQ4DRgzGCsYLxFSNI1Q-wrwE6iuKVTQEAAA",
+            "quarantineTip": "",
+            "recommendFilter": 0,
+            "priceHigh": -1,
+            "attachedFilters": [],
+            "dispatchId": "05a3fac0-1521-4d7f-af05-b7ad8abc3bc9-104"
+        },
+        "queryType": "NORMAL",
+        "isCombinedRoom": false,
+        "combinedRoomQuality": null,
+        "extras": {
+            "COMPENSATE_FILTER_ITEMS_INDEX": null,
+            "PropertyCurrency": "USD",
+            "PropertyCurrencyExchange": "7.13125",
+            "PriceCalendarRecommend": null,
+            "ChildPriceRoom": null
+        }
+    },
+    {
+        "hotelBasicInfo": {
+            "hotelId": 13684595,
+            "masterHotelId": 13684595,
+            "hotelName": "Quality Inn Near Sunset Park",
+            "hotelEnName": "Quality Inn Near Sunset Park",
+            "hotelImg": "https://aw-d.tripcdn.com/images/22061f000001gkf7vBE30_R_640_440_R5_D.jpg_.webp",
+            "hotelImgRoundLoad": [
+                {
+                    "position": 5,
+                    "group": 1,
+                    "url": "https://aw-d.tripcdn.com/images/22061f000001gkf7vBE30_R_250_250_R5_D.jpg_.webp"
+                },
+                {
+                    "position": 5,
+                    "group": 2,
+                    "url": "https://aw-d.tripcdn.com/images/22061f000001gkf7vBE30_R_600_600_R5_D.jpg_.webp"
+                }
+            ],
+            "hotelAddress": "4410 3rd Ave",
+            "superStar": 1,
+            "favorityCount": 105,
+            "browseCount": 0,
+            "topRecommend": false,
+            "topRecommendReason": "",
+            "payType": 1,
+            "isAdHotel": false,
+            "adTraceid": "",
+            "isAdSlot": false,
+            "starIcon": "",
+            "hourRoomHours": "",
+            "hourEarliestArriveTime": "",
+            "hourLatestArriveTime": "",
+            "price": 152,
+            "originPrice": "",
+            "onlineTaxPrice": "178",
+            "onlineAndShopTaxPrice": "178.08",
+            "isEncrypt": false,
+            "payAtHotelTax": 0,
+            "isCollected": false,
+            "isFullRoom": false,
+            "hotelCloseInfo": null,
+            "canNotBeOrderedInfo": {
+                "messageBold": "",
+                "cannotReserveCode": ""
+            },
+            "isPriceMask": 0,
+            "medalInfo": {
+                "medalType": null,
+                "description": null,
+                "badgeHover": ""
+            },
+            "wowHotel": false,
+            "lastBookingTimeRemark": "",
+            "additionTexts": [
+                {
+                    "additionName": "ChildrenNormalTag",
+                    "additionText": ""
+                },
+                {
+                    "additionName": "LastBooking",
+                    "additionText": "Last booked 15 hours ago"
+                }
+            ],
+            "openYear": "2017",
+            "guestInfoEntity": {
+                "childAge": [],
+                "childBed": [],
+                "childMeal": [],
+                "childType": [],
+                "guestHover": "",
+                "childCount": 0,
+                "adultCount": 2
+            },
+            "signInNote": "",
+            "hidePrice": false,
+            "priceExplanation": "Total price: {0}$ 178{/0}<br/>Incl. taxes",
+            "payAtHotelTaxText": "",
+            "hotelMultiImgs": []
+        },
+        "hotelDecorateInfo": {},
+        "hotelFeatureTagInfo": [],
+        "hotelStarInfo": {
+            "star": 2,
+            "isLicenseStar": false,
+            "starType": 1
+        },
+        "commentInfo": {
+            "commentScore": "3.4",
+            "commentDescription": "",
+            "commenterNumber": "73 reviews",
+            "subScore": [
+                {
+                    "number": "3.4",
+                    "content": "Location",
+                    "scoreType": 2
+                },
+                {
+                    "number": "3.4",
+                    "content": "Cleanliness",
+                    "scoreType": 3
+                },
+                {
+                    "number": "3.4",
+                    "content": "Service",
+                    "scoreType": 4
+                },
+                {
+                    "number": "3.4",
+                    "content": "Amenities",
+                    "scoreType": 5
+                }
+            ],
+            "tARatingInfo": null,
+            "taAlt": "",
+            "taUrl": "",
+            "taCount": 0,
+            "taReview": ""
+        },
+        "roomInfo": {
+            "roomId": 547407989,
+            "shadowId": 0,
+            "name": "",
+            "adult": 2,
+            "physicalRoomName": "Queen Room - Non-Smoking",
+            "isBooking": false,
+            "bed": {
+                "list": [
+                    "ic_new_double_bed"
+                ],
+                "contentListHover": [
+                    "1 queen bed(1.51m-1.8m wide)"
+                ],
+                "contentList": [
+                    "Bed type randomly assigned"
+                ],
+                "cpxBedInfo": {}
+            }
+        },
+        "positionInfo": {
+            "cityId": 633,
+            "cityName": "New York",
+            "cityNameEn": "New York",
+            "positionDesc": "Near 45th Street Metro Station",
+            "positionName": "Near 45th Street Metro Station",
+            "positionInfo": "4.4miles from center",
+            "transport": {
+                "type": 7,
+                "distanceDesc": "330 m from 45th Street subway station"
+            },
+            "coordinate": {
+                "cityId": 633,
+                "lat": 40.6509904,
+                "lng": -74.0117769,
+                "isOversea": true,
+                "coordinateType": 1
+            },
+            "zoneNames": [
+                "Near 45th Street Metro Station"
+            ],
+            "isOversea": true,
+            "mapCoordinate": [
+                {
+                    "coordinateType": 1,
+                    "latitude": "40.6509904",
+                    "longitude": "-74.0117769",
+                    "gcoordType": "WGS84"
+                }
+            ],
+            "linearDist": 7.0704654
+        },
+        "minRoomInfo": {
+            "roomId": 547407989,
+            "roomName": "",
+            "shadowId": 0,
+            "encryptedRoomId": 0
+        },
+        "tags": [],
+        "saleRoom": {
+            "person": 2,
+            "mealNum": 0,
+            "mealType": 4
+        },
+        "promotion": [],
+        "discountLabels": [],
+        "specialPriceLabels": [],
+        "memberGrade": {},
+        "trace": {
+            "traceLogId": "526f46bf57b3b",
+            "timestamp": "1701271457741"
+        },
+        "extensions": {
+            "hotelUniqueKey": "H4sIAAAAAAAAAOPaxcjFJMEkxMTBKLWekePrhOZWJiF2CxMDIDAyuM9osVXecZ37wyqRLxMcPOVbXwfuuD7ZIYBnEqMU5-GvGjH9TmkOgoW2XNcXW6Q4OLFxTOhmlGCZwfh53mG2jYwg1XKy6Q47GJkOMP6HAcYTjDMYFzBN-H6KbRcTVMchJlaOhSISLKeYGC4xMdxiYnjExPCKieETE8MvmJImZoYuZoZJzBCFs5gZFjEzSPGaGpmlmZglpZmaJxknKQhpLFw_dzWbkdIkRqbQ4FOMUobmBoZGRpYWpqaGpiZ6ySkmpn6mFkmmxS6VVsxSjG4ejEFsbsZO5sYuUVpczKHBLoIMYPDBXgrEU4TxtEA8wzQQaJNxSGJNzdMNDc5o5Ctg7GLkEGD0YIxgrGB8xQhS9QPsdwCjEuYBVgEAAA",
+            "quarantineTip": "",
+            "recommendFilter": 0,
+            "priceHigh": -1,
+            "attachedFilters": [],
+            "dispatchId": "05a3fac0-1521-4d7f-af05-b7ad8abc3bc9-104"
+        },
+        "queryType": "NORMAL",
+        "isCombinedRoom": false,
+        "combinedRoomQuality": null,
+        "extras": {
+            "COMPENSATE_FILTER_ITEMS_INDEX": null,
+            "PropertyCurrency": "USD",
+            "PropertyCurrencyExchange": "7.13125",
+            "PriceCalendarRecommend": null,
+            "ChildPriceRoom": "T"
+        }
+    },
+    {
+        "hotelBasicInfo": {
+            "hotelId": 2193732,
+            "masterHotelId": 2193732,
+            "hotelName": "Best Western Queens Gold Coast",
+            "hotelEnName": "Best Western Queens Gold Coast",
+            "hotelImg": "https://aw-d.tripcdn.com/images/0222o120009uu685oBB1F_R_640_440_R5_D.jpg_.webp",
+            "hotelImgRoundLoad": [
+                {
+                    "position": 5,
+                    "group": 1,
+                    "url": "https://aw-d.tripcdn.com/images/0222o120009uu685oBB1F_R_250_250_R5_D.jpg_.webp"
+                },
+                {
+                    "position": 5,
+                    "group": 2,
+                    "url": "https://aw-d.tripcdn.com/images/0222o120009uu685oBB1F_R_600_600_R5_D.jpg_.webp"
+                }
+            ],
+            "hotelAddress": "22033 Northern Blvd",
+            "superStar": 1,
+            "favorityCount": 193,
+            "browseCount": 0,
+            "topRecommend": false,
+            "topRecommendReason": "",
+            "payType": 1,
+            "isAdHotel": false,
+            "adTraceid": "",
+            "isAdSlot": false,
+            "starIcon": "",
+            "hourRoomHours": "",
+            "hourEarliestArriveTime": "",
+            "hourLatestArriveTime": "",
+            "price": 187,
+            "originPrice": "",
+            "onlineTaxPrice": "222",
+            "onlineAndShopTaxPrice": "221.58",
+            "isEncrypt": false,
+            "payAtHotelTax": 0,
+            "isCollected": false,
+            "isFullRoom": false,
+            "hotelCloseInfo": null,
+            "canNotBeOrderedInfo": {
+                "messageBold": "",
+                "cannotReserveCode": ""
+            },
+            "isPriceMask": 0,
+            "medalInfo": {
+                "medalType": null,
+                "description": null,
+                "badgeHover": ""
+            },
+            "wowHotel": false,
+            "lastBookingTimeRemark": "",
+            "additionTexts": [
+                {
+                    "additionName": "ChildrenNormalTag",
+                    "additionText": ""
+                },
+                {
+                    "additionName": "FreeBreakfast",
+                    "additionText": "Breakfast included"
+                },
+                {
+                    "additionName": "LastBooking",
+                    "additionText": "Last booked 15 hours ago"
+                }
+            ],
+            "openYear": "2013",
+            "guestInfoEntity": {
+                "childAge": [],
+                "childBed": [],
+                "childMeal": [],
+                "childType": [],
+                "guestHover": "",
+                "childCount": 0,
+                "adultCount": 2
+            },
+            "signInNote": "",
+            "hidePrice": false,
+            "priceExplanation": "Total price: {0}$ 222{/0}<br/>Incl. taxes",
+            "payAtHotelTaxText": "",
+            "hotelMultiImgs": []
+        },
+        "hotelDecorateInfo": {},
+        "hotelFeatureTagInfo": [],
+        "hotelStarInfo": {
+            "star": 2,
+            "isLicenseStar": false,
+            "starType": 1
+        },
+        "commentInfo": {
+            "commentScore": "4.0",
+            "commentDescription": "Very Good",
+            "commenterNumber": "115 reviews",
+            "subScore": [
+                {
+                    "number": "4.0",
+                    "content": "Location",
+                    "scoreType": 2
+                },
+                {
+                    "number": "4.0",
+                    "content": "Cleanliness",
+                    "scoreType": 3
+                },
+                {
+                    "number": "4.0",
+                    "content": "Service",
+                    "scoreType": 4
+                },
+                {
+                    "number": "4.0",
+                    "content": "Amenities",
+                    "scoreType": 5
+                }
+            ],
+            "tARatingInfo": null,
+            "taAlt": "",
+            "taUrl": "",
+            "taCount": 0,
+            "taReview": ""
+        },
+        "roomInfo": {
+            "roomId": 1378216725,
+            "shadowId": 0,
+            "name": "",
+            "adult": 2,
+            "physicalRoomName": "Double Room with Two Double Beds",
+            "isBooking": false,
+            "bed": {
+                "list": [
+                    "ic_new_twodouble_bed"
+                ],
+                "contentListHover": [
+                    "2 double beds(1.31m-1.5m wide)"
+                ],
+                "contentList": [
+                    "Bed type randomly assigned"
+                ],
+                "cpxBedInfo": {}
+            }
+        },
+        "positionInfo": {
+            "cityId": 633,
+            "cityName": "New York",
+            "cityNameEn": "New York",
+            "positionDesc": "Near Broadway",
+            "positionName": "Near Broadway",
+            "positionInfo": "13.3miles from center",
+            "transport": {},
+            "coordinate": {
+                "cityId": 633,
+                "lat": 40.76177,
+                "lng": -73.7609631,
+                "isOversea": true,
+                "coordinateType": 1
+            },
+            "zoneNames": [
+                "Near Broadway"
+            ],
+            "isOversea": true,
+            "mapCoordinate": [
+                {
+                    "coordinateType": 1,
+                    "latitude": "40.76177",
+                    "longitude": "-73.7609631",
+                    "gcoordType": "WGS84"
+                }
+            ],
+            "linearDist": 21.3292835
+        },
+        "minRoomInfo": {
+            "roomId": 1378216725,
+            "roomName": "",
+            "shadowId": 0,
+            "encryptedRoomId": 0
+        },
+        "tags": [],
+        "saleRoom": {
+            "person": 2,
+            "mealNum": 2,
+            "mealType": 4
+        },
+        "promotion": [],
+        "discountLabels": [],
+        "specialPriceLabels": [],
+        "memberGrade": {},
+        "trace": {
+            "traceLogId": "526f46bf57b3b",
+            "timestamp": "1701271457741"
+        },
+        "extensions": {
+            "hotelUniqueKey": "H4sIAAAAAAAAAONaxcjFJMEkxMTBKDWfkWPqtekTWYUYjQwiLZYJOcb0H_qqcW2Kg2ehLdf1xRtmOATwTGKU4jz8VSOmf1O2g-CpkIMrlqxJd3Bi4-hbyyjBMoPxyKdWxo2MSwqA6i_nOexgZDrAyHSCcTfjAqbHrX2Mu5igCg8xsXI0S0uwnGJiuMTEcIuJ4RETwysmhk9MDL9gSpqYGbqYGSYxQxTOYmZYxMwgxWtqZJZmYpaUZmqeZJykIKSxcP3c1WxGSpMYmUKDTzFKGZobGBoZWVqYmhqamuglp5iY-plaJJkWu1RaMUsxunkwBrEZGLqYWxpFaXExhwa7CDKAwQd7KRBPEcbTAvEM00CgTcYhiTU1Tzc0OKORr4Cxi5FDgNGDMYKxgvEVI0jVD7CXAXE34AhGAQAA",
+            "quarantineTip": "",
+            "recommendFilter": 0,
+            "priceHigh": -1,
+            "attachedFilters": [],
+            "dispatchId": "05a3fac0-1521-4d7f-af05-b7ad8abc3bc9-104"
+        },
+        "queryType": "NORMAL",
+        "isCombinedRoom": false,
+        "combinedRoomQuality": null,
+        "extras": {
+            "COMPENSATE_FILTER_ITEMS_INDEX": null,
+            "PropertyCurrency": "USD",
+            "PropertyCurrencyExchange": "7.13125",
+            "PriceCalendarRecommend": null,
+            "ChildPriceRoom": null
+        }
+    },
+    
+        {
+            "hotelBasicInfo": {
+                "hotelId": 773058,
+                "masterHotelId": 773058,
+                "hotelName": "Vivanta Hyderabad, Begumpet",
+                "hotelEnName": "Vivanta Hyderabad, Begumpet",
+                "hotelImg": "https://aw-d.tripcdn.com/images/022281200089za4ry7DB4_R_640_440_R5_D.jpg_.webp",
+                "hotelImgRoundLoad": [
+                    {
+                        "position": 5,
+                        "group": 1,
+                        "url": "https://aw-d.tripcdn.com/images/022281200089za4ry7DB4_R_250_250_R5_D.jpg_.webp"
+                    },
+                    {
+                        "position": 5,
+                        "group": 2,
+                        "url": "https://aw-d.tripcdn.com/images/022281200089za4ry7DB4_R_600_600_R5_D.jpg_.webp"
+                    }
+                ],
+                "hotelAddress": "1-10-147 & 148, Mayuri Marg, Mayur Marg, Begumpet",
+                "superStar": 1,
+                "favorityCount": 38,
+                "browseCount": 0,
+                "topRecommend": false,
+                "topRecommendReason": "",
+                "payType": 1,
+                "isAdHotel": false,
+                "adTraceid": "",
+                "isAdSlot": false,
+                "starIcon": "",
+                "hourRoomHours": "",
+                "hourEarliestArriveTime": "",
+                "hourLatestArriveTime": "",
+                "price": 84,
+                "originPrice": "",
+                "onlineTaxPrice": "94",
+                "onlineAndShopTaxPrice": "94.07",
+                "isEncrypt": false,
+                "payAtHotelTax": 0,
+                "isCollected": false,
+                "isFullRoom": false,
+                "hotelCloseInfo": null,
+                "canNotBeOrderedInfo": {
+                    "messageBold": "",
+                    "cannotReserveCode": ""
+                },
+                "isPriceMask": 0,
+                "medalInfo": {
+                    "medalType": null,
+                    "description": null,
+                    "badgeHover": ""
+                },
+                "wowHotel": false,
+                "lastBookingTimeRemark": "",
+                "additionTexts": [
+                    {
+                        "additionName": "ChildrenNormalTag",
+                        "additionText": ""
+                    },
+                    {
+                        "additionName": "LastBooking",
+                        "additionText": "Last booked 22 hours ago"
+                    }
+                ],
+                "openYear": "2011",
+                "guestInfoEntity": {
+                    "childAge": [],
+                    "childBed": [],
+                    "childMeal": [],
+                    "childType": [],
+                    "guestHover": "",
+                    "childCount": 0,
+                    "adultCount": 2
+                },
+                "signInNote": "",
+                "hidePrice": false,
+                "priceExplanation": "Total price: {0}$ 94{/0}<br/>Incl. taxes",
+                "payAtHotelTaxText": "",
+                "hotelMultiImgs": []
+            },
+            "hotelDecorateInfo": {},
+            "hotelFeatureTagInfo": [],
+            "hotelStarInfo": {
+                "star": 5,
+                "isLicenseStar": false,
+                "starType": 1
+            },
+            "commentInfo": {
+                "commentScore": "4.2",
+                "commentDescription": "Very Good",
+                "commenterNumber": "48 reviews",
+                "subScore": [
+                    {
+                        "number": "4.3",
+                        "content": "Location",
+                        "scoreType": 2
+                    },
+                    {
+                        "number": "4.2",
+                        "content": "Cleanliness",
+                        "scoreType": 3
+                    },
+                    {
+                        "number": "4.2",
+                        "content": "Service",
+                        "scoreType": 4
+                    },
+                    {
+                        "number": "4.2",
+                        "content": "Amenities",
+                        "scoreType": 5
+                    }
+                ],
+                "tARatingInfo": null,
+                "taAlt": "",
+                "taUrl": "",
+                "taCount": 0,
+                "taReview": ""
+            },
+            "roomInfo": {
+                "roomId": 516727725,
+                "shadowId": 0,
+                "name": "",
+                "adult": 2,
+                "physicalRoomName": "Superior King Room with City View",
+                "isBooking": false,
+                "bed": {
+                    "list": [
+                        "ic_new_double_bed"
+                    ],
+                    "contentListHover": [
+                        "1 king bed(1.81m-3m wide)"
+                    ],
+                    "contentList": [
+                        "Bed type randomly assigned"
+                    ],
+                    "cpxBedInfo": {}
+                }
+            },
+            "positionInfo": {
+                "cityId": 1364,
+                "cityName": "Hyderabad",
+                "cityNameEn": "Hyderabad",
+                "positionDesc": "4.4miles from center",
+                "positionName": "",
+                "positionInfo": "4.4miles from center",
+                "transport": {},
+                "coordinate": {
+                    "cityId": 1364,
+                    "lat": 17.443389,
+                    "lng": 78.4607812,
+                    "isOversea": true,
+                    "coordinateType": 1
+                },
+                "zoneNames": [
+                    "Hyderabad"
+                ],
+                "isOversea": true,
+                "mapCoordinate": [
+                    {
+                        "coordinateType": 1,
+                        "latitude": "17.443389",
+                        "longitude": "78.4607812",
+                        "gcoordType": "WGS84"
+                    }
+                ],
+                "linearDist": 7.053111500000001
+            },
+            "minRoomInfo": {
+                "roomId": 516727725,
+                "roomName": "",
+                "shadowId": 0,
+                "encryptedRoomId": 0
+            },
+            "tags": [],
+            "saleRoom": {
+                "person": 2,
+                "mealNum": 0,
+                "mealType": 4
+            },
+            "promotion": [],
+            "discountLabels": [],
+            "specialPriceLabels": [],
+            "memberGrade": {},
+            "trace": {
+                "traceLogId": "964cf1d862e7b",
+                "timestamp": "1701273797294"
+            },
+            "extensions": {
+                "hotelUniqueKey": "H4sIAAAAAAAAAONaz8jFJMEkxMTBKLWEkWPt8U3fGIUYjQzuM1pslXf0eFglsm57k4OnfOvrwB3fWhwCeCYxSnKKrHN_WNUS7iA4ayYQdIY6OLFy7PeUYJnBeGi6_kbGHXJA1T8CHXYwMh1g_A8DjCcYQxYwLTp_i3EXE0T5ISD9gV2C5RQTwyUmhltMDI-YGF4xMXxiYvgFVdHEzNDFzDCJGaJuFjPDImYGKV5LM5PkNMMUCzOjVPMkBSGNowfnrmYzUprEyBQafIpRytDcwNDIyNLC1NTQ1EQvOcXE1M_UIsm02KXSilmK0c2DMYjNyM3cxMk0SouLOTTYRZABDD7YS4F4ijCeFrOnX5DhR0FD1Ukvttonsabm6YYGZzTyFTB2MXIIMHowRjBWML5iBOn5AfI3APnC37RKAQAA",
+                "quarantineTip": "",
+                "recommendFilter": 0,
+                "priceHigh": -1,
+                "attachedFilters": [],
+                "dispatchId": "4d37c840-c445-48bd-90dd-485dc4bc1286-104"
+            },
+            "queryType": "NORMAL",
+            "isCombinedRoom": false,
+            "combinedRoomQuality": null,
+            "extras": {
+                "COMPENSATE_FILTER_ITEMS_INDEX": null,
+                "PropertyCurrency": "INR",
+                "PropertyCurrencyExchange": "0.08558",
+                "PriceCalendarRecommend": null,
+                "ChildPriceRoom": null
+            }
+        },
+        {
+            "hotelBasicInfo": {
+                "hotelId": 25659067,
+                "masterHotelId": 25659067,
+                "hotelName": "Holiday Inn Express Hyderabad Banjara Hills",
+                "hotelEnName": "Holiday Inn Express Hyderabad Banjara Hills",
+                "hotelImg": "https://aw-d.tripcdn.com/images/0225g12000a4rnve4E61C_R_640_440_R5_D.jpg_.webp",
+                "hotelImgRoundLoad": [
+                    {
+                        "position": 5,
+                        "group": 1,
+                        "url": "https://aw-d.tripcdn.com/images/0225g12000a4rnve4E61C_R_250_250_R5_D.jpg_.webp"
+                    },
+                    {
+                        "position": 5,
+                        "group": 2,
+                        "url": "https://aw-d.tripcdn.com/images/0225g12000a4rnve4E61C_R_600_600_R5_D.jpg_.webp"
+                    }
+                ],
+                "hotelAddress": "6-3-563/2nd Floor/A Erranmanzil Colony, Somajiguda",
+                "superStar": 1,
+                "favorityCount": 32,
+                "browseCount": 0,
+                "topRecommend": false,
+                "topRecommendReason": "",
+                "payType": 3,
+                "isAdHotel": false,
+                "adTraceid": "",
+                "isAdSlot": false,
+                "starIcon": "",
+                "hourRoomHours": "",
+                "hourEarliestArriveTime": "",
+                "hourLatestArriveTime": "",
+                "price": 40,
+                "originPrice": "",
+                "onlineTaxPrice": "44",
+                "onlineAndShopTaxPrice": "44.34",
+                "isEncrypt": false,
+                "payAtHotelTax": 0,
+                "isCollected": false,
+                "isFullRoom": false,
+                "hotelCloseInfo": null,
+                "canNotBeOrderedInfo": {
+                    "messageBold": "",
+                    "cannotReserveCode": ""
+                },
+                "isPriceMask": 0,
+                "medalInfo": {
+                    "medalType": null,
+                    "description": null,
+                    "badgeHover": ""
+                },
+                "wowHotel": false,
+                "lastBookingTimeRemark": "",
+                "additionTexts": [
+                    {
+                        "additionName": "ChildrenNormalTag",
+                        "additionText": ""
+                    },
+                    {
+                        "additionName": "FreeBreakfast",
+                        "additionText": "Breakfast included"
+                    }
+                ],
+                "openYear": "2018",
+                "guestInfoEntity": {
+                    "childAge": [],
+                    "childBed": [],
+                    "childMeal": [],
+                    "childType": [],
+                    "guestHover": "",
+                    "childCount": 0,
+                    "adultCount": 2
+                },
+                "signInNote": "",
+                "hidePrice": false,
+                "priceExplanation": "Total price: {0}$ 44{/0}<br/>Incl. taxes",
+                "payAtHotelTaxText": "",
+                "hotelMultiImgs": []
+            },
+            "hotelDecorateInfo": {},
+            "hotelFeatureTagInfo": [],
+            "hotelStarInfo": {
+                "star": 3,
+                "isLicenseStar": false,
+                "starType": 1
+            },
+            "commentInfo": {
+                "commentScore": "3.5",
+                "commentDescription": "",
+                "commenterNumber": "45 reviews",
+                "subScore": [
+                    {
+                        "number": "3.5",
+                        "content": "Location",
+                        "scoreType": 2
+                    },
+                    {
+                        "number": "3.6",
+                        "content": "Cleanliness",
+                        "scoreType": 3
+                    },
+                    {
+                        "number": "3.3",
+                        "content": "Service",
+                        "scoreType": 4
+                    },
+                    {
+                        "number": "3.4",
+                        "content": "Amenities",
+                        "scoreType": 5
+                    }
+                ],
+                "tARatingInfo": null,
+                "taAlt": "",
+                "taUrl": "",
+                "taCount": 0,
+                "taReview": ""
+            },
+            "roomInfo": {
+                "roomId": 1415718956,
+                "shadowId": 0,
+                "name": "",
+                "adult": 2,
+                "physicalRoomName": "Standard Room",
+                "isBooking": false,
+                "bed": {
+                    "list": [
+                        "ic_new_bed"
+                    ],
+                    "contentListHover": [
+                        "1 single bed(0.8m-1.3m wide)"
+                    ],
+                    "contentList": [
+                        "Bed type randomly assigned"
+                    ],
+                    "cpxBedInfo": {}
+                }
+            },
+            "positionInfo": {
+                "cityId": 1364,
+                "cityName": "Hyderabad",
+                "cityNameEn": "Hyderabad",
+                "positionDesc": "Near Secunderabad Junction Railway Station",
+                "positionName": "Near Secunderabad Junction Railway Station",
+                "positionInfo": "3.1miles from center",
+                "transport": {},
+                "coordinate": {
+                    "cityId": 1364,
+                    "lat": 17.417273899999998,
+                    "lng": 78.45372909999999,
+                    "isOversea": true,
+                    "coordinateType": 1
+                },
+                "zoneNames": [
+                    "Near Secunderabad Junction Railway Station"
+                ],
+                "isOversea": true,
+                "mapCoordinate": [
+                    {
+                        "coordinateType": 1,
+                        "latitude": "17.417273899999998",
+                        "longitude": "78.45372909999999",
+                        "gcoordType": "WGS84"
+                    }
+                ],
+                "linearDist": 5.0117031
+            },
+            "minRoomInfo": {
+                "roomId": 1415718956,
+                "roomName": "",
+                "shadowId": 0,
+                "encryptedRoomId": 0
+            },
+            "tags": [],
+            "saleRoom": {
+                "person": 2,
+                "mealNum": 2,
+                "mealType": 4
+            },
+            "promotion": [],
+            "discountLabels": [],
+            "specialPriceLabels": [],
+            "memberGrade": {},
+            "trace": {
+                "traceLogId": "964cf1d862e7b",
+                "timestamp": "1701273797295"
+            },
+            "extensions": {
+                "hotelUniqueKey": "H4sIAAAAAAAAAONaxsjFJMEkxMTBKDWbkWPNhY7FrEKMRgYSFpOFHB9WiaxzX1ro4Nl_6KtGzOFihwCeSYySnN80YvoP3V3jIHgYKMoftdLBiZXjkpIEywzG3b3zeDYyFtpyXV_8wcFhByPTAUamE4waC5gmX93NvYsJouwQkL7NLMFyionhEhPDLSaGR0wMr5gYPjEx_IKqaGJm6GJmmMQMUTeLmWERM4MUr6WZSXKaYYqFmVGqeZKCkMbRg3NXsxkpTWJkCg0-xShlaG5gaGRkaWFqamhqopecYmLqZ2qRZFrsUmnFLMXo5sEYxGbgZGZh7BalxcXs6RckyAAGH-ylmEODXRRXtqh_-TW5w14LJGf4UdBQddKLrfZJrKl5uqHBGY18BYxdjBwCjB6MEYwVjK8YQXp-gP0LAPgyqppCAQAA",
+                "quarantineTip": "",
+                "recommendFilter": 0,
+                "priceHigh": -1,
+                "attachedFilters": [],
+                "dispatchId": "4d37c840-c445-48bd-90dd-485dc4bc1286-104"
+            },
+            "queryType": "NORMAL",
+            "isCombinedRoom": false,
+            "combinedRoomQuality": null,
+            "extras": {
+                "COMPENSATE_FILTER_ITEMS_INDEX": null,
+                "PropertyCurrency": "INR",
+                "PropertyCurrencyExchange": "0.08558",
+                "PriceCalendarRecommend": null,
+                "ChildPriceRoom": null
+            }
+        },
+        {
+            "hotelBasicInfo": {
+                "hotelId": 14183342,
+                "masterHotelId": 14183342,
+                "hotelName": "Hyatt Place Hyderabad Banjara Hills",
+                "hotelEnName": "Hyatt Place Hyderabad Banjara Hills",
+                "hotelImg": "https://aw-d.tripcdn.com/images/2203180000014prk62413_R_640_440_R5_D.jpg_.webp",
+                "hotelImgRoundLoad": [
+                    {
+                        "position": 5,
+                        "group": 1,
+                        "url": "https://aw-d.tripcdn.com/images/2203180000014prk62413_R_250_250_R5_D.jpg_.webp"
+                    },
+                    {
+                        "position": 5,
+                        "group": 2,
+                        "url": "https://aw-d.tripcdn.com/images/2203180000014prk62413_R_600_600_R5_D.jpg_.webp"
+                    }
+                ],
+                "hotelAddress": "Rd Number 1, Zahara Nagar, Banjara Hills",
+                "superStar": 1,
+                "favorityCount": 0,
+                "browseCount": 0,
+                "topRecommend": false,
+                "topRecommendReason": "",
+                "payType": 3,
+                "isAdHotel": false,
+                "adTraceid": "",
+                "isAdSlot": false,
+                "starIcon": "",
+                "hourRoomHours": "",
+                "hourEarliestArriveTime": "",
+                "hourLatestArriveTime": "",
+                "price": 90,
+                "originPrice": "",
+                "onlineTaxPrice": "106",
+                "onlineAndShopTaxPrice": "106.19",
+                "isEncrypt": false,
+                "payAtHotelTax": 0,
+                "isCollected": false,
+                "isFullRoom": false,
+                "hotelCloseInfo": null,
+                "canNotBeOrderedInfo": {
+                    "messageBold": "",
+                    "cannotReserveCode": ""
+                },
+                "isPriceMask": 0,
+                "medalInfo": {
+                    "medalType": null,
+                    "description": null,
+                    "badgeHover": ""
+                },
+                "wowHotel": false,
+                "lastBookingTimeRemark": "",
+                "additionTexts": [
+                    {
+                        "additionName": "ChildrenNormalTag",
+                        "additionText": ""
+                    },
+                    {
+                        "additionName": "LastBooking",
+                        "additionText": "Last booked 14 hours ago"
+                    }
+                ],
+                "openYear": "2017",
+                "guestInfoEntity": {
+                    "childAge": [],
+                    "childBed": [],
+                    "childMeal": [],
+                    "childType": [],
+                    "guestHover": "",
+                    "childCount": 0,
+                    "adultCount": 2
+                },
+                "signInNote": "",
+                "hidePrice": false,
+                "priceExplanation": "Total price: {0}$ 106{/0}<br/>Incl. taxes",
+                "payAtHotelTaxText": "",
+                "hotelMultiImgs": []
+            },
+            "hotelDecorateInfo": {
+                "tagName": "Renovated in 2023"
+            },
+            "hotelFeatureTagInfo": [],
+            "hotelStarInfo": {
+                "star": 4,
+                "isLicenseStar": false,
+                "starType": 1
+            },
+            "commentInfo": {
+                "commentScore": "4.3",
+                "commentDescription": "Very Good",
+                "commenterNumber": "45 reviews",
+                "subScore": [
+                    {
+                        "number": "4.4",
+                        "content": "Location",
+                        "scoreType": 2
+                    },
+                    {
+                        "number": "4.4",
+                        "content": "Cleanliness",
+                        "scoreType": 3
+                    },
+                    {
+                        "number": "4.4",
+                        "content": "Service",
+                        "scoreType": 4
+                    },
+                    {
+                        "number": "4.3",
+                        "content": "Amenities",
+                        "scoreType": 5
+                    }
+                ],
+                "tARatingInfo": null,
+                "taAlt": "",
+                "taUrl": "",
+                "taCount": 0,
+                "taReview": ""
+            },
+            "roomInfo": {
+                "roomId": 1349289914,
+                "shadowId": 0,
+                "name": "",
+                "adult": 2,
+                "physicalRoomName": "Twin Room",
+                "isBooking": false,
+                "bed": {
+                    "list": [
+                        "ic_new_twobeds"
+                    ],
+                    "contentListHover": [
+                        "2 single beds(0.8m-1.3m wide)"
+                    ],
+                    "contentList": [
+                        "Bed type randomly assigned"
+                    ],
+                    "cpxBedInfo": {}
+                }
+            },
+            "positionInfo": {
+                "cityId": 1364,
+                "cityName": "Hyderabad",
+                "cityNameEn": "Hyderabad",
+                "positionDesc": "Near Secunderabad Junction Railway Station",
+                "positionName": "Near Secunderabad Junction Railway Station",
+                "positionInfo": "3.5miles from center",
+                "transport": {},
+                "coordinate": {
+                    "cityId": 1364,
+                    "lat": 17.4192197,
+                    "lng": 78.447467,
+                    "isOversea": true,
+                    "coordinateType": 1
+                },
+                "zoneNames": [
+                    "Near Secunderabad Junction Railway Station"
+                ],
+                "isOversea": true,
+                "mapCoordinate": [
+                    {
+                        "coordinateType": 1,
+                        "latitude": "17.4192197",
+                        "longitude": "78.447467",
+                        "gcoordType": "WGS84"
+                    }
+                ],
+                "linearDist": 5.6405672
+            },
+            "minRoomInfo": {
+                "roomId": 1349289914,
+                "roomName": "",
+                "shadowId": 0,
+                "encryptedRoomId": 0
+            },
+            "tags": [
+                {
+                    "name": "Renovated in 2023",
+                    "tagTitle": "Renovated in 2023",
+                    "tagId": 30001,
+                    "tagDesc": "",
+                    "value": "",
+                    "subTagId": 0,
+                    "tagPosition": 0,
+                    "labelExtensions": [
+                        {
+                            "type": "type",
+                            "value": "NewStore",
+                            "answers": null
+                        }
+                    ]
+                }
+            ],
+            "saleRoom": {
+                "person": 2,
+                "mealNum": 0,
+                "mealType": 4
+            },
+            "promotion": [],
+            "discountLabels": [],
+            "specialPriceLabels": [],
+            "memberGrade": {},
+            "trace": {
+                "traceLogId": "964cf1d862e7b",
+                "timestamp": "1701273797295"
+            },
+            "extensions": {
+                "hotelUniqueKey": "H4sIAAAAAAAAAOPawMjFJMEkxMTBKLWUkWNX_6ZmViFGI4MpzBbNOo7r3B9WifC1OHhyXV9cYLuq3SGAZxKjJGdM_6GvGR4HHQTlW18H_tDe5-DEyvE7SIJlBuO66w_ZNjICNQF1xjjsYGQ6wPgfBhhPMEYtYLrQ_oFtFxNE_SEgvYhRgukUE8MlJoZbTAyPmBheMTF8YmL4BVXRxMzQxcwwiRmibhYzwyJmBileSzOT5DTDFAszo1TzJAUhjaMH565mM1KaxMgUGnyKUcrQ3MDQyMjSwtTU0NRELznFxNTP1CLJtNil0opZitHNgzGIzcDU0NDSLUqLi9nTL0iQAQw-2Esxhwa7KK5sUf_ya3KHvRZIzvCjoKHqpBdb7ZNYU_N0Q4MzGvkKGLsYOQQYPRgjGCsYXzGC9PwAexwASai9p0wBAAA",
+                "quarantineTip": "",
+                "recommendFilter": 0,
+                "priceHigh": -1,
+                "attachedFilters": [],
+                "dispatchId": "4d37c840-c445-48bd-90dd-485dc4bc1286-104"
+            },
+            "queryType": "NORMAL",
+            "isCombinedRoom": false,
+            "combinedRoomQuality": null,
+            "extras": {
+                "COMPENSATE_FILTER_ITEMS_INDEX": null,
+                "PropertyCurrency": "INR",
+                "PropertyCurrencyExchange": "0.08558",
+                "PriceCalendarRecommend": null,
+                "ChildPriceRoom": "T"
+            }
+        },
+        {
+            "hotelBasicInfo": {
+                "hotelId": 2192870,
+                "masterHotelId": 2192870,
+                "hotelName": "Hyderabad Marriott Hotel & Convention Centre",
+                "hotelEnName": "Hyderabad Marriott Hotel & Convention Centre",
+                "hotelImg": "https://aw-d.tripcdn.com/images/2205160000010b9vpC358_R_640_440_R5_D.jpg_.webp",
+                "hotelImgRoundLoad": [
+                    {
+                        "position": 5,
+                        "group": 1,
+                        "url": "https://aw-d.tripcdn.com/images/2205160000010b9vpC358_R_250_250_R5_D.jpg_.webp"
+                    },
+                    {
+                        "position": 5,
+                        "group": 2,
+                        "url": "https://aw-d.tripcdn.com/images/2205160000010b9vpC358_R_600_600_R5_D.jpg_.webp"
+                    }
+                ],
+                "hotelAddress": "Tank Bund Rd, opposite Hussain Sagar, Bhagyalaxmi Nagar, Lake",
+                "superStar": 1,
+                "favorityCount": 0,
+                "browseCount": 0,
+                "topRecommend": false,
+                "topRecommendReason": "",
+                "payType": 3,
+                "isAdHotel": false,
+                "adTraceid": "",
+                "isAdSlot": false,
+                "starIcon": "",
+                "hourRoomHours": "",
+                "hourEarliestArriveTime": "",
+                "hourLatestArriveTime": "",
+                "price": 102,
+                "originPrice": "",
+                "onlineTaxPrice": "120",
+                "onlineAndShopTaxPrice": "120.37",
+                "isEncrypt": false,
+                "payAtHotelTax": 0,
+                "isCollected": false,
+                "isFullRoom": false,
+                "hotelCloseInfo": null,
+                "canNotBeOrderedInfo": {
+                    "messageBold": "",
+                    "cannotReserveCode": ""
+                },
+                "isPriceMask": 0,
+                "medalInfo": {
+                    "medalType": null,
+                    "description": null,
+                    "badgeHover": ""
+                },
+                "wowHotel": false,
+                "lastBookingTimeRemark": "",
+                "additionTexts": [
+                    {
+                        "additionName": "ChildrenNormalTag",
+                        "additionText": ""
+                    }
+                ],
+                "openYear": "1993",
+                "guestInfoEntity": {
+                    "childAge": [],
+                    "childBed": [],
+                    "childMeal": [],
+                    "childType": [],
+                    "guestHover": "",
+                    "childCount": 0,
+                    "adultCount": 0
+                },
+                "decorator": {
+                    "type": "LoginDeal",
+                    "signInNote": "{0}Sign in{/0} to access lower prices"
+                },
+                "signInNote": "{0}Sign in{/0} to access lower prices",
+                "hidePrice": false,
+                "priceExplanation": "Total price: {0}$ 120{/0}<br/>Incl. taxes",
+                "payAtHotelTaxText": "",
+                "hotelMultiImgs": []
+            },
+            "hotelDecorateInfo": {},
+            "hotelFeatureTagInfo": [],
+            "hotelStarInfo": {
+                "star": 5,
+                "isLicenseStar": false,
+                "starType": 1
+            },
+            "commentInfo": {
+                "commentScore": "4.2",
+                "commentDescription": "Very Good",
+                "commenterNumber": "45 reviews",
+                "subScore": [
+                    {
+                        "number": "4.2",
+                        "content": "Location",
+                        "scoreType": 2
+                    },
+                    {
+                        "number": "4.2",
+                        "content": "Cleanliness",
+                        "scoreType": 3
+                    },
+                    {
+                        "number": "4.2",
+                        "content": "Service",
+                        "scoreType": 4
+                    },
+                    {
+                        "number": "4.2",
+                        "content": "Amenities",
+                        "scoreType": 5
+                    }
+                ],
+                "tARatingInfo": null,
+                "taAlt": "",
+                "taUrl": "",
+                "taCount": 0,
+                "taReview": ""
+            },
+            "roomInfo": {
+                "roomId": 1049018216,
+                "shadowId": 0,
+                "name": "",
+                "adult": 0,
+                "physicalRoomName": "Deluxe Twin Room",
+                "isBooking": false,
+                "bed": {
+                    "list": [
+                        "ic_new_double_bed"
+                    ],
+                    "contentListHover": [
+                        "2 queen beds(1.51m-1.8m wide)"
+                    ],
+                    "contentList": [
+                        "Bed type randomly assigned"
+                    ],
+                    "cpxBedInfo": {}
+                }
+            },
+            "positionInfo": {
+                "cityId": 1364,
+                "cityName": "Hyderabad",
+                "cityNameEn": "Hyderabad",
+                "positionDesc": "Near Kachiguda Railway Station",
+                "positionName": "Near Kachiguda Railway Station",
+                "positionInfo": "2.7miles from center",
+                "transport": {},
+                "coordinate": {
+                    "cityId": 1364,
+                    "lat": 17.4242848,
+                    "lng": 78.4871452,
+                    "isOversea": true,
+                    "coordinateType": 1
+                },
+                "zoneNames": [
+                    "Near Kachiguda Railway Station"
+                ],
+                "isOversea": true,
+                "mapCoordinate": [
+                    {
+                        "coordinateType": 1,
+                        "latitude": "17.4242848",
+                        "longitude": "78.4871452",
+                        "gcoordType": "WGS84"
+                    }
+                ],
+                "linearDist": 4.3685563
+            },
+            "minRoomInfo": {
+                "roomId": 1049018216,
+                "roomName": "",
+                "shadowId": 0,
+                "encryptedRoomId": 0
+            },
+            "tags": [
+                {
+                    "name": "",
+                    "tagTitle": "HAVECHEAPER",
+                    "tagId": 10396,
+                    "tagDesc": "Sign in to access lower prices",
+                    "value": "",
+                    "subTagId": 0,
+                    "tagPosition": 0,
+                    "labelExtensions": [
+                        {
+                            "type": "GROUP_VEIL",
+                            "value": "T",
+                            "answers": null
+                        }
+                    ]
+                }
+            ],
+            "saleRoom": {
+                "person": 2,
+                "mealNum": 0,
+                "mealType": 4
+            },
+            "promotion": [],
+            "discountLabels": [],
+            "specialPriceLabels": [],
+            "memberGrade": {},
+            "trace": {
+                "traceLogId": "964cf1d862e7b",
+                "timestamp": "1701273797295"
+            },
+            "extensions": {
+                "hotelUniqueKey": "H4sIAAAAAAAAAONax8jFJMEkxMTBKLWYkePFv1lfmIUYjQw4LT4JOtpyXV9csLvNwVMzpv_Q10tdDgE8kxglORlAYPphB0Ew491BBydWjtY4CZYZjM9etzJuZFzn_rBKJC7BYQcj0wHG_zDAeIIxbQHTi19su5ggyg8B6TV8EiynmBguMTHcYmJ4xMTwionhExPDL6iKJmaGLmaGScwQdbOYGRYxM0jxWpqZJKcZpliYGaWaJykIaRw9OHc1m5HSJEam0OBTjFKG5gaGRkaWFqamhqYmeskpJqZ-phZJpsUulVbMUoxuHoxBbEaWJi5uzlFaXMyefkEQXzB8sJdiDg12UVzZov7l1-QOey2QnOFHQUPVSS-22iexpubphgZnNPIVMHYxcggwejBGMFYwvmIE6fkB9jcABzSmRUoBAAA",
+                "quarantineTip": "",
+                "recommendFilter": 0,
+                "priceHigh": -1,
+                "attachedFilters": [],
+                "dispatchId": "4d37c840-c445-48bd-90dd-485dc4bc1286-104"
+            },
+            "queryType": "NORMAL",
+            "isCombinedRoom": false,
+            "combinedRoomQuality": null,
+            "extras": {
+                "COMPENSATE_FILTER_ITEMS_INDEX": null,
+                "PropertyCurrency": "INR",
+                "PropertyCurrencyExchange": "0.08558",
+                "PriceCalendarRecommend": null,
+                "ChildPriceRoom": null
+            }
+        },
+        {
+            "hotelBasicInfo": {
+                "hotelId": 771938,
+                "masterHotelId": 771938,
+                "hotelName": "The Park Hyderabad, Banjara Hills Near Hussain Sagar Lake",
+                "hotelEnName": "The Park Hyderabad, Banjara Hills Near Hussain Sagar Lake",
+                "hotelImg": "https://aw-d.tripcdn.com/images/0222n120009gldkssD557_R_640_440_R5_D.jpg_.webp",
+                "hotelImgRoundLoad": [
+                    {
+                        "position": 5,
+                        "group": 1,
+                        "url": "https://aw-d.tripcdn.com/images/0222n120009gldkssD557_R_250_250_R5_D.jpg_.webp"
+                    },
+                    {
+                        "position": 5,
+                        "group": 2,
+                        "url": "https://aw-d.tripcdn.com/images/0222n120009gldkssD557_R_600_600_R5_D.jpg_.webp"
+                    }
+                ],
+                "hotelAddress": "22, Raj Bhavan Rd",
+                "superStar": 1,
+                "favorityCount": 57,
+                "browseCount": 0,
+                "topRecommend": false,
+                "topRecommendReason": "",
+                "payType": 1,
+                "isAdHotel": false,
+                "adTraceid": "",
+                "isAdSlot": false,
+                "starIcon": "",
+                "hourRoomHours": "",
+                "hourEarliestArriveTime": "",
+                "hourLatestArriveTime": "",
+                "price": 86,
+                "originPrice": "",
+                "onlineTaxPrice": "97",
+                "onlineAndShopTaxPrice": "96.75",
+                "isEncrypt": false,
+                "payAtHotelTax": 0,
+                "isCollected": false,
+                "isFullRoom": false,
+                "hotelCloseInfo": null,
+                "canNotBeOrderedInfo": {
+                    "messageBold": "",
+                    "cannotReserveCode": ""
+                },
+                "isPriceMask": 0,
+                "medalInfo": {
+                    "medalType": null,
+                    "description": null,
+                    "badgeHover": ""
+                },
+                "wowHotel": false,
+                "lastBookingTimeRemark": "",
+                "additionTexts": [
+                    {
+                        "additionName": "ChildrenNormalTag",
+                        "additionText": ""
+                    }
+                ],
+                "openYear": "2010",
+                "guestInfoEntity": {
+                    "childAge": [],
+                    "childBed": [],
+                    "childMeal": [],
+                    "childType": [],
+                    "guestHover": "",
+                    "childCount": 0,
+                    "adultCount": 2
+                },
+                "signInNote": "",
+                "hidePrice": false,
+                "priceExplanation": "Total price: {0}$ 97{/0}<br/>Incl. taxes",
+                "payAtHotelTaxText": "",
+                "hotelMultiImgs": []
+            },
+            "hotelDecorateInfo": {},
+            "hotelFeatureTagInfo": [],
+            "hotelStarInfo": {
+                "star": 5,
+                "isLicenseStar": false,
+                "starType": 1
+            },
+            "commentInfo": {
+                "commentScore": "3.7",
+                "commentDescription": "",
+                "commenterNumber": "39 reviews",
+                "subScore": [
+                    {
+                        "number": "3.7",
+                        "content": "Location",
+                        "scoreType": 2
+                    },
+                    {
+                        "number": "3.7",
+                        "content": "Cleanliness",
+                        "scoreType": 3
+                    },
+                    {
+                        "number": "3.7",
+                        "content": "Service",
+                        "scoreType": 4
+                    },
+                    {
+                        "number": "3.7",
+                        "content": "Amenities",
+                        "scoreType": 5
+                    }
+                ],
+                "tARatingInfo": null,
+                "taAlt": "",
+                "taUrl": "",
+                "taCount": 0,
+                "taReview": ""
+            },
+            "roomInfo": {
+                "roomId": 1473702490,
+                "shadowId": 0,
+                "name": "",
+                "adult": 2,
+                "physicalRoomName": "Luxury Room Non smoking",
+                "isBooking": false,
+                "bed": {
+                    "list": [
+                        "ic_new_double_bed",
+                        "/",
+                        "ic_new_twobeds"
+                    ],
+                    "contentListHover": [
+                        "1 queen bed(1.8m wide) or",
+                        "2 single beds(1m wide)",
+                        "Bed types provided based on availability"
+                    ],
+                    "contentList": [
+                        "Bed type randomly assigned"
+                    ],
+                    "cpxBedInfo": {}
+                }
+            },
+            "positionInfo": {
+                "cityId": 1364,
+                "cityName": "Hyderabad",
+                "cityNameEn": "Hyderabad",
+                "positionDesc": "Near Secunderabad Junction Railway Station",
+                "positionName": "Near Secunderabad Junction Railway Station",
+                "positionInfo": "3.1miles from center",
+                "transport": {},
+                "coordinate": {
+                    "cityId": 1364,
+                    "lat": 17.4234823,
+                    "lng": 78.4623153,
+                    "isOversea": true,
+                    "coordinateType": 1
+                },
+                "zoneNames": [
+                    "Near Secunderabad Junction Railway Station"
+                ],
+                "isOversea": true,
+                "mapCoordinate": [
+                    {
+                        "coordinateType": 1,
+                        "latitude": "17.4234823",
+                        "longitude": "78.4623153",
+                        "gcoordType": "WGS84"
+                    }
+                ],
+                "linearDist": 5.0002538
+            },
+            "minRoomInfo": {
+                "roomId": 1473702490,
+                "roomName": "",
+                "shadowId": 0,
+                "encryptedRoomId": 0
+            },
+            "tags": [],
+            "saleRoom": {
+                "person": 2,
+                "mealNum": 0,
+                "mealType": 4
+            },
+            "promotion": [],
+            "discountLabels": [],
+            "specialPriceLabels": [],
+            "memberGrade": {},
+            "trace": {
+                "traceLogId": "964cf1d862e7b",
+                "timestamp": "1701273797295"
+            },
+            "extensions": {
+                "hotelUniqueKey": "H4sIAAAAAAAAAONaz8jFJMEkxMTBKLWEkePWldv7WIUYjQzuM1pslXdkAAGHZgfPWTOBoL_VIYBnEqMkJ1jYIMJBECy8MtTBiZXjtLcEywzGR336GxnPngGCmiCHHYxMBxj_wwDjCcawBUzTzt9i3MUEUX4ISPdySLCcYmK4xMRwi4nhERPDKyaGT0wMv6AqmpgZupgZJjFD1M1iZljEzCDFa2lmkpxmmGJhZpRqnqQgpHH04NzVbEZKkxiZQoNPMUoZmhsYGhlZWpiaGpqa6CWnmJj6mVokmRa7VFoxSzG6eTAGsRk7O5tbukZpcTGHBrsIgr3D8MFeCsRThPG0mD39ggw_ChqqTnqx1T6JNTVPNzQ4o5GvgLGLkUOA0YMxgrGC8RUjSM8PkL8Bw3v0S0oBAAA",
+                "quarantineTip": "",
+                "recommendFilter": 0,
+                "priceHigh": -1,
+                "attachedFilters": [],
+                "dispatchId": "4d37c840-c445-48bd-90dd-485dc4bc1286-104"
+            },
+            "queryType": "NORMAL",
+            "isCombinedRoom": false,
+            "combinedRoomQuality": null,
+            "extras": {
+                "COMPENSATE_FILTER_ITEMS_INDEX": null,
+                "PropertyCurrency": "INR",
+                "PropertyCurrencyExchange": "0.08558",
+                "PriceCalendarRecommend": null,
+                "ChildPriceRoom": null
+            }
+        },
+        {
+            "hotelBasicInfo": {
+                "hotelId": 3033460,
+                "masterHotelId": 3033460,
+                "hotelName": "Fairfield by Marriott Hyderabad Gachibowli",
+                "hotelEnName": "Fairfield by Marriott Hyderabad Gachibowli",
+                "hotelImg": "https://aw-d.tripcdn.com/images/220b180000014bwusA9EC_R_640_440_R5_D.jpg_.webp",
+                "hotelImgRoundLoad": [
+                    {
+                        "position": 5,
+                        "group": 1,
+                        "url": "https://aw-d.tripcdn.com/images/220b180000014bwusA9EC_R_250_250_R5_D.jpg_.webp"
+                    },
+                    {
+                        "position": 5,
+                        "group": 2,
+                        "url": "https://aw-d.tripcdn.com/images/220b180000014bwusA9EC_R_600_600_R5_D.jpg_.webp"
+                    }
+                ],
+                "hotelAddress": "Road No. 2",
+                "superStar": 1,
+                "favorityCount": 0,
+                "browseCount": 0,
+                "topRecommend": false,
+                "topRecommendReason": "",
+                "payType": 1,
+                "isAdHotel": false,
+                "adTraceid": "",
+                "isAdSlot": false,
+                "starIcon": "",
+                "hourRoomHours": "",
+                "hourEarliestArriveTime": "",
+                "hourLatestArriveTime": "",
+                "price": 67,
+                "originPrice": "",
+                "onlineTaxPrice": "75",
+                "onlineAndShopTaxPrice": "75.27",
+                "isEncrypt": false,
+                "payAtHotelTax": 0,
+                "isCollected": false,
+                "isFullRoom": false,
+                "hotelCloseInfo": null,
+                "canNotBeOrderedInfo": {
+                    "messageBold": "",
+                    "cannotReserveCode": ""
+                },
+                "isPriceMask": 0,
+                "medalInfo": {
+                    "medalType": null,
+                    "description": null,
+                    "badgeHover": ""
+                },
+                "wowHotel": false,
+                "lastBookingTimeRemark": "",
+                "additionTexts": [
+                    {
+                        "additionName": "ChildrenNormalTag",
+                        "additionText": ""
+                    },
+                    {
+                        "additionName": "LastBooking",
+                        "additionText": "Last booked 15 hours ago"
+                    }
+                ],
+                "openYear": "2014",
+                "guestInfoEntity": {
+                    "childAge": [],
+                    "childBed": [],
+                    "childMeal": [],
+                    "childType": [],
+                    "guestHover": "",
+                    "childCount": 0,
+                    "adultCount": 0
+                },
+                "signInNote": "",
+                "hidePrice": false,
+                "priceExplanation": "Total price: {0}$ 75{/0}<br/>Incl. taxes",
+                "payAtHotelTaxText": "",
+                "hotelMultiImgs": []
+            },
+            "hotelDecorateInfo": {},
+            "hotelFeatureTagInfo": [],
+            "hotelStarInfo": {
+                "star": 3,
+                "isLicenseStar": false,
+                "starType": 1
+            },
+            "commentInfo": {
+                "commentScore": "4.0",
+                "commentDescription": "",
+                "commenterNumber": "17 reviews",
+                "subScore": [
+                    {
+                        "number": "4.0",
+                        "content": "Location",
+                        "scoreType": 2
+                    },
+                    {
+                        "number": "4.0",
+                        "content": "Cleanliness",
+                        "scoreType": 3
+                    },
+                    {
+                        "number": "4.0",
+                        "content": "Service",
+                        "scoreType": 4
+                    },
+                    {
+                        "number": "4.1",
+                        "content": "Amenities",
+                        "scoreType": 5
+                    }
+                ],
+                "tARatingInfo": null,
+                "taAlt": "",
+                "taUrl": "",
+                "taCount": 0,
+                "taReview": ""
+            },
+            "roomInfo": {
+                "roomId": 1453856875,
+                "shadowId": 0,
+                "name": "",
+                "adult": 0,
+                "physicalRoomName": "Superior Queen Room with City View",
+                "isBooking": false,
+                "bed": {
+                    "list": [
+                        "ic_new_double_bed"
+                    ],
+                    "contentListHover": [
+                        "1 queen bed(1.51m-1.8m wide)"
+                    ],
+                    "contentList": [
+                        "Bed type randomly assigned"
+                    ],
+                    "cpxBedInfo": {}
+                }
+            },
+            "positionInfo": {
+                "cityId": 1364,
+                "cityName": "Hyderabad",
+                "cityNameEn": "Hyderabad",
+                "positionDesc": "9.6miles from center",
+                "positionName": "",
+                "positionInfo": "9.6miles from center",
+                "transport": {},
+                "coordinate": {
+                    "cityId": 1364,
+                    "lat": 17.4237589,
+                    "lng": 78.3473854,
+                    "isOversea": true,
+                    "coordinateType": 1
+                },
+                "zoneNames": [
+                    "Hyderabad"
+                ],
+                "isOversea": true,
+                "mapCoordinate": [
+                    {
+                        "coordinateType": 1,
+                        "latitude": "17.4237589",
+                        "longitude": "78.3473854",
+                        "gcoordType": "WGS84"
+                    }
+                ],
+                "linearDist": 15.4102423
+            },
+            "minRoomInfo": {
+                "roomId": 1453856875,
+                "roomName": "",
+                "shadowId": 0,
+                "encryptedRoomId": 0
+            },
+            "tags": [],
+            "saleRoom": {
+                "person": 2,
+                "mealNum": 0,
+                "mealType": 4
+            },
+            "promotion": [],
+            "discountLabels": [],
+            "specialPriceLabels": [],
+            "memberGrade": {},
+            "trace": {
+                "traceLogId": "964cf1d862e7b",
+                "timestamp": "1701273797295"
+            },
+            "extensions": {
+                "hotelUniqueKey": "H4sIAAAAAAAAAONaz8jFJMEkxMTBKLWEkeP1hgVbWYUYjQw4LT4JOjKAwJdaB8917g-rRI41OATwTGKU5AQLN-xwEAQzArY5OLFyPLeSYJnB-GXSTsaNjEC169wP-jjsYGQ6wPgfBhhPMDovYDq16C3_LiaI-kNAehmbBMspJoZLTAy3mBgeMTG8YmL4xMTwC6qiiZmhi5lhEjNE3SxmhkXMDFK8lmYmyWmGKRZmRqnmSQpCGkcPzl3NZqQ0iZEpNPgUo5ShuYGhkZGlhampoamJXnKKiamfqUWSabFLpRWzFKObB2MQm5Gpm4uFRZQWF7OnXxDEGwwf7KWYQ4NdFFe2qH_5NbnDXgskZ_hR0FB10out9kmsqXm6ocEZjXwFjF2MHAKMHowRjBWMrxhBen6APQ4AsvX-20sBAAA",
+                "quarantineTip": "",
+                "recommendFilter": 0,
+                "priceHigh": -1,
+                "attachedFilters": [],
+                "dispatchId": "4d37c840-c445-48bd-90dd-485dc4bc1286-104"
+            },
+            "queryType": "NORMAL",
+            "isCombinedRoom": false,
+            "combinedRoomQuality": null,
+            "extras": {
+                "COMPENSATE_FILTER_ITEMS_INDEX": null,
+                "PropertyCurrency": "INR",
+                "PropertyCurrencyExchange": "0.08558",
+                "PriceCalendarRecommend": null,
+                "ChildPriceRoom": null
+            }
+        },
+        {
+            "hotelBasicInfo": {
+                "hotelId": 5793153,
+                "masterHotelId": 5793153,
+                "hotelName": "Ibis Hyderabad Hitec City",
+                "hotelEnName": "Ibis Hyderabad Hitec City",
+                "hotelImg": "https://aw-d.tripcdn.com/images/220m0y000000m5ambCA85_R_640_440_R5_D.jpg_.webp",
+                "hotelImgRoundLoad": [
+                    {
+                        "position": 5,
+                        "group": 1,
+                        "url": "https://aw-d.tripcdn.com/images/220m0y000000m5ambCA85_R_250_250_R5_D.jpg_.webp"
+                    },
+                    {
+                        "position": 5,
+                        "group": 2,
+                        "url": "https://aw-d.tripcdn.com/images/220m0y000000m5ambCA85_R_600_600_R5_D.jpg_.webp"
+                    }
+                ],
+                "hotelAddress": "Plot 3/2, near Cyber Towers, Sector Ii, HUDA Techno Enclave, HITEC City",
+                "superStar": 1,
+                "favorityCount": 0,
+                "browseCount": 0,
+                "topRecommend": false,
+                "topRecommendReason": "",
+                "payType": 1,
+                "isAdHotel": false,
+                "adTraceid": "",
+                "isAdSlot": false,
+                "starIcon": "",
+                "hourRoomHours": "",
+                "hourEarliestArriveTime": "",
+                "hourLatestArriveTime": "",
+                "price": 75,
+                "originPrice": "",
+                "onlineTaxPrice": "84",
+                "onlineAndShopTaxPrice": "83.58",
+                "isEncrypt": false,
+                "payAtHotelTax": 0,
+                "isCollected": false,
+                "isFullRoom": false,
+                "hotelCloseInfo": null,
+                "canNotBeOrderedInfo": {
+                    "messageBold": "",
+                    "cannotReserveCode": ""
+                },
+                "isPriceMask": 0,
+                "medalInfo": {
+                    "medalType": null,
+                    "description": null,
+                    "badgeHover": ""
+                },
+                "wowHotel": false,
+                "lastBookingTimeRemark": "",
+                "additionTexts": [
+                    {
+                        "additionName": "ChildrenNormalTag",
+                        "additionText": ""
+                    },
+                    {
+                        "additionName": "FreeBreakfast",
+                        "additionText": "Breakfast included"
+                    }
+                ],
+                "openYear": "2016",
+                "guestInfoEntity": {
+                    "childAge": [],
+                    "childBed": [],
+                    "childMeal": [],
+                    "childType": [],
+                    "guestHover": "",
+                    "childCount": 0,
+                    "adultCount": 0
+                },
+                "decorator": {
+                    "type": "LoginDeal",
+                    "signInNote": "{0}Sign in{/0} or {1}register{/1} to see lower prices"
+                },
+                "signInNote": "{0}Sign in{/0} or {1}register{/1} to see lower prices",
+                "hidePrice": false,
+                "priceExplanation": "Total price: {0}$ 84{/0}<br/>Incl. taxes",
+                "payAtHotelTaxText": "",
+                "hotelMultiImgs": []
+            },
+            "hotelDecorateInfo": {},
+            "hotelFeatureTagInfo": [],
+            "hotelStarInfo": {
+                "star": 3,
+                "isLicenseStar": false,
+                "starType": 1
+            },
+            "commentInfo": {
+                "commentScore": "3.9",
+                "commentDescription": "Good",
+                "commenterNumber": "29 reviews",
+                "subScore": [
+                    {
+                        "number": "4.0",
+                        "content": "Location",
+                        "scoreType": 2
+                    },
+                    {
+                        "number": "3.9",
+                        "content": "Cleanliness",
+                        "scoreType": 3
+                    },
+                    {
+                        "number": "3.9",
+                        "content": "Service",
+                        "scoreType": 4
+                    },
+                    {
+                        "number": "3.9",
+                        "content": "Amenities",
+                        "scoreType": 5
+                    }
+                ],
+                "tARatingInfo": null,
+                "taAlt": "",
+                "taUrl": "",
+                "taCount": 0,
+                "taReview": ""
+            },
+            "roomInfo": {
+                "roomId": 101806082,
+                "shadowId": 0,
+                "name": "",
+                "adult": 0,
+                "physicalRoomName": "Standard Twin Room",
+                "isBooking": false,
+                "bed": {
+                    "list": [
+                        "ic_new_twobeds"
+                    ],
+                    "contentListHover": [
+                        "2 single beds(0.8m-1.3m wide)"
+                    ],
+                    "contentList": [
+                        "Bed type randomly assigned"
+                    ],
+                    "cpxBedInfo": {}
+                }
+            },
+            "positionInfo": {
+                "cityId": 1364,
+                "cityName": "Hyderabad",
+                "cityNameEn": "Hyderabad",
+                "positionDesc": "HITEC City",
+                "positionName": "HITEC City",
+                "positionInfo": "8.3miles from center",
+                "transport": {},
+                "coordinate": {
+                    "cityId": 1364,
+                    "lat": 17.4475947,
+                    "lng": 78.3789145,
+                    "isOversea": true,
+                    "coordinateType": 1
+                },
+                "zoneNames": [
+                    "HITEC City"
+                ],
+                "isOversea": true,
+                "mapCoordinate": [
+                    {
+                        "coordinateType": 1,
+                        "latitude": "17.4475947",
+                        "longitude": "78.3789145",
+                        "gcoordType": "WGS84"
+                    }
+                ],
+                "linearDist": 13.3971533
+            },
+            "minRoomInfo": {
+                "roomId": 101806082,
+                "roomName": "",
+                "shadowId": 0,
+                "encryptedRoomId": 0
+            },
+            "tags": [
+                {
+                    "name": "",
+                    "tagTitle": "HAVECHEAPER",
+                    "tagId": 10396,
+                    "tagDesc": "Sign in to access member-only rates",
+                    "value": "",
+                    "subTagId": 0,
+                    "tagPosition": 0,
+                    "labelExtensions": []
+                }
+            ],
+            "saleRoom": {
+                "person": 2,
+                "mealNum": 2,
+                "mealType": 4
+            },
+            "promotion": [],
+            "discountLabels": [],
+            "specialPriceLabels": [],
+            "memberGrade": {},
+            "trace": {
+                "traceLogId": "964cf1d862e7b",
+                "timestamp": "1701273797296"
+            },
+            "extensions": {
+                "hotelUniqueKey": "H4sIAAAAAAAAAONaysjFJMEkxMTBKDWLkaPpwVEDIUYjA3mLr4KO1xcX2HItbHDwDNoh1_p6fpNDAM8kRklOEE_bZLeDIEjey2GHgxMrx1JHCZYZjI2nHzJtZFzn_rBK5J2_ww5GpgOMTCcYvRcwLXjQwbyLiZVjGVDZISD9n02C5RQTwyUmhltMDI-YGF4xMXxiYvgFVdHEzNDFzDCJGaJuFjPDImYGKV5LM5PkNMMUCzOjVPMkBSGNowfnrmYzUprEyBQafIpRytDcwNDIyNLC1NTQ1EQvOcXE1M_UIsm02KXSilmK0c2DMYjNwM3S1NApSouL2dMvSJABDD7YSzGHBrsormxR__Jrcoe9FkjO8KOgoeqkF1vtk1hT83RDgzMa-QoYuxg5BBg9GCMYKxhfMYL0_AD7FwDdLQMXQQEAAA",
+                "quarantineTip": "",
+                "recommendFilter": 0,
+                "priceHigh": -1,
+                "attachedFilters": [],
+                "dispatchId": "4d37c840-c445-48bd-90dd-485dc4bc1286-104"
+            },
+            "queryType": "NORMAL",
+            "isCombinedRoom": false,
+            "combinedRoomQuality": null,
+            "extras": {
+                "COMPENSATE_FILTER_ITEMS_INDEX": null,
+                "PropertyCurrency": "INR",
+                "PropertyCurrencyExchange": "0.08558",
+                "PriceCalendarRecommend": null,
+                "ChildPriceRoom": null
+            }
+        },
+        {
+            "hotelBasicInfo": {
+                "hotelId": 51809070,
+                "masterHotelId": 51809070,
+                "hotelName": "Le Meridien Hyderabad",
+                "hotelEnName": "Le Meridien Hyderabad",
+                "hotelImg": "https://aw-d.tripcdn.com/images/0222h12000alc02vj6C23_R_640_440_R5_D.jpg_.webp",
+                "hotelImgRoundLoad": [
+                    {
+                        "position": 5,
+                        "group": 1,
+                        "url": "https://aw-d.tripcdn.com/images/0222h12000alc02vj6C23_R_250_250_R5_D.jpg_.webp"
+                    },
+                    {
+                        "position": 5,
+                        "group": 2,
+                        "url": "https://aw-d.tripcdn.com/images/0222h12000alc02vj6C23_R_600_600_R5_D.jpg_.webp"
+                    }
+                ],
+                "hotelAddress": "Plot No: 25, 132, Gachibowli - Miyapur Rd",
+                "superStar": 1,
+                "favorityCount": 0,
+                "browseCount": 0,
+                "topRecommend": false,
+                "topRecommendReason": "",
+                "payType": 3,
+                "isAdHotel": false,
+                "adTraceid": "",
+                "isAdSlot": false,
+                "starIcon": "",
+                "hourRoomHours": "",
+                "hourEarliestArriveTime": "",
+                "hourLatestArriveTime": "",
+                "price": 129,
+                "originPrice": "",
+                "onlineTaxPrice": "152",
+                "onlineAndShopTaxPrice": "152.23",
+                "isEncrypt": false,
+                "payAtHotelTax": 0,
+                "isCollected": false,
+                "isFullRoom": false,
+                "hotelCloseInfo": null,
+                "canNotBeOrderedInfo": {
+                    "messageBold": "",
+                    "cannotReserveCode": ""
+                },
+                "isPriceMask": 0,
+                "medalInfo": {
+                    "medalType": null,
+                    "description": null,
+                    "badgeHover": ""
+                },
+                "wowHotel": false,
+                "lastBookingTimeRemark": "",
+                "additionTexts": [
+                    {
+                        "additionName": "ChildrenNormalTag",
+                        "additionText": ""
+                    }
+                ],
+                "openYear": "2019",
+                "guestInfoEntity": {
+                    "childAge": [],
+                    "childBed": [],
+                    "childMeal": [],
+                    "childType": [],
+                    "guestHover": "",
+                    "childCount": 0,
+                    "adultCount": 0
+                },
+                "signInNote": "",
+                "hidePrice": false,
+                "priceExplanation": "Total price: {0}$ 152{/0}<br/>Incl. taxes",
+                "payAtHotelTaxText": "",
+                "hotelMultiImgs": []
+            },
+            "hotelDecorateInfo": {},
+            "hotelFeatureTagInfo": [],
+            "hotelStarInfo": {
+                "star": 5,
+                "isLicenseStar": false,
+                "starType": 1
+            },
+            "commentInfo": {
+                "commentScore": "4.2",
+                "commentDescription": "Very Good",
+                "commenterNumber": "54 reviews",
+                "subScore": [
+                    {
+                        "number": "4.2",
+                        "content": "Location",
+                        "scoreType": 2
+                    },
+                    {
+                        "number": "4.2",
+                        "content": "Cleanliness",
+                        "scoreType": 3
+                    },
+                    {
+                        "number": "4.2",
+                        "content": "Service",
+                        "scoreType": 4
+                    },
+                    {
+                        "number": "4.2",
+                        "content": "Amenities",
+                        "scoreType": 5
+                    }
+                ],
+                "tARatingInfo": null,
+                "taAlt": "",
+                "taUrl": "",
+                "taCount": 0,
+                "taReview": ""
+            },
+            "roomInfo": {
+                "roomId": 1049058236,
+                "shadowId": 0,
+                "name": "",
+                "adult": 0,
+                "physicalRoomName": "Deluxe King Room Smoking",
+                "isBooking": false,
+                "bed": {
+                    "list": [
+                        "ic_new_double_bed"
+                    ],
+                    "contentListHover": [
+                        "1 king bed(1.81m-3m wide)"
+                    ],
+                    "contentList": [
+                        "Bed type randomly assigned"
+                    ],
+                    "cpxBedInfo": {}
+                }
+            },
+            "positionInfo": {
+                "cityId": 1364,
+                "cityName": "Hyderabad",
+                "cityNameEn": "Hyderabad",
+                "positionDesc": "9.3miles from center",
+                "positionName": "",
+                "positionInfo": "9.3miles from center",
+                "transport": {},
+                "coordinate": {
+                    "cityId": 1364,
+                    "lat": 17.4495115,
+                    "lng": 78.3634513,
+                    "isOversea": true,
+                    "coordinateType": 1
+                },
+                "zoneNames": [
+                    "Hyderabad"
+                ],
+                "isOversea": true,
+                "mapCoordinate": [
+                    {
+                        "coordinateType": 1,
+                        "latitude": "17.4495115",
+                        "longitude": "78.3634513",
+                        "gcoordType": "WGS84"
+                    }
+                ],
+                "linearDist": 14.926271900000001
+            },
+            "minRoomInfo": {
+                "roomId": 1049058236,
+                "roomName": "",
+                "shadowId": 0,
+                "encryptedRoomId": 0
+            },
+            "tags": [],
+            "saleRoom": {
+                "person": 2,
+                "mealNum": 0,
+                "mealType": 4
+            },
+            "promotion": [],
+            "discountLabels": [],
+            "specialPriceLabels": [],
+            "memberGrade": {},
+            "trace": {
+                "traceLogId": "964cf1d862e7b",
+                "timestamp": "1701273797296"
+            },
+            "extensions": {
+                "hotelUniqueKey": "H4sIAAAAAAAAAOPawMjFJMEkxMTBKLWUkWPP9rlfmIUYjQw4LT4JOi4psOW6vr_HwXOHXOvrwG8THAJ4JjFKcjIAQcOxEw6CIAbD2mMOTqwc38skWGYwrpt2S2IjozEIbE5x2MHIdIDxPwwwnmBsZFzANP3RLYldTBANh4D0JCEJllNMDJeYGG4xMTxiYnjFxPCJieEXVEUTM0MXM8MkZoi6WcwMi5gZpHgtzUyS0wxTLMyMUs2TFIQ0jh6cu5rNSGkSI1No8ClGKUNzA0MjI0sLU1NDUxO95BQTUz9TiyTTYpdKK2YpRjcPxiA2AydjV0ezKC0uZk-_IIg_GD7YSzGHBrsormxR__Jrcoe9FkjO8KOgoeqkF1vtk1hT83RDgzMa-QoYuxg5BBg9GCMYKxhfMYL0_AD7HACE6O6WTAEAAA",
+                "quarantineTip": "",
+                "recommendFilter": 0,
+                "priceHigh": -1,
+                "attachedFilters": [],
+                "dispatchId": "4d37c840-c445-48bd-90dd-485dc4bc1286-104"
+            },
+            "queryType": "NORMAL",
+            "isCombinedRoom": false,
+            "combinedRoomQuality": null,
+            "extras": {
+                "COMPENSATE_FILTER_ITEMS_INDEX": null,
+                "PropertyCurrency": "INR",
+                "PropertyCurrencyExchange": "0.08558",
+                "PriceCalendarRecommend": null,
+                "ChildPriceRoom": null
+            }
+        },
+        {
+            "hotelBasicInfo": {
+                "hotelId": 3362396,
+                "masterHotelId": 3362396,
+                "hotelName": "Mercure Hyderabad KCP",
+                "hotelEnName": "Mercure Hyderabad KCP",
+                "hotelImg": "https://aw-d.tripcdn.com/images/220q1a0000019c15gA775_R_640_440_R5_D.jpg_.webp",
+                "hotelImgRoundLoad": [
+                    {
+                        "position": 5,
+                        "group": 1,
+                        "url": "https://aw-d.tripcdn.com/images/220q1a0000019c15gA775_R_250_250_R5_D.jpg_.webp"
+                    },
+                    {
+                        "position": 5,
+                        "group": 2,
+                        "url": "https://aw-d.tripcdn.com/images/220q1a0000019c15gA775_R_600_600_R5_D.jpg_.webp"
+                    }
+                ],
+                "hotelAddress": "6-3-551, Banjara Hills Main Rd, Irram Manzil Colony",
+                "superStar": 1,
+                "favorityCount": 0,
+                "browseCount": 0,
+                "topRecommend": false,
+                "topRecommendReason": "",
+                "payType": 1,
+                "isAdHotel": false,
+                "adTraceid": "",
+                "isAdSlot": false,
+                "starIcon": "",
+                "hourRoomHours": "",
+                "hourEarliestArriveTime": "",
+                "hourLatestArriveTime": "",
+                "price": 77,
+                "originPrice": "",
+                "onlineTaxPrice": "86",
+                "onlineAndShopTaxPrice": "85.96",
+                "isEncrypt": false,
+                "payAtHotelTax": 0,
+                "isCollected": false,
+                "isFullRoom": false,
+                "hotelCloseInfo": null,
+                "canNotBeOrderedInfo": {
+                    "messageBold": "",
+                    "cannotReserveCode": ""
+                },
+                "isPriceMask": 0,
+                "medalInfo": {
+                    "medalType": null,
+                    "description": null,
+                    "badgeHover": ""
+                },
+                "wowHotel": false,
+                "lastBookingTimeRemark": "",
+                "additionTexts": [
+                    {
+                        "additionName": "ChildrenNormalTag",
+                        "additionText": ""
+                    }
+                ],
+                "openYear": "2015",
+                "guestInfoEntity": {
+                    "childAge": [],
+                    "childBed": [],
+                    "childMeal": [],
+                    "childType": [],
+                    "guestHover": "",
+                    "childCount": 0,
+                    "adultCount": 0
+                },
+                "signInNote": "",
+                "hidePrice": false,
+                "priceExplanation": "Total price: {0}$ 86{/0}<br/>Incl. taxes",
+                "payAtHotelTaxText": "",
+                "hotelMultiImgs": []
+            },
+            "hotelDecorateInfo": {},
+            "hotelFeatureTagInfo": [],
+            "hotelStarInfo": {
+                "star": 4,
+                "isLicenseStar": false,
+                "starType": 1
+            },
+            "commentInfo": {
+                "commentScore": "4.4",
+                "commentDescription": "Very Good",
+                "commenterNumber": "32 reviews",
+                "subScore": [
+                    {
+                        "number": "4.4",
+                        "content": "Location",
+                        "scoreType": 2
+                    },
+                    {
+                        "number": "4.4",
+                        "content": "Cleanliness",
+                        "scoreType": 3
+                    },
+                    {
+                        "number": "4.4",
+                        "content": "Service",
+                        "scoreType": 4
+                    },
+                    {
+                        "number": "4.4",
+                        "content": "Amenities",
+                        "scoreType": 5
+                    }
+                ],
+                "tARatingInfo": null,
+                "taAlt": "",
+                "taUrl": "",
+                "taCount": 0,
+                "taReview": ""
+            },
+            "roomInfo": {
+                "roomId": 164189821,
+                "shadowId": 0,
+                "name": "",
+                "adult": 0,
+                "physicalRoomName": "Superior Room, 1 Queen Bed, City View",
+                "isBooking": false,
+                "bed": {
+                    "list": [
+                        "ic_new_double_bed"
+                    ],
+                    "contentListHover": [
+                        "1 double bed(1.31m-1.5m wide)"
+                    ],
+                    "contentList": [
+                        "Bed type randomly assigned"
+                    ],
+                    "cpxBedInfo": {}
+                }
+            },
+            "positionInfo": {
+                "cityId": 1364,
+                "cityName": "Hyderabad",
+                "cityNameEn": "Hyderabad",
+                "positionDesc": "Near Secunderabad Junction Railway Station",
+                "positionName": "Near Secunderabad Junction Railway Station",
+                "positionInfo": "3miles from center",
+                "transport": {},
+                "coordinate": {
+                    "cityId": 1364,
+                    "lat": 17.4176772,
+                    "lng": 78.4566974,
+                    "isOversea": true,
+                    "coordinateType": 1
+                },
+                "zoneNames": [
+                    "Near Secunderabad Junction Railway Station"
+                ],
+                "isOversea": true,
+                "mapCoordinate": [
+                    {
+                        "coordinateType": 1,
+                        "latitude": "17.4176772",
+                        "longitude": "78.4566974",
+                        "gcoordType": "WGS84"
+                    }
+                ],
+                "linearDist": 4.8305335
+            },
+            "minRoomInfo": {
+                "roomId": 164189821,
+                "roomName": "",
+                "shadowId": 0,
+                "encryptedRoomId": 0
+            },
+            "tags": [],
+            "saleRoom": {
+                "person": 2,
+                "mealNum": 0,
+                "mealType": 4
+            },
+            "promotion": [],
+            "discountLabels": [],
+            "specialPriceLabels": [],
+            "memberGrade": {},
+            "trace": {
+                "traceLogId": "964cf1d862e7b",
+                "timestamp": "1701273797296"
+            },
+            "extensions": {
+                "hotelUniqueKey": "H4sIAAAAAAAAAONax8jFJMEkxMTBKLWYkePvmqV-QoxGBvIWXwUdC225ri-WanTwXOf-sEpEo9khgGcSoyQnAwj83u0gCGbo7HBwYuWY4izBMoPxzpyzjBsZ3wTukGvNDnDYwch0gPE_DDCeYPRdwNT_bgfjLiaI-kNAeia7BMspJoZLTAy3mBgeMTG8YmL4xMTwC6qiiZmhi5lhEjNE3SxmhkXMDFK8lmYmyWmGKRZmRqnmSQpCGkcPzl3NZqQ0iZEpNPgUo5ShuYGhkZGlhampoamJXnKKiamfqUWSabFLpRWzFKObB2MQm4GhoYGrU5QWF7OnXxDEGwwf7KWYQ4NdFFe2qH_5NbnDXgskZ_hR0FB10out9kmsqXm6ocEZjXwFjF2MHAKMHowRjBWMrxhBen6APQ4AwMPnqkoBAAA",
+                "quarantineTip": "",
+                "recommendFilter": 0,
+                "priceHigh": -1,
+                "attachedFilters": [],
+                "dispatchId": "4d37c840-c445-48bd-90dd-485dc4bc1286-104"
+            },
+            "queryType": "NORMAL",
+            "isCombinedRoom": false,
+            "combinedRoomQuality": null,
+            "extras": {
+                "COMPENSATE_FILTER_ITEMS_INDEX": null,
+                "PropertyCurrency": "INR",
+                "PropertyCurrencyExchange": "0.08558",
+                "PriceCalendarRecommend": null,
+                "ChildPriceRoom": null
+            }
+        },
+        {
+            "hotelBasicInfo": {
+                "hotelId": 2192869,
+                "masterHotelId": 2192869,
+                "hotelName": "Courtyard Hyderabad",
+                "hotelEnName": "Courtyard Hyderabad",
+                "hotelImg": "https://aw-d.tripcdn.com/images/0224j120009xfuzke4A4F_R_640_440_R5_D.jpg_.webp",
+                "hotelImgRoundLoad": [
+                    {
+                        "position": 5,
+                        "group": 1,
+                        "url": "https://aw-d.tripcdn.com/images/0224j120009xfuzke4A4F_R_250_250_R5_D.jpg_.webp"
+                    },
+                    {
+                        "position": 5,
+                        "group": 2,
+                        "url": "https://aw-d.tripcdn.com/images/0224j120009xfuzke4A4F_R_600_600_R5_D.jpg_.webp"
+                    }
+                ],
+                "hotelAddress": "1-3-1024, Lower Tank Bund Rd, Bhagyalaxmi Nagar",
+                "superStar": 1,
+                "favorityCount": 43,
+                "browseCount": 0,
+                "topRecommend": false,
+                "topRecommendReason": "",
+                "payType": 3,
+                "isAdHotel": false,
+                "adTraceid": "",
+                "isAdSlot": false,
+                "starIcon": "",
+                "hourRoomHours": "",
+                "hourEarliestArriveTime": "",
+                "hourLatestArriveTime": "",
+                "price": 89,
+                "originPrice": "",
+                "onlineTaxPrice": "99",
+                "onlineAndShopTaxPrice": "99.13",
+                "isEncrypt": false,
+                "payAtHotelTax": 0,
+                "isCollected": false,
+                "isFullRoom": false,
+                "hotelCloseInfo": null,
+                "canNotBeOrderedInfo": {
+                    "messageBold": "",
+                    "cannotReserveCode": ""
+                },
+                "isPriceMask": 0,
+                "medalInfo": {
+                    "medalType": null,
+                    "description": null,
+                    "badgeHover": ""
+                },
+                "wowHotel": false,
+                "lastBookingTimeRemark": "",
+                "additionTexts": [
+                    {
+                        "additionName": "ChildrenNormalTag",
+                        "additionText": ""
+                    }
+                ],
+                "openYear": "2009",
+                "guestInfoEntity": {
+                    "childAge": [],
+                    "childBed": [],
+                    "childMeal": [],
+                    "childType": [],
+                    "guestHover": "",
+                    "childCount": 0,
+                    "adultCount": 0
+                },
+                "decorator": {
+                    "type": "LoginDeal",
+                    "signInNote": "{0}Sign in{/0} to access lower prices"
+                },
+                "signInNote": "{0}Sign in{/0} to access lower prices",
+                "hidePrice": false,
+                "priceExplanation": "Total price: {0}$ 99{/0}<br/>Incl. taxes",
+                "payAtHotelTaxText": "",
+                "hotelMultiImgs": []
+            },
+            "hotelDecorateInfo": {},
+            "hotelFeatureTagInfo": [],
+            "hotelStarInfo": {
+                "star": 4,
+                "isLicenseStar": false,
+                "starType": 1
+            },
+            "commentInfo": {
+                "commentScore": "4.4",
+                "commentDescription": "Very Good",
+                "commenterNumber": "43 reviews",
+                "subScore": [
+                    {
+                        "number": "4.4",
+                        "content": "Location",
+                        "scoreType": 2
+                    },
+                    {
+                        "number": "4.4",
+                        "content": "Cleanliness",
+                        "scoreType": 3
+                    },
+                    {
+                        "number": "4.4",
+                        "content": "Service",
+                        "scoreType": 4
+                    },
+                    {
+                        "number": "4.3",
+                        "content": "Amenities",
+                        "scoreType": 5
+                    }
+                ],
+                "tARatingInfo": null,
+                "taAlt": "",
+                "taUrl": "",
+                "taCount": 0,
+                "taReview": ""
+            },
+            "roomInfo": {
+                "roomId": 1049078842,
+                "shadowId": 0,
+                "name": "",
+                "adult": 0,
+                "physicalRoomName": "Superior king Room",
+                "isBooking": false,
+                "bed": {
+                    "list": [
+                        "ic_new_double_bed"
+                    ],
+                    "contentListHover": [
+                        "1 king bed(1.81m-3m wide)"
+                    ],
+                    "contentList": [
+                        "Bed type randomly assigned"
+                    ],
+                    "cpxBedInfo": {}
+                }
+            },
+            "positionInfo": {
+                "cityId": 1364,
+                "cityName": "Hyderabad",
+                "cityNameEn": "Hyderabad",
+                "positionDesc": "Near Kachiguda Railway Station",
+                "positionName": "Near Kachiguda Railway Station",
+                "positionInfo": "2.7miles from center",
+                "transport": {},
+                "coordinate": {
+                    "cityId": 1364,
+                    "lat": 17.423700699999998,
+                    "lng": 78.48769469999999,
+                    "isOversea": true,
+                    "coordinateType": 1
+                },
+                "zoneNames": [
+                    "Near Kachiguda Railway Station"
+                ],
+                "isOversea": true,
+                "mapCoordinate": [
+                    {
+                        "coordinateType": 1,
+                        "latitude": "17.423700699999998",
+                        "longitude": "78.48769469999999",
+                        "gcoordType": "WGS84"
+                    }
+                ],
+                "linearDist": 4.3046178
+            },
+            "minRoomInfo": {
+                "roomId": 1049078842,
+                "roomName": "",
+                "shadowId": 0,
+                "encryptedRoomId": 0
+            },
+            "tags": [
+                {
+                    "name": "",
+                    "tagTitle": "HAVECHEAPER",
+                    "tagId": 10396,
+                    "tagDesc": "Sign in to access lower prices",
+                    "value": "",
+                    "subTagId": 0,
+                    "tagPosition": 0,
+                    "labelExtensions": [
+                        {
+                            "type": "GROUP_VEIL",
+                            "value": "T",
+                            "answers": null
+                        }
+                    ]
+                }
+            ],
+            "saleRoom": {
+                "person": 2,
+                "mealNum": 0,
+                "mealType": 4
+            },
+            "promotion": [],
+            "discountLabels": [],
+            "specialPriceLabels": [],
+            "memberGrade": {},
+            "trace": {
+                "traceLogId": "964cf1d862e7b",
+                "timestamp": "1701273797296"
+            },
+            "extensions": {
+                "hotelUniqueKey": "H4sIAAAAAAAAAONax8jFJMEkxMTBKLWYkWPXjXlfmIUYjQw4LT4JOhqDwM5mB8_W14E75MTbHAJ4JjFKcjKAgNIBB0Ewo2OvgxMrx05fCZYZjE9ftzJuZOw_9FUj5n2Qww5GpgOM_2GA8QRj5AKm57_YdjFBlB8C0ss4JFhOMTFcYmK4xcTwiInhFRPDJyaGX1AVTcwMXcwMk5gh6mYxMyxiZpDitTQzSU4zTLEwM0o1T1IQ0jh6cO5qNiOlSYxMocGnGKUMzQ0MjYwsLUxNDU1N9JJTTEz9TC2STItdKq2YpRjdPBiD2ExMDd3MXKK0uJg9_YIgvmD4YC_FHBrsoriyRf3Lr8kd9logOcOPgoaqk15stU9iTc3TDQ3OaOQrYOxi5BBg9GCMYKxgfMUI0vMD7G8AunV8UEoBAAA",
+                "quarantineTip": "",
+                "recommendFilter": 0,
+                "priceHigh": -1,
+                "attachedFilters": [],
+                "dispatchId": "4d37c840-c445-48bd-90dd-485dc4bc1286-104"
+            },
+            "queryType": "NORMAL",
+            "isCombinedRoom": false,
+            "combinedRoomQuality": null,
+            "extras": {
+                "COMPENSATE_FILTER_ITEMS_INDEX": null,
+                "PropertyCurrency": "INR",
+                "PropertyCurrencyExchange": "0.08558",
+                "PriceCalendarRecommend": null,
+                "ChildPriceRoom": null
+            }
+        }
+]

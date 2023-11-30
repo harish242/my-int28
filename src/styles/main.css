@@ -1,0 +1,98 @@
+.card{
+    margin-top: 10px;
+    display: flex;
+    text-align: left;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    /* padding-left:100px; */
+}
+img{
+    height:6em;
+    /* width:45%; */
+    border-radius: 5px;
+}
+.card1{
+    height:25%;
+
+}
+.card2{
+    margin-left: 10px;
+    color:#424553;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width:30%;
+}
+.card3{
+    margin-left:10px;
+    text-align: right;
+    width:20%;
+}
+.c2-2{
+    font-family: Hawaii 5-0, sans-serif;
+}
+.c2-1{
+    font-size: 10px;
+}
+.c2-4{
+    font-size: 13px;
+    opacity: 0.5;
+}
+.c2-5{
+    font-size: 12px;
+    font-weight: 700;
+}
+.c2-6{
+    font-size: 14px;
+    /* font-weight: 700; */
+    color:green
+}
+.cards3-1{
+    font-size: 12px;
+}
+.cards3-2{
+    font-size: 12px;;
+}
+.cards3-3{
+    /* font-size: 12px; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.card3-1,.card3-4{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.card3-2{
+    font-size: 20px;
+}
+.cards3-4{
+    height:3em;
+    width:9em;
+    background-color: #3554d1;
+    color:white;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.arrow{
+    position: relative;
+    top:3px;
+}
+.viewdetails{
+    position: relative;
+    bottom:3px;
+}
+.disabled{
+    opacity: 0;
+    }
+    .pagination>span{
+        /* margin-top: 10px; */
+        padding:10px 15px;
+        border:1px solid gray;
+        cursor: pointer;
+    }
+    .active{
+        background-color: grey;
+    }
