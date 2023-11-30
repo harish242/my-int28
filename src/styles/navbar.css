@@ -1,67 +1,69 @@
-*{
-padding:0;
-margin:0;
-}
-#navbar{
-    width:100%;
-    background:#13357c;
-    height:76px;
-}
-#container{
-    display:flex;
-    justify-content: space-around;
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #navbar {
+    /* width: 100vh; */
+    background: #13357c;
+    height: 76px;
+    overflow-x: hidden;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
     height: 100%;
     color: white;
-}
-#unorder{
-    display:flex;
-    list-style: none;   
-    width:50%;
-    font-size: 12px;
-    overflow: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: flex-start;
-}
-::-webkit-scrollbar{
-    height: 0px;
-}
-#buttons{
-    width:25%;
-    height:50px;
-
-    display: flex;    
-    justify-content: space-between;
-    
-}
-#button{
-    width:48%;
-    border-radius: 4px;
-}
-#title{
-   width:10%;
-   font-size: 30px;
-}
-.but2{
-    background-color:rgba(19,53,124,1);
-    color:rgba(255, 255, 255, 1);
-    border: 1px solid white;
-    
-}
-li{
-    /* padding:30px; */
-   
-}
-li div{
+     /* Adjust padding for better spacing */
+  }
+  
+  #unorder {
     display: flex;
-    padding-left:30px;
-}
-@media screen and (max-width:700px){
+    list-style: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #buttons {
+    display: flex;
+    gap: 10px; /* Adjust gap between buttons */
+    height:70%;
+    /* width: 30%; */
+  }
+  
+  .button {
+    border-radius: 4px;
+    width:90%;
+  }
+  
+  #title {
+    font-size: 30px;
+  }
+  
+  .but2 {
+    background-color: rgba(19, 53, 124, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid white;
+  }
+  
+  li {
+    padding: 0 10px; /* Adjust padding for better spacing */
+  }
+  
+  @media screen and (max-width: 700px) {
     #unorder {
-        overflow-x: scroll;
-        /* margin-bottom: -4px; */
+      flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+      justify-content: center; /* Center items on smaller screens */
     }
-     #title{
-        font-size: 20px;
-     }
-}
+  
+    #title {
+      font-size: 20px;
+    }
+  
+    .button {
+      width: 100%;
+    }
+  }
+  

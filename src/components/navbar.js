@@ -1,12 +1,13 @@
-import React from 'react'
-import '../styles/navbar.css'
-import { IoMdArrowDropdown } from "react-icons/io";
-export default function NavBar(){
-    return(
-        <div id='navbar'>
-            <div id='container'>
-             <div id='title'>TripWeb</div>
-             <ul id='unorder'>
+import React from 'react';
+import { IoMdArrowDropdown } from 'react-icons/io';
+import '../styles/navbar.css';
+
+export default function NavBar() {
+  return (
+    <div id="navbar">
+      <div id="container">
+        <div id="title">TripWeb</div>
+        <ul id='unorder'>
                 <li>
                     <div>
                     <span>Home</span>
@@ -50,12 +51,11 @@ export default function NavBar(){
                     </div>
                 </li>
              </ul>
-             <div id='buttons'>
-             <button id='button' className='but1'>Become An Expert</button>
-             <button id='button' className='but2'>Sign In / Register</button>
-             </div>
-            
-            </div>
+        <div id="buttons">
+          <button className="button but1">Become An Expert</button>
+          <button className="button but2">Sign In / Register</button>
         </div>
-    )
+      </div>
+    </div>
+  );
 }

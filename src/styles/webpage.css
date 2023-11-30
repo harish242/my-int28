@@ -1,3 +1,7 @@
+*{
+  padding:0px;
+  margin:0px;
+}
 .item1 {
   grid-area: header;
 }
@@ -10,17 +14,28 @@
 .item4 {
   grid-area: footer;
 }
+.item0 {
+  grid-area: navbar; /* Added grid area for NavBar */
+}
+.item0{
+  padding: 0px !important;
+}
+.item1{
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
 
 .grid-container {
   /* width: 100vw; */
   display: grid;
   grid-template-areas:
+    "navbar navbar navbar navbar navbar navbar"
     "header header header header header header"
     "menu menu menu main main main"
     "footer footer footer footer footer footer";
   /* gap: 10px; */
   background-color: #f4eeee;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .grid-container > div {
@@ -213,7 +228,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
-    width: 100vw;;
+    width: 100%;;
 }
 .gf-1{
     width:40%;
@@ -247,4 +262,21 @@ font-size:12px;
 }
 #bigtext{
     font-size: 20px;;
+}
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-areas:
+      "navbar navbar navbar"
+      "header header header"
+      "menu menu menu"
+      "main main main"
+      "footer footer footer";
+  }
+
+  #check-in {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  /* Add more media queries as needed */
 }

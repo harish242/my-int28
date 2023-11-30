@@ -201,7 +201,7 @@ export default function WebPage() {
       </div>
      
 
-      <div className="item3"><Main datai={data}/></div>
+    <div className="item3"><Main datai={data}/></div>
 
     
         <div className="item4" id="reg">
