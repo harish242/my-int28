@@ -84,6 +84,26 @@ img{
     position: relative;
     bottom:3px;
 }
+.properties2{
+    font-size: 12px;
+}
+.properties1{
+    font-size: 20px;
+}
+.properties{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.sort{
+    width:90px;
+    border-radius:10px;
+    border: 1px solid white;
+    height:40px;
+    margin: 10px;
+    color:blue;
+
+}
 .disabled{
     opacity: 0;
     }

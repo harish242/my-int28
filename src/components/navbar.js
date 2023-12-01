@@ -52,8 +52,8 @@ export default function NavBar() {
                 </li>
              </ul>
         <div id="buttons">
-          <button className="button but1">Become An Expert</button>
-          <button className="button but2">Sign In / Register</button>
+          <button className="but1">Become An Expert</button>
+          <button className="but2">Sign In / Register</button>
         </div>
       </div>
     </div>
