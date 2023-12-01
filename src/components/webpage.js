@@ -15,6 +15,9 @@ import "../styles/webpage.css";
 import 'react-date-range/dist/styles.css'; // main css file
 import 'react-date-range/dist/theme/default.css'; // theme css file
 
+import {signInWithPopup} from "@firebase/auth"
+import {auth,provider} from '../firebase.js'
+
 export default function WebPage() {
   const [price, setPrice] = useState(0);
   const [location,setLocation]=useState()
@@ -38,6 +41,8 @@ export default function WebPage() {
    children:0,
    roomNo:1
   })
+
+  
 
 
 

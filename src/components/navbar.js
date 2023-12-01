@@ -1,8 +1,40 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
 import { IoMdArrowDropdown } from 'react-icons/io';
 import '../styles/navbar.css';
+import {signInWithPopup} from "@firebase/auth"
+import {auth,provider} from '../firebase.js'
 
 export default function NavBar() {
+  const[state,setState]=useState('')
+  useEffect(() => {
+    // Add a global click event listener
+    const handleClickOutside = (event) => {
+      // Check if the clicked element is not the sign-in button
+      if (!event.target.closest('.but2')) {
+        // Check if the user is not logged in
+        if (!auth.currentUser) {
+          // Show the sign-in popup
+          signInWithPopup(auth, provider)
+            .then((result) => {
+              setState(result.user.displayName);
+              console.log(result)
+            })
+            .catch((error) => {
+              console.log(error);
+            });
+        }
+      }
+    };
+    console.log('l/27',state)
+
+    // Attach the click event listener
+    document.addEventListener('click', handleClickOutside);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, [state]);
   return (
     <div id="navbar">
       <div id="container">
