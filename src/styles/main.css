@@ -2,7 +2,8 @@
     margin-top: 10px;
     display: flex;
     text-align: left;
-    height:7em;
+    height:auto;
+    margin-bottom: 20px;
     gap:20px !important;
     /* flex-direction: column; */
     /* justify-content: space-around; */
@@ -17,6 +18,7 @@ img{
 .card1{
     height:25%;
     max-width: 250px;
+    position: relative;
 
     /* display: flex;
     justify-content: center; */
@@ -36,6 +38,7 @@ img{
     text-align: right;
     width:20%;
     font-size: 17px;
+
 }
 .c2-2{
     font-family: Hawaii 5-0, sans-serif;
@@ -61,6 +64,11 @@ img{
     font-size: 14px;
     /* font-weight: 700; */
     color:green
+}
+.cards3{
+    /* width:4em; */
+    /* padding-left: 4em; */
+    /* margin-left: 150px; */
 }
 .cards3-1{
     font-size: 12px;
@@ -123,13 +131,66 @@ img{
 }
 .disabled{
     opacity: 0;
-    }
-    .pagination>span{
-        /* margin-top: 10px; */
+}
+
+
+
+
+
+.pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 20px; */
+        height: 0px;
+}
+.pagination span {
+    padding: 0px 3px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  .pagination span:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .pagination span.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .pagination span.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+/* .image{
+    position: relative;
+} */
+.heart{
+    position: absolute;
+    top:0px;
+    left:8em;
+    /* font-size: 10px; */
+    /* opacity: 0.3; */
+    color:#bdbaaf;
+}
+
+
+ /* .pagination>span{
+        
         padding:10px 15px;
         border:1px solid gray;
         cursor: pointer;
-    }
+}
     .active{
         background-color: grey;
+    } */
+    .favorite-button{
+        border: none;
+        font-size: large;
+        position: relative;
+        top:0px;
+        bottom:1000px;
     }

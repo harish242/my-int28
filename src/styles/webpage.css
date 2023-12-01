@@ -66,7 +66,7 @@
 .headerSearch{
   height:30px;
   background-color: white;
-  border:3px solid #febb02;
+  border:1px solid black;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -88,7 +88,7 @@ height:30px;
 outline: none;
 }
 .headerSearchText{
-  color:lightgray;
+  color:gray;
   cursor:pointer;
   font-size: 12px;
 
@@ -134,7 +134,7 @@ outline: none;
   cursor: not-allowed;
 }
 #head {
-  background-color: #e6e6e6;
+  background-color: #bdbaaf;
 }
 .services{
   font-size: 12px;
@@ -348,12 +348,17 @@ outline: none;
 }
 #category-1,#attractions-1,#daytrips-1,#outdoor-1,#concerts-1{
   font-size: 15px;
+  padding: 10px;
 }
 #category-2,#attractions-2,#daytrips-2,#outdoor-2,#concerts-2{
   font-size: 13px;
 }
-#accomodation-1{
+#accomodation-1,#accomodation1-1{
   font-size: 15px;
+  padding: 10px;
+}
+.hf,.coll{
+  padding: 10px;
 }
 
 
@@ -389,6 +394,9 @@ font-size:12px;
 }
 #bigtext{
     font-size: 20px;;
+}
+.it2-1,.it2-2,.it2-3,.it2-4,.it2-5{
+  margin-top: 20px;
 }
 @media only screen and (max-width: 768px) {
   .grid-container {

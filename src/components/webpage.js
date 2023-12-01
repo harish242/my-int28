@@ -47,25 +47,7 @@ const [tempOptions, setTempOptions] = useState({
   children: 0,
   roomNo: 1,
 });
-// const handleLocation = (e) => {
-//    setTempLocation(e.target.value);
-//  };
- 
-//  const handleOption = (named, operation) => {
-//    setTempOptions((prev) => {
-//      return {
-//        ...prev,
-//        [named]: operation === "i" ? tempOptions[named] + 1 : tempOptions[named] - 1,
-//      };
-//    });
-//  };
-//  const handleSearch = () => {
-//    setOpenDate(false);
-//    setOpenOptions(false);
-//    setLocation(tempLocation);
-//    setOptions(tempOptions);
-//    setSearchKey((prevKey) => prevKey + 1);
-//  };
+
   const calendarRef = useRef(null); 
 
   const handlePrice = (e) => {
@@ -225,6 +207,7 @@ useEffect(() => {
             setOpenDate(false);
             setOpenOptions(false);
           }}>
+            
             <IoLocationOutline className="headerIcon" />
             <input
               type="text"
@@ -240,6 +223,8 @@ useEffect(() => {
   setOpenOptions(false);
 
                setOpenDate(!openDate)}}>{`${format(date[0].startDate,"MM/dd/yyyy")} to ${format(date[0].endDate,"MM/dd/yyyy")}`}</span>
+               <br/>
+               <span className="headerSearchText">checkin-checkout</span>
            {openDate&& <DateRange
            ref={calendarRef}
               onChange={(item) =>{
@@ -258,7 +243,7 @@ useEffect(() => {
             <TbCompass className="headerIcon" onClick={()=>setOpenOptions(!openOptions)} />
             <span onClick={()=>{
                setOpenDate(false);
-               setOpenOptions(!openOptions)}} className="headerSearchText">{`${options.adult} adult . ${options.children} children .${options.roomNo} rooms`}</span>
+               setOpenOptions(!openOptions)}} className="headerSearchText">{`${options.adult} adult - ${options.children} children - ${options.roomNo} room`}</span>
            {openOptions&&(<div className="options">
                <div className="optionsItem">
                   <span className="optionText">Adult</span>
@@ -427,7 +412,7 @@ useEffect(() => {
           <div className="price">
             <div className="price-in">
               <label htmlFor="price">
-                <span id="price">min$1000-max$10000</span>
+                <span id="price">₹1000-₹10000</span>
               </label>
               <input
                 type="range"
@@ -455,7 +440,7 @@ useEffect(() => {
                 onChange={() => handleFacilityChange(9)}
               />
               <label htmlFor="seatingarea">
-                <span>Reception</span>
+                <span className="hf">Reception</span>
               </label>
             </div>
           </div>
@@ -468,7 +453,7 @@ useEffect(() => {
                 onChange={() => handleFacilityChange(39)}
               />
               <label htmlFor="facilities">
-                <span>Tv</span>
+                <span className="hf">Tv</span>
               </label>
             </div>
           </div>
@@ -480,7 +465,7 @@ useEffect(() => {
                 name="facilities5"
                 onChange={() => handleFacilityChange(13)}
               />
-              <label htmlFor="ac">Ac</label>
+              <label htmlFor="ac"><span className="hf">Ac</span></label>
             </div>
           </div>
           <div className="king">
@@ -492,7 +477,7 @@ useEffect(() => {
                 onChange={() => handleFacilityChange(154)}
               />
               <label htmlFor="king">
-                <span>King Sized Bed</span>
+                <span className="hf">King Sized Bed</span>
               </label>
             </div>
           </div>
@@ -505,7 +490,7 @@ useEffect(() => {
                 onChange={() => handleFacilityChange(155)}
               />
               <label htmlFor="queen">
-                <span>Queen Sized Bed</span>
+                <span className="hf">Queen Sized Bed</span>
               </label>
             </div>
           </div>
@@ -525,7 +510,7 @@ useEffect(() => {
                 onChange={() => handleCollectionChange("India")}
               />
               <label htmlFor="family">
-                <span>Family OYOs</span>
+                <span className="coll">Family OYOs</span>
               </label>
             </div>
           </div>
@@ -538,7 +523,7 @@ useEffect(() => {
                 onChange={() => handleCollectionChange("India")}
               />
               <label htmlFor="travellers">
-                <span>For Group Travellers</span>
+                <span className="coll">For Group Travellers</span>
               </label>
             </div>
           </div>
@@ -551,7 +536,7 @@ useEffect(() => {
                 onChange={() => handleCollectionChange("India")}
               />
               <label htmlFor="accepted">
-                <span>Local IDs accepted</span>
+                <span className="coll">Local IDs accepted</span>
               </label>
             </div>
           </div>
@@ -564,7 +549,7 @@ useEffect(() => {
                 onChange={() => handleCollectionChange("India")}
               />
               <label htmlFor="couples">
-                <span>OYOs welcomes couples</span>
+                <span className="coll">OYOs couples</span>
               </label>
             </div>
           </div>
