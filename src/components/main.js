@@ -45,7 +45,7 @@ export default function Main({ datai }) {
                   <div className="c2-1">
                     {item.name}
                   </div>
-                  <div className="c2-2">{item.street}</div>
+                  <div className="c2-2">{item.street.slice(0,20)}</div>
                   <div className="c2-3">{item.hotel_name_without_category}</div>
                   <div className="c2-4">
                     {item.hotel_type},
@@ -57,12 +57,12 @@ export default function Main({ datai }) {
                 <div className="card3">
                   <div className="cards3">
                     <div className="cards3-1">{item.ratings.value}</div>
-                    <div className="cards3-2">{item.pricing[0]}</div>
+                    <div className="cards3-2">{item.ratings.count} <span>reviews</span></div>
                     <div className="cards3-3">
                       <span className="card3-1">From</span>
-                      <span className="card3-2">{item.street}-{item.status}</span>
+                      <span className="card3-2">₹{item.pricing[0]}</span>
                       {/* <span className="card3-3"></span> */}
-                      <span className="card3-4">per adult</span>
+                      <span className="card3-1">per adult</span>
                     </div>
                     <button className="cards3-4">
                         <span className="viewdetails">View Details</span>
@@ -71,7 +71,7 @@ export default function Main({ datai }) {
                   </div>
                 </div>
               </div>
-              <br />
+              {/* <br /> */}
               <hr />
             </>
           );

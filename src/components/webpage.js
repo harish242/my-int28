@@ -38,18 +38,41 @@ export default function WebPage() {
    children:0,
    roomNo:1
   })
+
+
+
+  const [tempLocation, setTempLocation] = useState('');
+const [tempOptions, setTempOptions] = useState({
+  adult: 1,
+  children: 0,
+  roomNo: 1,
+});
+// const handleLocation = (e) => {
+//    setTempLocation(e.target.value);
+//  };
+ 
+//  const handleOption = (named, operation) => {
+//    setTempOptions((prev) => {
+//      return {
+//        ...prev,
+//        [named]: operation === "i" ? tempOptions[named] + 1 : tempOptions[named] - 1,
+//      };
+//    });
+//  };
+//  const handleSearch = () => {
+//    setOpenDate(false);
+//    setOpenOptions(false);
+//    setLocation(tempLocation);
+//    setOptions(tempOptions);
+//    setSearchKey((prevKey) => prevKey + 1);
+//  };
   const calendarRef = useRef(null); 
 
   const handlePrice = (e) => {
     console.log(e.target.value);
     setPrice(e.target.value);
   };
-  const handleSearch = () => {
-   setOpenDate(false);
-   setOpenOptions(false);
-   // Increment the searchKey to trigger a re-render
-   setSearchKey((prevKey) => prevKey + 1);
- };
+
   const handleCategoryChange = (category) => {
  
     if (selectedCategories.includes(category)) {
@@ -106,7 +129,7 @@ export default function WebPage() {
    setOpenOptions(false);
    setLocation(e.target.value)
   }
-  const filteredData = data.filter((item) => {
+  let filteredData = data.filter((item) => {
     // Apply filters based on selected values
     const passesCategoryFilter =
       selectedCategories.length === 0 ||
@@ -144,26 +167,14 @@ export default function WebPage() {
       maxAllowed
     );
   });
+  const handleSearch = () => {
+   setOpenDate(false);
+   setOpenOptions(false);
+   // Increment the searchKey to trigger a re-render
+   setSearchKey((prevKey) => prevKey + 1);
+ };
 
-  // Inside your WebPage component
 
-//   useEffect(() => {
-//    const handleClickOutsideCalendar = (event) => {
-//      // Check if the click target is within the headerSearchItem element
-//      if (
-//        event.target.closest(".headerSearchItem") === null &&
-//        openDate
-//      ) {
-//        setOpenDate(false);
-//      }
-//    };
- 
-//    document.addEventListener("click", handleClickOutsideCalendar);
- 
-//    return () => {
-//      document.removeEventListener("click", handleClickOutsideCalendar);
-//    };
-//  }, [openDate]);
 useEffect(() => {
    const handleClickOutsideDate = (event) => {
      // Check if the click target is within the headerSearchItem element
@@ -221,6 +232,7 @@ useEffect(() => {
               className="headerSearchInput"
               onChange={handleLocation}
             />
+            {/* <div></div> */}
           </div>
           <div className="headerSearchItem">
             <LuCalendarCheck className="headerIcon" onClick={()=>setOpenDate(!openDate)} />
@@ -297,10 +309,10 @@ useEffect(() => {
                 onChange={() => handleCategoryChange("OYO Rooms")}
               />
               <label htmlFor="tours">
-                <span id="category-1">OYO-Rooms-</span>
-                <span id="category-2">
+                <span id="category-1">OYO-Rooms</span>
+                {/* <span id="category-2">
                   Super affordable stays with essential amenities
-                </span>
+                </span> */}
               </label>
             </div>
           </div>
@@ -313,10 +325,10 @@ useEffect(() => {
                 onChange={() => handleCategoryChange("Townhouse")}
               />
               <label htmlFor="attractions">
-                <span id="attractions-1">Townhouse-</span>
-                <span id="attractions-2">
+                <span id="attractions-1">Townhouse</span>
+                {/* <span id="attractions-2">
                   Hotels at prime location and Premium amenities
-                </span>
+                </span> */}
               </label>
             </div>
           </div>
@@ -329,10 +341,10 @@ useEffect(() => {
                 onChange={() => handleCategoryChange("Townhouse Oak")}
               />
               <label htmlFor="daytrips">
-                <span id="daytrips-1">Townhouse-</span>
-                <span id="daytrips-2">
+                <span id="daytrips-1">Townhouse</span>
+                {/* <span id="daytrips-2">
                   Your friendly,premium neighbourhood hotel-Serviced by OYO
-                </span>
+                </span> */}
               </label>
             </div>
           </div>
@@ -345,10 +357,10 @@ useEffect(() => {
                 onChange={() => handleCategoryChange("Flagship")}
               />
               <label htmlFor="outdoor">
-                <span id="outdoor-1">Flagship-</span>
-                <span id="outdoor-2">
+                <span id="outdoor-1">Flagship</span>
+                {/* <span id="outdoor-2">
                   Affordable hotels at Prime locations-Served by OYO
-                </span>
+                </span> */}
               </label>
             </div>
           </div>
@@ -362,11 +374,11 @@ useEffect(() => {
                 onChange={() => handleCategoryChange("Collection O")}
               />
               <label htmlFor="concerts">
-                <span id="concerts-1">Collection O-</span>
-                <span id="concerts-2">
+                <span id="concerts-1">Collection O</span>
+                {/* <span id="concerts-2">
                   Beautifully designed,private homes crafted for the travellers
                   who craves comfort
-                </span>
+                </span> */}
               </label>
             </div>
           </div>
@@ -586,7 +598,7 @@ useEffect(() => {
           </div>
         </div>
       </div>
-      <TransitionsModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
+      {/* <TransitionsModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} /> */}
     </div>
   );
 }

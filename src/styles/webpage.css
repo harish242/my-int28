@@ -50,9 +50,12 @@
   background-color: #f4eeee;
   /* padding: 10px; */
 }
-/* .mainhead{
-  margin:auto;
-} */
+.mainhead{
+  padding:20px;
+}
+.headerIcon{
+  font-size: 20px;;
+}
 
 .grid-container > div {
   background-color: white;
