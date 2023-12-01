@@ -224,7 +224,7 @@ useEffect(() => {
 
                setOpenDate(!openDate)}}>{`${format(date[0].startDate,"MM/dd/yyyy")} to ${format(date[0].endDate,"MM/dd/yyyy")}`}</span>
                <br/>
-               <span className="headerSearchText">checkin-checkout</span>
+               {/* <span className="headerSearchText">checkin-checkout</span> */}
            {openDate&& <DateRange
            ref={calendarRef}
               onChange={(item) =>{

@@ -93,12 +93,20 @@ outline: none;
   font-size: 12px;
 
 }
+.headerBtn{
+  width: 85px;
+  height:35px;
+  color:white;
+  background-color: #3554d1;
+  border: 1px solid white;
+}
 .headerSearch{
   position: relative;
 }
 .date{
   position: absolute;
   top:50px;
+  z-index: 1000;
 }
 .options{
   position:absolute;
