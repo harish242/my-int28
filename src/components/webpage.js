@@ -14,11 +14,13 @@ import TransitionsModal from './modal'
 import "../styles/webpage.css";
 import 'react-date-range/dist/styles.css'; // main css file
 import 'react-date-range/dist/theme/default.css'; // theme css file
+import { useMyContext } from './context/context';
 
-import {signInWithPopup} from "@firebase/auth"
-import {auth,provider} from '../firebase.js'
+
 
 export default function WebPage() {
+const { user ,ref} = useMyContext();
+const [filteredData, setFilteredData] = useState([...data])
   const [price, setPrice] = useState(0);
   const [location,setLocation]=useState()
   const [searchKey, setSearchKey] = useState(0);
@@ -41,6 +43,9 @@ export default function WebPage() {
    children:0,
    roomNo:1
   })
+  const pageRef = useRef(null);
+
+  
 
   
 
@@ -60,6 +65,39 @@ const [tempOptions, setTempOptions] = useState({
     setPrice(e.target.value);
   };
 
+  const applyFilters=()=>{
+    return data.filter((item) => {
+      // Apply filters based on selected values
+      const passesCategoryFilter =
+        selectedCategories.length === 0 || selectedCategories.includes(item.category);
+      const passesAccommodationFilter =
+        selectedAccommodations.length === 0 ||
+        selectedAccommodations.includes(item.hotel_type);
+      const passesFacilityFilter =
+        selectedFacilities.length === 0 ||
+        selectedFacilities.some((fac) => {
+          const facilityIdString = fac.toString();
+          return item.amenities.some(
+            (amenity) => Object.keys(amenity)[0] === facilityIdString
+          );
+        });
+      const passesCollectionFilter =
+        selectedCollections.length === 0 || selectedCollections.includes(item.country_name);
+      const passesPriceFilter = item.pricing[0] >= price;
+    
+      // Add filters for location, date, and room number
+   
+    
+      return (
+        passesCategoryFilter &&
+        passesAccommodationFilter &&
+        passesFacilityFilter &&
+        passesCollectionFilter &&
+        passesPriceFilter
+      );
+    });
+   }
+
   const handleCategoryChange = (category) => {
  
     if (selectedCategories.includes(category)) {
@@ -69,6 +107,9 @@ const [tempOptions, setTempOptions] = useState({
     } else {
       setSelectedCategories([...selectedCategories, category]);
     }
+
+    const updatedFilteredData = applyFilters();
+    setFilteredData(updatedFilteredData);
   };
   const handleAccommodationChange = (accommodation) => {
   
@@ -80,6 +121,9 @@ const [tempOptions, setTempOptions] = useState({
     } else {
       setSelectedAccommodations([...selectedAccommodations, accommodation]);
     }
+
+    const updatedFilteredData = applyFilters();
+    setFilteredData(updatedFilteredData);
   };
   const handleFacilityChange = (facility) => {
     // Check if the facility is already selected
@@ -94,6 +138,9 @@ const [tempOptions, setTempOptions] = useState({
     } else {
       setSelectedFacilities([...selectedFacilities, facility]);
     }
+
+    const updatedFilteredData = applyFilters();
+    setFilteredData(updatedFilteredData);
   };
 
   const handleCollectionChange = (collection) => {
@@ -105,94 +152,81 @@ const [tempOptions, setTempOptions] = useState({
     } else {
       setSelectedCollections([...selectedCollections, collection]);
     }
+
+
+    const updatedFilteredData = applyFilters();
+    setFilteredData(updatedFilteredData);
   };
   const handleOption=(named,operation)=>{
    setOptions(prev=>{return{
       ...prev,[named]:operation==="i"?options[named]+1:options[named]-1
   }})
+
+
   }
   const handleLocation=(e)=>{
    setOpenDate(false);
    setOpenOptions(false);
    setLocation(e.target.value)
   }
-  let filteredData = data.filter((item) => {
-    // Apply filters based on selected values
-    const passesCategoryFilter =
-      selectedCategories.length === 0 ||
-      selectedCategories.includes(item.category);
-    const passesAccommodationFilter =
-      selectedAccommodations.length === 0 ||
-      selectedAccommodations.includes(item.hotel_type);
-    const passesFacilityFilter =
-      selectedFacilities.length === 0 ||
-      selectedFacilities.some((fac) => {
-        const facilityIdString = fac.toString();
-        return item.amenities.some(
-          (amenity) => Object.keys(amenity)[0] === facilityIdString
-        );
-      });
-    const passesCollectionFilter =
-      selectedCollections.length === 0 ||
-      selectedCollections.includes(item.country_name);
-    const passesPriceFilter = item.pricing[0] >= price;
-
-    const passesLocationFilter =
-    !location ||
-    (item.city &&
-      item.city.toLowerCase().includes(location.toLowerCase()));
-
-      const maxAllowed = options.adult+options.children<=item.room_categories_with_data[0].max_occupancy_allowed;
-
-    return (
-      passesCategoryFilter &&
-      passesAccommodationFilter &&
-      passesFacilityFilter &&
-      passesCollectionFilter &&
-      passesPriceFilter&&
-      passesLocationFilter&&
-      maxAllowed
-    );
-  });
+ 
   const handleSearch = () => {
    setOpenDate(false);
    setOpenOptions(false);
    // Increment the searchKey to trigger a re-render
    setSearchKey((prevKey) => prevKey + 1);
+  
+  let filteredDatai = data.filter((item) => {
+    const passesLocationFilter =
+   !location ||
+   (item.city &&
+     item.city.toLowerCase().includes(location.toLowerCase()));
+
+     const maxAllowed = options.adult+options.children<=item.room_categories_with_data[0].max_occupancy_allowed;
+
+     return passesLocationFilter&&maxAllowed
+
+    //  const updatedFilteredData = applyFilters();
+  })
+
+  setFilteredData(filteredDatai);
+  
+ 
+
  };
 
 
-useEffect(() => {
-   const handleClickOutsideDate = (event) => {
-     // Check if the click target is within the headerSearchItem element
-     if (
-       event.target.closest(".headerSearchItem") === null &&
-       openDate
-     ) {
-       setOpenDate(false);
-     }
-   };
+
+
+
+
+
+
+ useEffect(() => {
+  // Event listener to handle clicks on the document
+  const handleClick = (event) => {
+    const isHeaderSearchItem = event.target.closest('.but2') !== null;
+  
+      if (!user && !isHeaderSearchItem) {
+        alert('Please login to interact with the page.');
+        setOpenDate(false);
+   setOpenOptions(false);
+        event.preventDefault();
+        event.stopPropagation();
+        
+      }
+    // }
  
-   const handleClickOutsideOptions = (event) => {
-     // Check if the click target is within the headerSearchItem element
-     if (
-       event.target.closest(".headerSearchItem") === null &&
-       openOptions
-     ) {
-       setOpenOptions(false);
-     }
-   };
- 
-   document.addEventListener("click", handleClickOutsideDate);
-   document.addEventListener("click", handleClickOutsideOptions);
- 
-   return () => {
-     document.removeEventListener("click", handleClickOutsideDate);
-     document.removeEventListener("click", handleClickOutsideOptions);
-   };
- }, [openDate, openOptions]);
- 
- 
+  };
+
+  // Attach the event listener to the document
+  document.addEventListener('click', handleClick);
+
+  // Cleanup: Remove the event listener when the component is unmounted
+  return () => {
+    document.removeEventListener('click', handleClick);
+  };
+}, [user]);
 
 
  
@@ -219,6 +253,7 @@ useEffect(() => {
               placeholder="where are you going?"
               className="headerSearchInput"
               onChange={handleLocation}
+              disabled={!user}
             />
             {/* <div></div> */}
           </div>
@@ -297,6 +332,7 @@ useEffect(() => {
                 id="tours"
                 name="category1"
                 onChange={() => handleCategoryChange("OYO Rooms")}
+                disabled={!user}
               />
               <label htmlFor="tours">
                 <span id="category-1">OYO-Rooms</span>
@@ -313,6 +349,7 @@ useEffect(() => {
                 id="attractions"
                 name="category2"
                 onChange={() => handleCategoryChange("Townhouse")}
+                disabled={!user}
               />
               <label htmlFor="attractions">
                 <span id="attractions-1">Townhouse</span>
@@ -329,6 +366,7 @@ useEffect(() => {
                 id="daytrips"
                 name="category3"
                 onChange={() => handleCategoryChange("Townhouse Oak")}
+                disabled={!user}
               />
               <label htmlFor="daytrips">
                 <span id="daytrips-1">Townhouse</span>
@@ -345,6 +383,7 @@ useEffect(() => {
                 id="outdoor"
                 name="category4"
                 onChange={() => handleCategoryChange("Flagship")}
+                disabled={!user}
               />
               <label htmlFor="outdoor">
                 <span id="outdoor-1">Flagship</span>
@@ -362,6 +401,7 @@ useEffect(() => {
                 id="concerts"
                 name="category5"
                 onChange={() => handleCategoryChange("Collection O")}
+                disabled={!user}
               />
               <label htmlFor="concerts">
                 <span id="concerts-1">Collection O</span>
@@ -386,6 +426,7 @@ useEffect(() => {
                 id="accomodation"
                 name="accomodation1"
                 onChange={() => handleAccommodationChange("OYO Home")}
+                disabled={!user}
               />
               <label htmlFor="accomodation">
                 <span id="accomodation-1">OYO Home</span>
@@ -399,6 +440,7 @@ useEffect(() => {
                 id="accomodation-1"
                 name="accomodation2"
                 onChange={() => handleAccommodationChange("Hotel")}
+                disabled={!user}
               />
               <label htmlFor="accomodation-1">
                 <span id="accomodation1-1">Hotel</span>
@@ -426,6 +468,7 @@ useEffect(() => {
                 id="price"
                 onChange={(e) => handlePrice(e)}
                 name="price"
+                disabled={!user}
               />
             </div>
           </div>
@@ -443,6 +486,7 @@ useEffect(() => {
                 id="seatingarea"
                 name="facilities1"
                 onChange={() => handleFacilityChange(9)}
+                disabled={!user}
               />
               <label htmlFor="seatingarea">
                 <span className="hf">Reception</span>
@@ -456,6 +500,7 @@ useEffect(() => {
                 id="balcony"
                 name="facilities2"
                 onChange={() => handleFacilityChange(39)}
+                disabled={!user}
               />
               <label htmlFor="facilities">
                 <span className="hf">Tv</span>
@@ -469,6 +514,7 @@ useEffect(() => {
                 id="ac"
                 name="facilities5"
                 onChange={() => handleFacilityChange(13)}
+                disabled={!user}
               />
               <label htmlFor="ac"><span className="hf">Ac</span></label>
             </div>
@@ -480,6 +526,7 @@ useEffect(() => {
                 id="king"
                 name="facilities3"
                 onChange={() => handleFacilityChange(154)}
+                disabled={!user}
               />
               <label htmlFor="king">
                 <span className="hf">King Sized Bed</span>
@@ -493,6 +540,7 @@ useEffect(() => {
                 id="queen"
                 name="facilities4"
                 onChange={() => handleFacilityChange(155)}
+                disabled={!user}
               />
               <label htmlFor="queen">
                 <span className="hf">Queen Sized Bed</span>
@@ -513,6 +561,7 @@ useEffect(() => {
                 id="family"
                 name="collections1"
                 onChange={() => handleCollectionChange("India")}
+                disabled={!user}
               />
               <label htmlFor="family">
                 <span className="coll">Family OYOs</span>
@@ -526,6 +575,7 @@ useEffect(() => {
                 id="travellers"
                 name="collections2"
                 onChange={() => handleCollectionChange("India")}
+                disabled={!user}
               />
               <label htmlFor="travellers">
                 <span className="coll">For Group Travellers</span>
@@ -539,6 +589,7 @@ useEffect(() => {
                 id="accepted"
                 name="collections3"
                 onChange={() => handleCollectionChange("India")}
+                disabled={!user}
               />
               <label htmlFor="accepted">
                 <span className="coll">Local IDs accepted</span>
@@ -552,6 +603,7 @@ useEffect(() => {
                 id="couples"
                 name="collections4"
                 onChange={() => handleCollectionChange("India")}
+                disabled={!user}
               />
               <label htmlFor="couples">
                 <span className="coll">OYOs couples</span>

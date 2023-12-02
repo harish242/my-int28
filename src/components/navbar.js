@@ -1,40 +1,11 @@
-import React,{useEffect,useState} from 'react';
+// NavBar.js
+import React, { useEffect, useState } from 'react';
 import { IoMdArrowDropdown } from 'react-icons/io';
 import '../styles/navbar.css';
-import {signInWithPopup} from "@firebase/auth"
-import {auth,provider} from '../firebase.js'
+import { useMyContext } from './context/context'
 
 export default function NavBar() {
-  const[state,setState]=useState('')
-  useEffect(() => {
-    // Add a global click event listener
-    const handleClickOutside = (event) => {
-      // Check if the clicked element is not the sign-in button
-      if (!event.target.closest('.but2')) {
-        // Check if the user is not logged in
-        if (!auth.currentUser) {
-          // Show the sign-in popup
-          signInWithPopup(auth, provider)
-            .then((result) => {
-              setState(result.user.displayName);
-              console.log(result)
-            })
-            .catch((error) => {
-              console.log(error);
-            });
-        }
-      }
-    };
-    console.log('l/27',state)
-
-    // Attach the click event listener
-    document.addEventListener('click', handleClickOutside);
-
-    // Clean up the event listener on component unmount
-    return () => {
-      document.removeEventListener('click', handleClickOutside);
-    };
-  }, [state]);
+  const { user, handleLogin, handleLogout,ref } = useMyContext();
   return (
     <div id="navbar">
       <div id="container">
@@ -84,8 +55,12 @@ export default function NavBar() {
                 </li>
              </ul>
         <div id="buttons">
-          <button className="but1">Become An Expert</button>
-          <button className="but2">Sign In / Register</button>
+          <button className="but1">
+            {user ? `Welcome, ${user}` : 'Become An Expert'}
+          </button>
+          <button className="but2" onClick={user ? handleLogout : handleLogin} ref={ref}>
+            {user ? 'Logout' : 'Sign In / Register'}
+          </button>
         </div>
       </div>
     </div>

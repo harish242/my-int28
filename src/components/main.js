@@ -6,10 +6,14 @@ import { Button } from '@mantine/core';
 import { BsArrowDownUp } from "react-icons/bs";
 import LikeDislikeToggle from "./likedislike"
 import StarRating from './stars.js'
+import { useMyContext } from './context/context';
+
 
 export default function Main({ datai }) {
+  const {user}=useMyContext()
   const [page, setPage] = useState(1);
   const [sortOrder, setSortOrder] = useState("asc");
+
 
   const pageHandle = (a) => {
     const totalPages = Math.ceil(sortedData.length / itemsPerPage);
@@ -61,7 +65,7 @@ export default function Main({ datai }) {
           {datai.length}
           <span className="properties2">properties in India</span>
         </div>
-        <button className="sort" onClick={handleSort}>
+        <button className="sort" onClick={handleSort} disabled={!user}>
           sort <BsArrowDownUp />
         </button>
       </div>
@@ -110,8 +114,8 @@ export default function Main({ datai }) {
         ))}
       </div>
       <br />
-      {datai.length > 4 && (
-        <div className="pagination">
+      {user&&datai.length > 4 && (
+        <div className="pagination" >
           <span
             onClick={() => pageHandleDec(page)}
             className={page === 1 ? "disabled" : ""}

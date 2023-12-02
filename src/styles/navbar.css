@@ -52,7 +52,9 @@
     background-color: rgba(19, 53, 124, 1);
     color: rgba(255, 255, 255, 1);
     border: 1px solid white;
-    width: 75%;;
+    width: 75%;
+    position: relative;
+    z-index: 2000;
 
   }
   .but1 {
