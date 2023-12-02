@@ -31,7 +31,12 @@ export default function Footer(){
                     <li>Activity Finder</li>
                 </ul>
             </div>
-            <div id='moblie'>Mobile
+            <div id='moblie'>
+            <div>Mobile</div>
+                <ul>
+                    <li>Apple</li>
+                    <li>Samsung</li>
+                </ul>
             </div>
         </div>
     )

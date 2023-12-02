@@ -80,8 +80,8 @@ export default function Main({ datai }) {
           <div className="card" key={item.id}>
             <div className="card1">
               <img src={item.best_image} alt="hotelImages" className="image" />
-              <div className="heart">
-                <LikeDislikeToggle style={{ fontSize: "5px" }} />
+              <div className="heart" >
+                <LikeDislikeToggle style={{ fontSize: "5px" }} disabled={!user} />
               </div>
             </div>
             <div className="card2">

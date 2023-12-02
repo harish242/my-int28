@@ -16,6 +16,7 @@ const [user, setUser] = useState(() => {
       return null;
     }
   });
+  const[email,setEmail]=useState('')
 
   const ref=useRef()
 
@@ -26,6 +27,8 @@ const [user, setUser] = useState(() => {
         .then((result) => {
           setUser(result.user.displayName);
           // Show "Logged in successfully" alert
+          console.log(result)
+          setEmail(result.user.email)
 
           alert('Logged in successfully!');
         })
@@ -50,7 +53,8 @@ const [user, setUser] = useState(() => {
     user,
     handleLogin,
     handleLogout,
-    ref
+    ref,
+    email
   };
 
   return (

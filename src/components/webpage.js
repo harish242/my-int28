@@ -15,11 +15,12 @@
   import 'react-date-range/dist/styles.css'; // main css file
   import 'react-date-range/dist/theme/default.css'; // theme css file
   import { useMyContext } from './context/context';
+  
 
 
 
   export default function WebPage() {
-  const { user ,ref} = useMyContext();
+  const { user ,ref,email} = useMyContext();
   const [filteredData, setFilteredData] = useState([...data])
     const [price, setPrice] = useState(0);
     const [location,setLocation]=useState()
@@ -56,27 +57,39 @@
   });
 
   const [subscribedEmail, setSubscribedEmail] = useState("");
-  // localStorage.setItem('subscribedEmails', JSON.stringify([]));
+  const [subscribeButtonContent, setSubscribeButtonContent] = useState("Subscribe");
+const [inputDisabled, setInputDisabled] = useState(false);
 
+  // localStorage.setItem('subscribedEmails', JSON.stringify([]));
+  
 
   const handleSubscribe = () => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (emailRegex.test(subscribedEmail)) {
-      const storedEmails = JSON.parse(localStorage.getItem('subscribedEmails')) || [];
-      
-      // Check if the email is already subscribed
-      if (storedEmails.includes(subscribedEmail)) {
-        alert("You are already subscribed with this email.");
-      } else {
-        // Add the email to local storage
-        localStorage.setItem('subscribedEmails', JSON.stringify([...storedEmails, subscribedEmail]));
-        alert("Subscribed successfully!");
+    // Assuming `userEmail` is the email of the logged-in user
+    const userEmail = email; // Update this based on your user object structure
+  
+    if (subscribedEmail === userEmail) {
+      const isSubscribed = localStorage.getItem('isSubscribed') === 'true';
+  
+      if (isSubscribed) {
+        // Unsubscribe logic
+        localStorage.removeItem('isSubscribed');
+        alert("Unsubscribed successfully!");
         setSubscribedEmail('');
+        setSubscribeButtonContent("Subscribe");
+        setInputDisabled(false);
+      } else {
+        // Subscribe logic
+        localStorage.setItem('isSubscribed', 'true');
+        alert("Subscription successful!");
+        setSubscribeButtonContent("Unsubscribe");
+        setInputDisabled(true);
       }
     } else {
-      alert("Invalid email format. Please enter a valid email address.");
+      alert("Email entered does not match the logged-in user's email.");
     }
   };
+  
+  
 
 
     const calendarRef = useRef(null); 
@@ -254,7 +267,8 @@
           event.stopPropagation();
           
         }
-      
+   
+
   
     };
 
@@ -263,7 +277,7 @@
     return () => {
       document.removeEventListener('click', handleClick);
     };
-  }, [user]);
+  }, [user,openDate,openOptions]);
 
 
   
@@ -274,7 +288,10 @@
           <NavBar />
         </div>
 
-        <div className="item1" id="head">
+        <div className="item1" id="head" onClick={()=>{
+          // setOpenDate(!false);
+          // setOpenOptions(!false);
+        }}>
           <div>
             <h4 className="mainhead">Tours in India <span className='services'>(*Services only in hyderabad and delhi*)</span></h4>
           </div>
@@ -356,7 +373,10 @@
           </div>
         </div>
 
-        <div className="item2">
+        <div className="item2" onClick={()=>{
+          setOpenDate(false);
+          setOpenOptions(false);
+        }}>
           <div className="it2-1">
             <h6>Category Types</h6>
 
@@ -637,7 +657,10 @@
           </div>
         </div>
 
-        <div className="item3">
+        <div className="item3" onClick={()=>{
+          setOpenDate(false);
+          setOpenOptions(false);
+        }}>
           {filteredData.length === 0 ? (
             <p className="no-data-message">No data is matching your criteria.</p>
           ) : (
@@ -659,9 +682,19 @@
               </div>
             </div>
             <div className="gf-2">
-              <input type="text" placeholder="Your Email" id="gfemail"  value={subscribedEmail}
+              {/* <input type="text" placeholder="Your Email" id="gfemail"  value={subscribedEmail}
             onChange={(e) => setSubscribedEmail(e.target.value)} />
-              <button className="gfsubs" onClick={handleSubscribe} >Subscribe</button>
+              <button className="gfsubs" onClick={handleSubscribe} >Subscribe</button> */}
+              <input
+  type="text"
+  placeholder="Your Email"
+  id="gfemail"
+  value={subscribedEmail}
+  onChange={(e) => setSubscribedEmail(e.target.value)}
+  disabled={inputDisabled}
+/>
+<button className="gfsubs" onClick={handleSubscribe} disabled={!user}>{subscribeButtonContent}</button>
+
             </div>
           </div>
         </div>
