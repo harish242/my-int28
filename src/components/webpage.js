@@ -64,6 +64,8 @@ const [tempOptions, setTempOptions] = useState({
     console.log(e.target.value);
     setPrice(e.target.value);
   };
+  localStorage.setItem('name',JSON.stringify(user))
+
 
   const applyFilters=()=>{
     return data.filter((item) => {
@@ -197,7 +199,10 @@ const [tempOptions, setTempOptions] = useState({
 
 
 
-
+// document.addEventListener('click',()=>{
+//   setOpenDate(false);
+//   setOpenOptions(false);
+// })
 
 
 
@@ -215,7 +220,7 @@ const [tempOptions, setTempOptions] = useState({
         event.stopPropagation();
         
       }
-    // }
+    
  
   };
 

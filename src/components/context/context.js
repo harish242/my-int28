@@ -6,7 +6,16 @@ import {auth,provider} from '../../firebase.js'
 const MyContext = createContext();
 
 const MyContextProvider = ({ children }) => {
-  const [user, setUser] = useState(null);
+//   const [user, setUser] = useState(()=>JSON.parse(localStorage.getItem('name'))||null);
+const [user, setUser] = useState(() => {
+    try {
+      const storedUser = localStorage.getItem('name');
+      return storedUser ? JSON.parse(storedUser) : null;
+    } catch (error) {
+      console.error('Error parsing user from local storage:', error);
+      return null;
+    }
+  });
 
   const ref=useRef()
 
@@ -17,6 +26,7 @@ const MyContextProvider = ({ children }) => {
         .then((result) => {
           setUser(result.user.displayName);
           // Show "Logged in successfully" alert
+
           alert('Logged in successfully!');
         })
         .catch((error) => {
