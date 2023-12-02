@@ -43,7 +43,7 @@ const [filteredData, setFilteredData] = useState([...data])
    children:0,
    roomNo:1
   })
-  const pageRef = useRef(null);
+  const locationinput=useRef(null)
 
   
 
@@ -67,7 +67,7 @@ const [tempOptions, setTempOptions] = useState({
   localStorage.setItem('name',JSON.stringify(user))
 
 
-  const applyFilters=()=>{
+  const applyFilters = () => {
     return data.filter((item) => {
       // Apply filters based on selected values
       const passesCategoryFilter =
@@ -86,19 +86,33 @@ const [tempOptions, setTempOptions] = useState({
       const passesCollectionFilter =
         selectedCollections.length === 0 || selectedCollections.includes(item.country_name);
       const passesPriceFilter = item.pricing[0] >= price;
-    
-      // Add filters for location, date, and room number
-   
-    
+  
+      const passesLocationFilter =
+        !location ||
+        (item.city &&
+          item.city.toLowerCase().includes(location.toLowerCase()));
+  
+      const maxAllowed = options.adult + options.children <= item.room_categories_with_data[0].max_occupancy_allowed;
+  
       return (
         passesCategoryFilter &&
         passesAccommodationFilter &&
         passesFacilityFilter &&
         passesCollectionFilter &&
-        passesPriceFilter
+        passesPriceFilter &&
+        passesLocationFilter &&
+        maxAllowed
       );
     });
-   }
+  };
+  
+  // Use useEffect to update filteredData when filters change
+
+  
+  console.log(filteredData); // Now you can log the filteredData to see the changes
+  
+
+   console.log(filteredData)
 
   const handleCategoryChange = (category) => {
  
@@ -196,6 +210,11 @@ const [tempOptions, setTempOptions] = useState({
  
 
  };
+
+   useEffect(() => {
+    const updatedFilteredData = applyFilters();
+    setFilteredData(updatedFilteredData);
+  }, [selectedCategories, selectedAccommodations, selectedFacilities, selectedCollections, price]);
 
 
 
@@ -641,7 +660,7 @@ const [tempOptions, setTempOptions] = useState({
           </div>
           <div className="gf-2">
             <input type="text" placeholder="Your Email" id="gfemail"  />
-            <button className="gfsubs" onClick={() => setIsModalOpen(true)}>Subscribe</button>
+            <button className="gfsubs" >Subscribe</button>
           </div>
         </div>
       </div>

@@ -56,7 +56,7 @@ export default function NavBar() {
              </ul>
         <div id="buttons">
           <button className="but1">
-            {user ? `Welcome, ${user}` : 'Become An Expert'}
+            {user ? `Welcome, ${user.slice(0,13)}` : 'Become An Expert'}
           </button>
           <button className="but2" onClick={user ? handleLogout : handleLogin} ref={ref}>
             {user ? 'Logout' : 'Sign In / Register'}
