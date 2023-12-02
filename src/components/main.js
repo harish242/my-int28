@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import "../styles/main.css";
 import { MdArrowOutward } from "react-icons/md";
@@ -57,6 +57,11 @@ export default function Main({ datai }) {
 
   const itemsPerPage = 4;
   const totalPages = Math.ceil(datai.length / itemsPerPage);
+  useEffect(()=>{
+    if(datai.length<=page*itemsPerPage){
+      setPage(1)
+    }
+  },[datai])
 
   return (
     <>
