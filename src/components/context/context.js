@@ -16,7 +16,15 @@ const [user, setUser] = useState(() => {
       return null;
     }
   });
-  const[email,setEmail]=useState('')
+  const[email,setEmail]=useState(() => {
+    try {
+      const storedUser = localStorage.getItem('email');
+      return storedUser ? JSON.parse(storedUser) : null;
+    } catch (error) {
+      console.error('Error parsing user from local storage:', error);
+      return null;
+    }
+  });
 
   const ref=useRef()
 
