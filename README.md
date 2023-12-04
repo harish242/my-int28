@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have successfully completed the assignment assigned by GNA Energy. The following key points outline my work on this project:
 
-## Available Scripts
+1. **Authentication:**
+   - Users must log in to access the app.
 
-In the project directory, you can run:
+2. **Login/Logout:**
+   - Upon successful login, users receive an alert confirming their successful login.
+   - Similar confirmation for logout.
 
-### `npm start`
+3. **Filtering System:**
+   - Implemented a filtering system based on multiple criteria.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. **Sorting Functionality:**
+   - Added sorting functionality to enhance user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. **Pagination:**
+   - Implemented pagination as specified in the provided document.
+   - Features:
+     - Page numbers are not displayed if the data is less than four.
+     - Users can increase or decrease page numbers and even select random pages.
+     - The selected page is visually highlighted.
+     - Page numbers cannot go below 1 or exceed the available data.
+     - If additional filters are applied, and the resulting data is less than four, the page number is automatically set to 1.
 
-### `npm test`
+6. **Like/Dislike Toggle:**
+   - Added a like and dislike toggle function for images using a heart symbol.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+7. **Subscribe/Unsubscribe:**
+   - Implemented subscribe and unsubscribe functionality based on user input.
+   - Accompanied by alert notifications.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+8. **Data Source:**
+   - Utilized a JSON object containing 40 data entries for cities, specifically Hyderabad and Delhi.
+   - [GitHub Repository](https://github.com/harish242/my-int28)
+   - [Hosted App](https://656c2ec5918b005b49f11d48--cute-syrniki-869f4b.netlify.app/)
