@@ -1,6 +1,6 @@
 # Project Overview
 
-I have successfully completed the assignment assigned by GNA Energy. The following key points outline my work on this project:
+The following key points outline my work on this project:
 
 1. **Authentication:**
    - Users must log in to access the app.
