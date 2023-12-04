@@ -122,12 +122,17 @@ img{
 }
 .sort{
     width:90px;
-    border-radius:10px;
+    border-radius:20px;
     border: 1px solid white;
     height:40px;
     margin: 10px;
     color:blue;
+    background-color: #f3f9fe;
+    font-size: 15px;
 
+}
+.properties1{
+    color: #202130;
 }
 .disabled{
     opacity: 0;

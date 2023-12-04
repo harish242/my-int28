@@ -8,16 +8,20 @@
     background: #13357c;
     height: 76px;
     overflow-x: hidden;
+    width: 100%;
   }
   
   #container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
     color: white;
+    /* width: 100vw;; */
     margin-left: 50px;
     margin-right: 50px;
+    gap:30px;
+    /* max-width: 1024px; */
      /* Adjust padding for better spacing */
   }
   
@@ -27,6 +31,7 @@
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     width:50%;
+    gap: 1%;
   }
   #unorder>li:hover{
     color:blue;
@@ -34,9 +39,9 @@
   
   #buttons {
     display: flex;
-    gap: 10px; /* Adjust gap between buttons */
+    gap: 20px; /* Adjust gap between buttons */
     height:70%;
-    width: 25%;
+    width: 31%;
     border-radius: 4px;
 
   }
@@ -48,23 +53,29 @@
   
   #title {
     font-size: 30px;
-    width: 25%;
+    width: 13%;
   }
   
   .but2 {
     background-color: rgba(19, 53, 124, 1);
     color: rgba(255, 255, 255, 1);
     border: 1px solid white;
-    width: 75%;
+    width: 100%;
+    border-radius: 5px;
+    /* font-family: Andale Mono !important; */
     position: relative;
     z-index: 2000;
+    font-size: 15px;
 
   }
   .but1 {
     /* background-color: rgba(19, 53, 124, 1); */
     /* color: rgba(255, 255, 255, 1); */
     border: 1px solid white;
-    width: 75%;;
+    border-radius: 5px;
+    width: 100%;;
+    font-size: 15px;
+
 
   }
   
@@ -84,6 +95,9 @@
   
     .button {
       width: 100%;
+    }
+    #navbar{
+      height: auto;
     }
   }
   

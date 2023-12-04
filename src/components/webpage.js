@@ -18,7 +18,7 @@ import { useMyContext } from "./context/context";
 export default function WebPage() {
   const { user, ref, email } = useMyContext();
   const [filteredData, setFilteredData] = useState([...data]);
-  const [price, setPrice] = useState(0);
+  const [price, setPrice] = useState(500);
   const [location, setLocation] = useState();
   const [searchKey, setSearchKey] = useState(0);
   const [selectedCategories, setSelectedCategories] = useState([]);
@@ -307,7 +307,7 @@ export default function WebPage() {
               onClick={() => setOpenDate(!openDate)}
             />
             <span
-              className="headerSearchText"
+              className="headerSearchText1"
               onClick={() => {
                 setOpenOptions(false);
 
@@ -425,7 +425,7 @@ export default function WebPage() {
         }}
       >
         <div className="it2-1">
-          <h6>Category Types</h6>
+          <div className="title1">Category Types</div>
 
           <div className="tour">
             <div className="tour-in">
@@ -503,7 +503,7 @@ export default function WebPage() {
         <hr />
 
         <div className="it2-2">
-          <h6>Accomodation Type</h6>
+          <div className="title1">Accomodation Type</div>
 
           <div className="accomodation">
             <div className="accomodation-in">
@@ -540,22 +540,25 @@ export default function WebPage() {
         <hr />
 
         <div className="it2-3">
-          <h6>Price</h6>
+          <div className="title1">Price</div>
 
           <div className="price">
             <div className="price-in">
               <label htmlFor="price">
-                <span id="price">₹1000-₹10000</span>
+                <div id="price">₹0-₹{price}</div>
               </label>
               <input
                 type="range"
                 max={4000}
-                min={1000}
+                min={500}
                 id="price"
                 onChange={(e) => handlePrice(e)}
                 name="price"
                 disabled={!user}
               />
+              {/* <div className="selected-price-range">
+    Selected Price Range: ₹{price} - ₹10000
+  </div> */}
             </div>
           </div>
         </div>
@@ -563,7 +566,7 @@ export default function WebPage() {
         <hr />
 
         <div className="it2-4">
-          <h6>Hotel Facilities</h6>
+          <div className="title1">Hotel Facilities</div>
 
           <div className="seatingarea">
             <div className="seatingarea-in">
@@ -640,7 +643,7 @@ export default function WebPage() {
         <hr />
 
         <div className="it2-5">
-          <h6>Collections</h6>
+          <div className="title1">Collections</div>
 
           <div className="family">
             <div className="family-in">

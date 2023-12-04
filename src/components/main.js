@@ -71,7 +71,7 @@ export default function Main({ datai }) {
           <span className="properties2">properties in India</span>
         </div>
         <button className="sort" onClick={handleSort} disabled={!user}>
-          sort <BsArrowDownUp />
+           <BsArrowDownUp /> Sort
         </button>
       </div>
       <hr />
